@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Sponsorcard from "./Sponsorcard";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/Navbar2";
 import maharshiimage from "../public_html/img/mrice.jpg";
 import "./Sponsors.css";
 

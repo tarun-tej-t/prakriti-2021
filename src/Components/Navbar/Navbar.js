@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logoprakriti from "../public_html/img/final1.jpg";
 import { Link } from "react-router-dom";
-
+import {Link as Lin} from 'react-scroll'
 export default class Navbar extends Component {
   render() {
     return (
@@ -61,61 +61,67 @@ export default class Navbar extends Component {
                 >
                   <ul class="nav navbar-nav navbar-right">
                     <li class={this.props.nHome}>
-                      <a>
+                      <a >
                         {" "}
-                        <Link to="/">Home</Link>
+                        <Link to="/"  onClick={() => {
+                            window.scroll({
+                              left: 0,
+                              top: 0,
+                              behavior: "smooth",
+                            });
+                          }}>Home</Link>
                       </a>
                     </li>
                     <li class={this.props.nAbout}>
                       <a>
                         {" "}
-                        <Link
-                          
-                          onClick={() => {
-                            window.scroll({
-                              left: 0,
-                              top: 1100,
-                              behavior: "smooth",
-                            });
-                          }}
-                          to="/home"
-                        >
-                          About
-                        </Link>
+                        
+                       <Lin  to="about" spy={true} smooth={true}><Link to="/" >About</Link></Lin>
+                   
+                       
                       </a>
                     </li>
                     <li class={this.props.nEvents}>
                       <a>
                         {" "}
-                        <Link
-                          to="/home"
-                          onClick={() => {
-                            window.scroll({
-                              left: 0,
-                              top: 2050,
-                              behavior: "smooth",
-                            });
-                          }}
-                        >
-                          Events
-                        </Link>
+                   
+                         <Lin  to="events" spy={true} smooth={true}><Link to="/" >Events</Link></Lin>
+                       
                       </a>
                     </li>
 
                     <li class={this.props.nTeam}>
                       <a>
-                        <Link to="/Team">Team</Link>
+                        <Link to="/Team" onClick={() => {
+                            window.scroll({
+                              left: 0,
+                              top: 0,
+                              behavior: "smooth",
+                            });
+                          }}>Team</Link>
                       </a>
                     </li>
                     <li class={this.props.nSponsors}>
                       <a>
-                        <Link to="/Sponsors">Sponsors</Link>
+                        <Link to="/Sponsors" onClick={() => {
+                            window.scroll({
+                              left: 0,
+                              top: 0,
+                              behavior: "smooth",
+                            });
+                          }}>Sponsors</Link>
                       </a>
                     </li>
 
                     <li class={this.props.nRegistration}>
                       <a>
-                        <Link to="/Registration">Registration</Link>
+                        <Link to="/Registration" onClick={() => {
+                            window.scroll({
+                              left: 0,
+                              top: 0,
+                              behavior: "smooth",
+                            });
+                          }}>Registration</Link>
                       </a>
                     </li>
                   </ul>

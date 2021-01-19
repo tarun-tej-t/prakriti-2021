@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import coverweb from '../public_html/img/Cover_web.jpg'
 
+
 export default class Aboutpage extends Component {
   render() {
     return (
-      <div id='about'><div id="about" class="about-area area-padding">
+      <div id="about"><div >
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">

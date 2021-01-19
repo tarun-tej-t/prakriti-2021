@@ -17,7 +17,7 @@ import './Components/public_html/lib/owlcarousel/owl.transitions.css'
 import './Components/public_html/lib/font-awesome/css/font-awesome.min.css'
 import './Components/public_html/lib/animate/animate.min.css' 
 import './Components/public_html/lib/venobox/venobox.css'
-
+import quizella from './Components/Events/Eventpage/Quizella'
 
 import { Link } from "react-router-dom";
 
@@ -34,11 +34,15 @@ function App() {
       
      <Switch>
          <Route exact path="/" component={Homepage} />
-         <Route exact path="/home/" component={Homepage} />
-         <Route path="/home/:frame" component={Homepage} />
+         <Route exact path="/home" component={Homepage} />
          <Route exact path='/Team' component={Team} />
          <Route exact path='/Sponsors' component={Sponsors} />
          <Route exact path='/Registration' component={Registration} />
+
+
+         {/*Events*/}
+
+         <Route exact path="/quizella" component={quizella} />
      </Switch>
     </div>
   );

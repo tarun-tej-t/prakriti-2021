@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/Navbar2";
 import '../public_html/reg/css/style.css'
 
 export default class Registration extends Component {
