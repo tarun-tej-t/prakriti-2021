@@ -20,9 +20,8 @@ export default class Homepage extends Component {
   render() {
     return (
       <div>
-        <marquee style={{zIndex:"10", position:"absolute", left:'5px',top:'80px', fontFamily: 'sans-serif', backgroundColor:'black', marginRight: '20px', fontSize:'12pt', fontWeight: 'bold', color:'yellow', height:'34px', border:'black 3px SOLID',scrollamount:"9"}}> <strong>Results of 'PRAKRITI 2020' are out !!</strong>&nbsp;&nbsp;&nbsp; The events were conducted in Online mode  due to outbreak of the pandemic caused by (COVID-19) !! &nbsp;&nbsp;&nbsp; For any query, you can contact us on our contact@prkrt.co.in or  Facebook page!</marquee>
 
-       <Navbar nHome="active" />
+       <Navbar  />
         <Slider />
         <Aboutpage  />
         <Events  />

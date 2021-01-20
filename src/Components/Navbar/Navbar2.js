@@ -13,13 +13,12 @@ export default class Navbar2 extends Component {
       <Navbar
         collapseOnSelect
         onSelect
-        expand="lg"
+        expand="md"
         fixed="top"
         variant="dark"
         style={{ position: "fixed", backgroundColor: "black" }}
       >
-        &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;
-        &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;
+     
         <Navbar.Brand href="#home">
           <img
             src={logoprakriti}
@@ -36,13 +35,13 @@ export default class Navbar2 extends Component {
         />
         <Navbar.Collapse
           id="responsive-navbar-nav"
-          stlye={{ color: "white", backgroundColor: "white" }}
+       
         >
           <Nav>
             
           </Nav>
           <Nav style={{ paddingLeft: "20vw" }}>
-          <Nav.Link style={{ paddingRight: "2vw" }}>
+          <Nav.Link >
               <Link
                 to="/home"
                 onClick={() => {
@@ -56,24 +55,24 @@ export default class Navbar2 extends Component {
               >
                 Home
               </Link>
-            </Nav.Link>
-            <Nav.Link style={{ paddingRight: "2vw" }}>
+            </Nav.Link>&ensp;&ensp;&ensp;&ensp;&ensp;
+            <Nav.Link >
               <Lin to="about" spy={true} smooth={true}>
                 <Link to="/" style={{ color: "white" }}>
                   About
                 </Link>
               </Lin>
-            </Nav.Link>
+            </Nav.Link>&ensp;&ensp;&ensp;&ensp;&ensp;
 
-            <Nav.Link style={{ paddingRight: "2vw" }}>
+            <Nav.Link >
               {" "}
               <Lin to="events" spy={true} smooth={true}>
                 <Link to="/" style={{ color: "white" }}>
                   Events
                 </Link>
               </Lin>
-            </Nav.Link>
-            <Nav.Link style={{ paddingRight: "2vw" }}>
+            </Nav.Link>&ensp;&ensp;&ensp;&ensp;&ensp;
+            <Nav.Link >
               <Link
                 to="/Team"
                 onClick={() => {
@@ -87,8 +86,8 @@ export default class Navbar2 extends Component {
               >
                 Team
               </Link>
-            </Nav.Link>
-            <Nav.Link style={{ paddingRight: "2vw" }}>
+            </Nav.Link>&ensp;&ensp;&ensp;&ensp;&ensp;
+            <Nav.Link >
               <Link
                 onClick={() => {
                   window.scroll({
@@ -102,8 +101,8 @@ export default class Navbar2 extends Component {
               >
                 Sponsors
               </Link>
-            </Nav.Link>
-            <Nav.Link style={{ paddingRight: "2vw" }}>
+            </Nav.Link>&ensp;&ensp;&ensp;&ensp;&ensp;
+            <Nav.Link >
               <Link
                 onClick={() => {
                   window.scroll({
