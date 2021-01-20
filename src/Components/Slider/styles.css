@@ -119,15 +119,30 @@ button:hover {
 		top: 50%;
 		transform: translateY(-50%);
 		z-index: 10;
-		background: url('https://img.icons8.com/flat_round/64/000000/circled-chevron-right.png') no-repeat center center / 16px;
-		width: 62px;
-		height: 62px;
+		background: url('https://img.icons8.com/flat_round/64/ffffff/back--v1.png') no-repeat center center / 46px;
+		width: 32px;
+		height: 32px;
 		text-indent: -9999px;
 		cursor: pointer;
 }
 
 .previousButton:hover, .nextButton:hover {
-  background: url('https://img.icons8.com/flat_round/64/000000/circled-chevron-right.png') no-repeat center center / 16px;
+  background: url('https://img.icons8.com/cute-clipart/64/ffffff/circled-chevron-left.png') no-repeat center center / 36px;
+}
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: url('https://img.icons8.com/ultraviolet/100/000000/circled-chevron-right.png') no-repeat center center / 46px;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+ .nextButton:hover {
+background: url('https://img.icons8.com/cute-clipart/64/ffffff/circled-chevron-right.png') no-repeat center center / 36px;
 }
 
 .previousButton {
