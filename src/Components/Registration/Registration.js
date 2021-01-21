@@ -1,21 +1,27 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar2";
 import '../public_html/reg/css/style.css'
+import rfb from '../public_html/img/rfb.jpg'
 
+const imagess=[
+  rfb
+]
 export default class Registration extends Component {
   render() {
     return (
-      <div>
-        <Navbar nRegistration="active" />
+      <div style={{
+        background: `url('${rfb}') no-repeat center center`,
+      }}>
+      <div style={{paddingTop:'20vh',paddingBottom:'20vh'}}>
+       
 
-        
-        <div class="main">
-          <div class="content">
-            <section class="signup">
-              {/*<img src="images/signup-bg.jpg" alt=""> */}
-              <div class="container">
-                <div class="signup-content">
-                  <ul class="list" style={{ textAlign: "center" }}>
+        <div class="main" >
+          <div class="content" >
+            <section class="signup" >
+          
+              <div style={{display: "flex", justifyContent: "center"}}  > 
+                <div class="signup-content" style={{width:'70vw'}} >
+                  <ul class="list" style={{ textAlign: "center",}}>
                     <li>
                       <i class="icon-check-1"></i>
                       <h5>
@@ -51,8 +57,9 @@ export default class Registration extends Component {
                         href="https://erp.iitkgp.ac.in/CEP/secure/courses.htm"
                         rel="noreferrer"
                         target="_blank"
+                        style={{fontSize:'0.8em'}}
                       >
-                        Click here to register for Prakriti 2020
+                        CLICK HERE TO REGISTER FOR PRAKRITI 2021
                       </a>
                     </h2>
                   </form>
@@ -70,7 +77,7 @@ export default class Registration extends Component {
             </section>
           </div>
         </div>
-      </div>
+      </div></div>
     );
   }
 }

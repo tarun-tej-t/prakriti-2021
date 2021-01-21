@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import mainbuilding from "../public_html/img/Main building.jpg";
+import mainbuilding from "../public_html/img/777_1.jpg";
 import oneimg from "../public_html/img/6.jpeg";
-import prakriticover from "../public_html/img/Prakriti cover.jpg";
+import prakriticover from "../public_html/img/Prakriti_cover_1.jpg";
 import "../public_html/css/nivo-slider-theme.css";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
@@ -15,6 +15,7 @@ const content = [
     description: "ALONG WITH",
     //	button: 'Read More',
     image: mainbuilding,
+    color: 'white',
     //	user: 'Luan Gjokaj',
     //	userProfile: 'https://i.imgur.com/JSW6mEk.png'
   },
@@ -22,6 +23,7 @@ const content = [
     title: "Agricultural & Food Engineering Department",
     description: "Presents",
     //	button: 'Discover',
+    color: 'black',
     image: oneimg,
     //	user: 'Erich Behrens',
     //	userProfile: 'https://i.imgur.com/0Clfnu7.png'
@@ -31,6 +33,7 @@ const content = [
     //	description:
     //	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
     //	button: 'Buy now',
+    color: 'red',
     image: prakriticover,
     //	user: 'Bruno Vizovskyy',
     //userProfile: 'https://i.imgur.com/4KeKvtH.png'
@@ -44,8 +47,8 @@ export default class iSlider extends Component {
     return (
       <div>
        
-        <div style={{}}>
-          <Slider autoplay={3000}>
+        <div style={{top:'0vw'}}>
+          <Slider autoplay={1600}>
             {content.map((item, index) => (
               <div
                 key={index}
@@ -60,16 +63,16 @@ export default class iSlider extends Component {
                   className="center"
                   style={{
                     position: "absolute",
-                    top: "30vh",
+                    top: "40vh",
                     left: "0vw",
                     right: "0vw",
                   }}
                 >
                   <h1>
-                    <strong>{item.title}</strong>
+                    <strong style={{color: item.color}}>{item.title}</strong>
                   </h1>
                   <h3>
-                    <strong>{item.description}</strong>
+                    <strong style={{color: item.color}}>{item.description}</strong>
                   </h3>
                 </div>
               </div>

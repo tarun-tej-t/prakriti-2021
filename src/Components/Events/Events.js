@@ -18,7 +18,7 @@ export default function Events() {
             </div>
         
 
-          <div >
+          <div style={{width:'100%'}}>
             <Eventcard 
             elink="#/quizella"
             eicon={<i class="fa fa-check-square-o"></i>}
