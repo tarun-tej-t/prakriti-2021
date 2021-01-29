@@ -238,13 +238,13 @@ background: url('https://img.icons8.com/cute-clipart/64/ffffff/circled-chevron-r
 
 @media (max-height: 500px) {
   .slider-wrapper, .slide {
-    height: calc(100vh - 75px);
+    height: calc(100vh);
   }    
 }
 
 @media (max-width: 640px) {
   .slider-wrapper, .slide {
-    height: calc(80vh - 75px);
+    height: calc(100vh);
   }    
 }
 

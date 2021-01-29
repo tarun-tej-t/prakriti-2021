@@ -11,12 +11,13 @@ export default class Navbar2 extends Component {
   render() {
     return (
       <Navbar
-        collapseOnSelect
-        onSelect
+        collapseOnSelect='True'
+     
         expand="md"
         fixed="top"
-        variant="dark"
-        style={{ position: "fixed", backgroundColor: "rgb(0,0,0,0)" }}
+        variant="light"
+        bg='light'
+        style={{ position: "fixed" }}
       >
      
         <Navbar.Brand href="#home">

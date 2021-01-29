@@ -31,10 +31,10 @@ const content = [
   },
   {
     //	title: 'Phasellus volutpat metus',
-    //	description:
-    //	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
-    //	button: 'Buy now',
-    color: 'red',
+    	descri:
+    	'Prakriti is an Agri and Food Innovation Fest organized by the students of  the Department of Agricultural and Food Engineering, IIT Kharagpur,targeting the amalgamation of academia and industry associated with the agricultural and food sector. We aim to provide  a conduit for budding innovators . . ',
+      button: 'Read more',
+      color: 'red',
     image: leaf,
     //	user: 'Bruno Vizovskyy',
     //userProfile: 'https://i.imgur.com/4KeKvtH.png'
@@ -49,7 +49,7 @@ export default class iSlider extends Component {
       <div>
        
         <div style={{top:'0vw'}}>
-          <Slider autoplay={1600}>
+          <Slider autoplay={1600} touchDisabled='true'>
             {content.map((item, index) => (
               <div
                 key={index}
@@ -75,6 +75,8 @@ export default class iSlider extends Component {
                   <h3>
                     <strong style={{color: item.color}}>{item.description}</strong>
                   </h3>
+                  <p style={{position:'absolute',top:'-20vh',left:'20vw',maxWidth:'50vw',textAlign:'left',color:'rgba(30, 130, 76, .8)',letterSpacing:'1.5px',fontsize:'1em',fontFamily:'Arial',fontWeight:'lighter'}}>{item.descri} <p ><a href="#" > {item.button}</a></p></p>
+                 
                 </div>
               </div>
             ))}

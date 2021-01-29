@@ -36,30 +36,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <marquee
-        style={{
-          zIndex: "10",
-          position: "absolute",
-          left: "5px",
-          top: "70px",
-          fontFamily: "sans-serif",
-          backgroundColor: "red(255,0,0.9)",
-          marginRight: "20px",
-          fontSize: "12pt",
-          fontWeight: "bold",
-          color: "black",
-          height: "34px",
-          width: "99vw",
-          border: "black 3px SOLID",
-          scrollamount: "9",
-        }}
-      >
-        {" "}
-        <strong></strong>&nbsp;&nbsp;&nbsp; The events are conducted in Online
-        mode due to outbreak of the pandemic caused by (COVID-19) !!
-        &nbsp;&nbsp;&nbsp; For any query, you can contact us on our
-        contact@prkrt.co.in or Facebook page!
-      </marquee>
+      
       <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/home" component={Homepage} />
