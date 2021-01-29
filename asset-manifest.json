@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/prakriti-2021/static/css/main.ed55a2d2.chunk.css",
+    "main.js": "/prakriti-2021/static/js/main.edb1878d.chunk.js",
+    "main.js.map": "/prakriti-2021/static/js/main.edb1878d.chunk.js.map",
+    "runtime-main.js": "/prakriti-2021/static/js/runtime-main.e03a7389.js",
+    "runtime-main.js.map": "/prakriti-2021/static/js/runtime-main.e03a7389.js.map",
+    "static/css/2.1dc8b797.chunk.css": "/prakriti-2021/static/css/2.1dc8b797.chunk.css",
+    "static/js/2.cb05c4fc.chunk.js": "/prakriti-2021/static/js/2.cb05c4fc.chunk.js",
+    "static/js/2.cb05c4fc.chunk.js.map": "/prakriti-2021/static/js/2.cb05c4fc.chunk.js.map",
+    "static/js/3.08bc0c90.chunk.js": "/prakriti-2021/static/js/3.08bc0c90.chunk.js",
+    "static/js/3.08bc0c90.chunk.js.map": "/prakriti-2021/static/js/3.08bc0c90.chunk.js.map",
+    "index.html": "/prakriti-2021/index.html",
+    "static/css/2.1dc8b797.chunk.css.map": "/prakriti-2021/static/css/2.1dc8b797.chunk.css.map",
+    "static/css/main.ed55a2d2.chunk.css.map": "/prakriti-2021/static/css/main.ed55a2d2.chunk.css.map",
+    "static/js/2.cb05c4fc.chunk.js.LICENSE.txt": "/prakriti-2021/static/js/2.cb05c4fc.chunk.js.LICENSE.txt",
+    "static/media/6.542d9dda.jpeg": "/prakriti-2021/static/media/6.542d9dda.jpeg",
+    "static/media/777_1.d45ff5ac.jpg": "/prakriti-2021/static/media/777_1.d45ff5ac.jpg",
+    "static/media/Cover_web.db4ecfcd.jpg": "/prakriti-2021/static/media/Cover_web.db4ecfcd.jpg",
+    "static/media/Jayeeta Ma'am.a1a2c89c.png": "/prakriti-2021/static/media/Jayeeta Ma'am.a1a2c89c.png",
+    "static/media/style.css": "/prakriti-2021/static/media/signup-bg_prev.1b2c57b4.jpg",
+    "static/media/Prakriti_cover_1.79ceaa2e.jpg": "/prakriti-2021/static/media/Prakriti_cover_1.79ceaa2e.jpg",
+    "static/media/Rajendra Machavaram sir.dd6273cd.jpg": "/prakriti-2021/static/media/Rajendra Machavaram sir.dd6273cd.jpg",
+    "static/media/dargad.3fcd1bf6.PNG": "/prakriti-2021/static/media/dargad.3fcd1bf6.PNG",
+    "static/media/font-awesome.min.css": "/prakriti-2021/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/bootstrap.min.css": "/prakriti-2021/static/media/glyphicons-halflings-regular.be810be3.woff2",
+    "static/media/logo copy.60db2ec5.png": "/prakriti-2021/static/media/logo copy.60db2ec5.png",
+    "static/media/mrice.7d641df0.jpg": "/prakriti-2021/static/media/mrice.7d641df0.jpg",
+    "static/media/rfb.7ee8d266.jpg": "/prakriti-2021/static/media/rfb.7ee8d266.jpg",
+    "static/media/sbg.781db072.jpg": "/prakriti-2021/static/media/sbg.781db072.jpg",
+    "static/media/tbg.d26e6a47.jpeg": "/prakriti-2021/static/media/tbg.d26e6a47.jpeg",
+    "static/media/tbg1.3514be95.jpg": "/prakriti-2021/static/media/tbg1.3514be95.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e03a7389.js",
+    "static/css/2.1dc8b797.chunk.css",
+    "static/js/2.cb05c4fc.chunk.js",
+    "static/css/main.ed55a2d2.chunk.css",
+    "static/js/main.edb1878d.chunk.js"
+  ]
+}
