@@ -4,7 +4,7 @@ import Homepage from "./Homepage";
 import Sponsors from "./Components/Sponsors/Sponsors";
 import Team from "./Components/Team/Team";
 import Registration from "./Components/Registration/Registration";
-import Navbar from "./Components/Navbar/Navbar2";
+import Navbar from "./Components/Navbar/Navbar4";
 //css files
 import "./Components/public_html/css/nivo-slider-theme.css";
 import "./Components/public_html/css/style.css";

@@ -17,7 +17,7 @@ export default class Registration extends Component {
           zIndex: "10",
           position: "absolute",
           left: "5px",
-          top: "70px",
+          top: "80px",
           fontFamily: "sans-serif",
           backgroundColor: "#F0720D",
           marginRight: "20px",
