@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import mainbuilding from "../public_html/img/777_1.jpg";
 import oneimg from "../public_html/img/6.jpeg";
+import leaf from "../public_html/img/dargad.PNG"
 import prakriticover from "../public_html/img/Prakriti_cover_1.jpg";
 import "../public_html/css/nivo-slider-theme.css";
 import Slider from "react-animated-slider";
@@ -34,7 +35,7 @@ const content = [
     //	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
     //	button: 'Buy now',
     color: 'red',
-    image: prakriticover,
+    image: leaf,
     //	user: 'Bruno Vizovskyy',
     //userProfile: 'https://i.imgur.com/4KeKvtH.png'
   },

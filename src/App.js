@@ -43,11 +43,11 @@ function App() {
           left: "5px",
           top: "70px",
           fontFamily: "sans-serif",
-          backgroundColor: "black",
+          backgroundColor: "red(255,0,0.9)",
           marginRight: "20px",
           fontSize: "12pt",
           fontWeight: "bold",
-          color: "yellow",
+          color: "black",
           height: "34px",
           width: "99vw",
           border: "black 3px SOLID",
@@ -67,7 +67,7 @@ function App() {
         <Route exact path="/Sponsors" component={Sponsors} />
         <Route exact path="/Registration" component={Registration} />
 
-        {/*Events*/}
+        {/* Events */}
 
         <Route exact path="/quizella" component={quizella} />
       </Switch>

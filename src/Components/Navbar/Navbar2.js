@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logoprakriti from "../public_html/img/final1.jpg";
+import logoprakriti from "../public_html/img/logo copy.png";
 import { Link } from "react-router-dom";
 import { Link as Lin } from "react-scroll";
 
@@ -16,7 +16,7 @@ export default class Navbar2 extends Component {
         expand="md"
         fixed="top"
         variant="dark"
-        style={{ position: "fixed", backgroundColor: "black" }}
+        style={{ position: "fixed", backgroundColor: "rgb(0,0,0,0)" }}
       >
      
         <Navbar.Brand href="#home">
@@ -31,7 +31,7 @@ export default class Navbar2 extends Component {
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          stlye={{ color: "white", backgroundColor: "white" }}
+          stlye={{ color: "red", backgroundColor: "white" }}
         />
         <Navbar.Collapse
           id="responsive-navbar-nav"
@@ -51,14 +51,14 @@ export default class Navbar2 extends Component {
                     behavior: "smooth",
                   });
                 }}
-                style={{ color: "white" }}
+                style={{ color: "red" }}
               >
                 Home
               </Link>
             </Nav.Link>&ensp;&ensp;&ensp;&ensp;&ensp;
             <Nav.Link >
               <Lin to="about" spy={true} smooth={true}>
-                <Link to="/" style={{ color: "white" }}>
+                <Link to="/" style={{ color: "red" }}>
                   About
                 </Link>
               </Lin>
@@ -67,7 +67,7 @@ export default class Navbar2 extends Component {
             <Nav.Link >
               {" "}
               <Lin to="events" spy={true} smooth={true}>
-                <Link to="/" style={{ color: "white" }}>
+                <Link to="/" style={{ color: "red" }}>
                   Events
                 </Link>
               </Lin>
@@ -82,7 +82,7 @@ export default class Navbar2 extends Component {
                     behavior: "smooth",
                   });
                 }}
-                style={{ color: "white" }}
+                style={{ color: "red" }}
               >
                 Team
               </Link>
@@ -97,7 +97,7 @@ export default class Navbar2 extends Component {
                   });
                 }}
                 to="/Sponsors"
-                style={{ color: "white" }}
+                style={{ color: "red" }}
               >
                 Sponsors
               </Link>
@@ -112,7 +112,7 @@ export default class Navbar2 extends Component {
                   });
                 }}
                 to="/Registration"
-                style={{ color: "white" }}
+                style={{ color: "red" }}
               >
                 Registration
               </Link>
