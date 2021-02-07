@@ -1,0 +1,328 @@
+
+  .indicator {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    border: 1px #666 solid
+  }
+  
+  .indicator.active {
+    color: #fff;
+    background: #666;
+  }
+  
+  
+  .banner {
+    position: relative;
+    background: url(../public_html/img/dargad.PNG);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .header-bar {
+    margin-top: 10px;
+  }
+  .navbar-brand {
+  margin-left: 7px;
+  margin-right: 50px;
+  }
+  
+  
+  
+  .logo {
+    max-width: 250px;
+  }
+  
+  .button {
+    display: inline-flex;
+    height: 25px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 0 0 0 5%;
+    color: #fd5800;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .75em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .button:hover {
+      box-shadow: 0 0 5px rgba(30, 130, 76, 1);
+      height: 27px;
+      width: 100px;
+  }
+  #navbarSupportedContent a {
+    color: #fd5800;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+  
+  }
+  
+  #button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-5 a {
+    position: relative;
+  }
+  
+  
+  #button-5:hover a {
+  
+    text-decoration: none;
+      color: rgba(30, 130, 76, 1);
+      font-size: 105%;
+  }
+  .header-text {
+    margin-top: 160px;
+    margin-left: 80px;
+      font-family: Arial;
+      line-height: 2.2;
+      font-weight: lighter;
+      font-size: 1em;
+        color: rgba(30, 130, 76, .8);
+  display: inline-block;
+  letter-spacing: 1.5px;
+  }
+  .read-more-button {
+    background: #006a4e;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 1px 10px;
+  }
+  .read-more-button:hover {
+    font-size: 13px;
+    color: white;
+  }
+  .section-title {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #006a4e;
+  margin-bottom: 0;
+  }
+  
+  .schedule-hr1 {
+  width: 40px;
+  height: 1.5px;
+  border-width: 0;
+  color: #006a4e;
+  background-color: #006a4e;
+  margin-bottom: 0;
+  border-radius: 15px;
+  margin-left: 48.3%;
+  margin-top: 0;
+  
+  }
+  .schedule-hr2 {
+  width: 40px;
+  height: 1.5px;
+  border-width: 0;
+  color: #006a4e;
+  background-color: #006a4e;
+  margin-top: 3px;
+  border-radius: 15px;
+  margin-left: 49.7%;
+  }
+  
+  /*    ======== Navbar ========    */
+  
+  
+  /*    ========= EVENTS =========     */
+  
+  /* Schedule Area */
+  #schedules {
+    background: rgb(151,249,227);
+    background: radial-gradient(circle, rgba(151,249,227,0.5) 30%, rgba(0,255,248,0.4) 100%);
+  
+  }
+  #schedules .eve {
+    padding-top: 100px;
+  }
+  #schedule-tab {
+    position: relative;
+  }
+  
+  .schedule .schedule-tab-title {
+    margin-bottom: 35px;
+  }
+  
+  .schedule .schedule-tab-title .nav-tabs {
+    background: #ffffff;
+  }
+  
+  .schedule .schedule-tab-title .nav-tabs .nav-link {
+    border-radius: 0px;
+    position: relative;
+    cursor: pointer;
+    height: 90px;
+    width: 255px;
+    border-bottom: 1px solid #e5e5e5;
+    transition: all 500ms ease;
+    padding: 20px 20px;
+  }
+  
+  .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link, .schedule .schedule-tab-title .nav-tabs .nav-link.active,
+  .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover {
+    background: #006a4e;
+    border: 1px solid #006a4e;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h4, .schedule .schedule-tab-title .nav-tabs .nav-link.active h4,
+  .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h4 {
+    color: #fff;
+  }
+  
+  .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h5, .schedule .schedule-tab-title .nav-tabs .nav-link.active h5,
+  .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h5 {
+    color: #fff;
+  }
+  
+  .schedule .schedule-tab-title .item-text h4 {
+    font-size: 15px;
+    color: #2f323c;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .schedule .schedule-tab-title .item-text h5 {
+    font-size: 14px;
+    color: #848484;
+    line-height: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .schedule .schedule-tab-content .tab-content {
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schedule .schedule-tab-content .card {
+    border: none;
+  }
+  
+  .schedule .show .card-body {
+    background: #f3f4f3;
+  }
+  
+  .schedule .card-header {
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .schedule .card-header .images-box {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .schedule .card-header .images-box img {
+    border-radius: 50%;
+  }
+  
+  .schedule .card-header .time {
+    color: #777777;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  
+  .schedule .card-body h4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #212121;
+    margin-bottom: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .schedule .card-header .name {
+    position: relative;
+    font-size: 14px;
+    color: #777777;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .schedule .card-body {
+    padding: 15px 70px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  .schedule .slide {
+      box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.5);
+  }
+  .card p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+  
+  }
+  .card-body-text p {
+    padding-top: 30px;
+  }
+  .accordion .card {
+    border-radius: 0px;
+    margin-bottom: -2px;
+  }
+  
+  .accordion .header-title {
+    position: relative;
+  }
+  
+  .accordion .header-title:after {
+    font-family: "LineIcons";
+    content: "\e93a";
+    position: absolute;
+    right: 10px;
+    color: #999;
+    top: 50%;
+    line-height: 1;
+    padding: 0px 5px;
+    margin-top: -7px;
+  }
+  
+  .accordion .collapsed:after {
+    content: "\e940";
+  }
+  
+  .accordion .card-header {
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .accordion .card-header i {
+    color: #006a4e;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .accordion .card-body {
+    padding-left: 56px;
+  }
+  .carousel {
+    margin-bottom: 20px;
+  }
+  

@@ -15,30 +15,7 @@ export default class Team extends Component {
         background: `url('${tbg1}') repeat center center`,
         
       }}>
-                 <marquee
-   style={{
-    zIndex: "10",
-    position: "absolute",
-    left: "5px",
-    top: "80px",
-    fontFamily: "sans-serif",
-    backgroundColor: "#F0720D",
-    marginRight: "20px",
-    fontSize: "12pt",
-    fontWeight: "bold",
-    color: "#267355",
-    height: "34px",
-    width: "99vw",
-    border: "black 3px SOLID",
-    scrollamount: "9",
-        }}
-      >
-        {" "}
-        <strong></strong>&nbsp;&nbsp;&nbsp; The events are conducted in Online
-        mode due to outbreak of the pandemic caused by (COVID-19) !!
-        &nbsp;&nbsp;&nbsp; For any query, you can contact us on our
-        contact@prkrt.co.in or Facebook page!
-      </marquee>  
+              
         <div class="section-headline services-head text-center">
           <h2>Professors</h2>
         </div>

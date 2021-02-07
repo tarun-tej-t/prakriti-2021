@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import coverweb from '../public_html/img/Cover_web.jpg'
 
 
@@ -6,7 +7,7 @@ export default class Aboutpage extends Component {
   render() {
     return (
       <div id="about"><div >
-        <br/>   <br/>
+        <br/>   <br/><br/><br/>
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -52,7 +53,13 @@ export default class Aboutpage extends Component {
                     <i class="fa fa-check"></i>  The registration fee has been revised due to the shift from AT-SITE mode to ONLINE mode of conduction of the events.
                   </li>
                   <li>
-                      <i class="fa fa-check"></i><a href="registration.html"><strong>CLICK HERE TO PROCEED TO THE REGISTRATION PORTAL</strong></a>
+                      <i class="fa fa-check"></i><Link to="Registration" onClick={() => {
+                  window.scroll({
+                    left: 0,
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}><strong>CLICK HERE TO PROCEED TO THE REGISTRATION PORTAL</strong></Link>
                   </li>
                     
                   

@@ -23,6 +23,8 @@ const Header = () => {
         top: "0",
         width: "100vw",
         zIndex: "9999999999999999999999999999999999999999",
+        fontFamily: 'Raleway,sans-serif',
+        fontSize:'15px'
       }}
     >
       <div className="logo-nav">
@@ -57,16 +59,25 @@ const Header = () => {
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="#">
-              <Lin to="events" spy={true} smooth={true}>
+              <Lin to="contact" spy={true} smooth={true}>
                 <Link to="/" onClick={() => {
                   window.scroll({
                     left: 0,
-                    top:2000,
+                    top:3000,
                     behavior: "smooth",
                   });
-                }}>Events</Link>
+                }}>Contact Us</Link>
               </Lin>
             </a>
+          </li>
+          <li className="option mobile-option" onClick={closeMobileMenu}>
+            <a href="#Events" onClick={() => {
+                  window.scroll({
+                    left: 0,
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}>Events</a>
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="#Team" onClick={() => {
@@ -123,16 +134,25 @@ const Header = () => {
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#">
-            <Lin to="events" spy={true} smooth={true}>
+            <Lin to="contact" spy={true} smooth={true}>
               <Link to="/" onClick={() => {
                   window.scroll({
                     left: 0,
-                    top: 2000,
+                    top: 3000,
                     behavior: "smooth",
                   });
-                }}>Events</Link>
+                }}>Contact Us</Link>
             </Lin>
           </a>
+        </li>
+        <li className="sign-in" onClick={closeMobileMenu}>
+          <a href="#Events" onClick={() => {
+                  window.scroll({
+                    left: 0,
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}>Events</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Team" onClick={() => {

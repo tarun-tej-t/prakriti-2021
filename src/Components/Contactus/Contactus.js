@@ -4,7 +4,7 @@ export default class Contactus extends Component {
   render() {
     return (
       <div>
-        <div id="contact" class="contact-area">
+        <div id="contact" class="contact-area" style={{fontWeight:'700',fontSize:'16px',fontFamily:'Roboto,sans-serif'}}>
           <div class="contact-inner area-padding">
             <div class="contact-overly"></div>
             <div class="container " >
@@ -17,7 +17,7 @@ export default class Contactus extends Component {
               </div>
               <div class="row" style={{width:'100%'}}>
                 {/* Start contact icon column */}
-                <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-3 col-xs-12">
                   <div class="contact-icon text-center">
                     <div class="single-icon">
                       <i class="fa fa-mobile"></i>
@@ -29,7 +29,7 @@ export default class Contactus extends Component {
                   </div>
                 </div>
                 {/* Start contact icon column */}
-                <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-3 col-xs-12">
                   <div class="contact-icon text-center">
                     <div class="single-icon">
                       <i class="fa fa-envelope-o"></i>
@@ -41,7 +41,7 @@ export default class Contactus extends Component {
                   </div>
                 </div>
                 {/* Start contact icon column */}
-                <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-3 col-xs-12">
                   <div class="contact-icon text-center">
                     <div class="single-icon">
                       <a
@@ -49,6 +49,19 @@ export default class Contactus extends Component {
                         target="_blank"
                       >
                         <i class="fa fa-facebook-official"></i>
+                        <p>Prakriti</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="contact-icon text-center">
+                    <div class="single-icon">
+                      <a
+                        href="https://www.linkedin.com/company/prakriti---agri-and-food-innovation-fest"
+                        target="_blank"
+                      >
+                        <i class="fa fa-linkedin"></i>
                         <p>Prakriti</p>
                       </a>
                     </div>
