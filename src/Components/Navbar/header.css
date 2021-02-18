@@ -1,6 +1,6 @@
-.header {
+.header1 {
     display: flex;
-    background: linear-gradient(#ffffff, #a7f394);
+    background-color: #f6faf885;
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
@@ -81,7 +81,7 @@
       grid-gap: 0px;
     }
     .nav-options.active {
-      background: #f6faf8ea;
+      background: #f6faf8;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;

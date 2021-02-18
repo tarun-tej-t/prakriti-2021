@@ -12,7 +12,7 @@ export default class Team extends Component {
   render() {
     return (
       <div style={{paddingTop: "15vh",
-        background: `url('${tbg1}') repeat center center`,
+        backgroundColor:'#8C7AE6',
         
       }}>
               

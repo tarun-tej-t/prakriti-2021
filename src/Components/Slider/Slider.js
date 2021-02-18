@@ -6,7 +6,8 @@ import prakriticover from "../public_html/img/Prakriti_cover_1.jpg";
 import "../public_html/css/nivo-slider-theme.css";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
-
+import { Link as Lin } from "react-scroll";
+import { Link } from "react-router-dom";
 import "./slider-animations.css";
 import "./styles.css";
 
@@ -47,9 +48,30 @@ export default class iSlider extends Component {
   render() {
     return (
       <div>
-       
-        <div style={{top:'0vw'}}>
-          <Slider autoplay={1600} touchDisabled='true'>
+ 
+        <div style={{background: `url('${leaf}') no-repeat center center`,backgroundSize:'100vw 100vh',minWidth:'100vw',minHeight:'100vh'}}>
+       <br/> <br/>    <br/> <br/>    <br/> <br/>  
+        <p style={{paddingLeft:'6vw',paddingRight:'20vw',textAlign:'left',letterSpacing:'1.5px',fontsize:'1em',fontFamily:'Arial',fontWeight:'lighter',lineHeight:'5vh',backgroundColor:'rgb(242, 246, 250,0.4)'}}>Prakriti is an Agri and Food Innovation Fest organized by the students of
+          <br/>
+          the Department of Agricultural and Food Engineering, IIT Kharagpur,
+          <br/>
+          targeting the amalgamation of academia and industry associated
+          <br/>
+          with the agricultural and food sector. We aim to provide
+          <br/>
+          a conduit for budding innovators . .
+          <button type="button" class="btn btn-sm read-more-button">
+            <Lin to="about" spy={true} smooth={true} onClick={() => {
+                  window.scroll({
+                    left: 0,
+                    top:1000,
+                    behavior: "smooth",
+                  });
+                }} style={{color:'white'}}> Read more
+              </Lin>
+         </button>
+        </p>
+         {/*} <Slider autoplay={1600} touchDisabled='true'>
             {content.map((item, index) => (
               <div
                 key={index}
@@ -75,12 +97,20 @@ export default class iSlider extends Component {
                   <h3>
                     <strong style={{color: item.color}}>{item.description}</strong>
                   </h3>
-                  <p style={{position:'absolute',top:'-20vh',left:'20vw',maxWidth:'50vw',textAlign:'left',color:'rgba(30, 130, 76, .8)',letterSpacing:'1.5px',fontsize:'1em',fontFamily:'Arial',fontWeight:'lighter'}}>{item.descri} <p ><a href="#" > {item.button}</a></p></p>
+                  <p style={{position:'absolute',top:'-20vh',left:'20vw',maxWidth:'50vw',textAlign:'left',color:'rgba(30, 130, 76, .8)',letterSpacing:'1.5px',fontsize:'1em',fontFamily:'Arial',fontWeight:'lighter'}}>{item.descri} <p ><Lin to="about" spy={true} smooth={true}>
+                <Link to="/" onClick={() => {
+                  window.scroll({
+                    left: 0,
+                    top:1000,
+                    behavior: "smooth",
+                  });
+                }}>{item.button}</Link>
+              </Lin> </p></p>
                  
                 </div>
               </div>
             ))}
-          </Slider>
+              </Slider>*/}
         </div>
       </div>
     );

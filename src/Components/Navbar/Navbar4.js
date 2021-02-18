@@ -14,10 +14,11 @@ const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  
 
   return (
     <div
-      className="header"
+      className="header1"
       style={{
         position: "fixed",
         top: "0",
@@ -44,32 +45,8 @@ const Header = () => {
                   });
                 }}>Home</a>
           </li>
-          <li className="option mobile-option" onClick={closeMobileMenu}>
-            <a href="#">
-              <Lin to="about" spy={true} smooth={true}>
-                <Link to="/" onClick={() => {
-                  window.scroll({
-                    left: 0,
-                    top:1000,
-                    behavior: "smooth",
-                  });
-                }}>About</Link>
-              </Lin>
-            </a>
-          </li>
-          <li className="option mobile-option" onClick={closeMobileMenu}>
-            <a href="#">
-              <Lin to="contact" spy={true} smooth={true}>
-                <Link to="/" onClick={() => {
-                  window.scroll({
-                    left: 0,
-                    top:3000,
-                    behavior: "smooth",
-                  });
-                }}>Contact Us</Link>
-              </Lin>
-            </a>
-          </li>
+         
+         
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="#Events" onClick={() => {
                   window.scroll({
@@ -117,34 +94,10 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }}>Home</a>
+                }} style={{color:'Red'}}>Home</a>
         </li>
-        <li className="sign-in" onClick={closeMobileMenu}>
-          <a href="#">
-            <Lin to="about" spy={true} smooth={true}>
-              <Link to="/" onClick={() => {
-                  window.scroll({
-                    left:0,
-                    top: 900,
-                    behavior: "smooth",
-                  });
-                }}>About</Link>
-            </Lin>
-          </a>
-        </li>
-        <li className="sign-in" onClick={closeMobileMenu}>
-          <a href="#">
-            <Lin to="contact" spy={true} smooth={true}>
-              <Link to="/" onClick={() => {
-                  window.scroll({
-                    left: 0,
-                    top: 3000,
-                    behavior: "smooth",
-                  });
-                }}>Contact Us</Link>
-            </Lin>
-          </a>
-        </li>
+       
+        
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Events" onClick={() => {
                   window.scroll({
@@ -152,7 +105,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }}>Events</a>
+                }} style={{color:'Red'}}>Events</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Team" onClick={() => {
@@ -161,7 +114,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }}>Team</a>
+                }} style={{color:'Red'}}>Team</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Sponsors"  onClick={() => {
@@ -170,16 +123,16 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }}>Sponsors</a>
+                }} style={{color:'Red'}}>Sponsors</a>
         </li>
-        <li onClick={closeMobileMenu}>
+        <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Registration"  onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 0,
                     behavior: "smooth",
                   });
-                }}>Registrarion</a>
+                }} style={{color:'Red'}}>Registrarion</a>
         </li>
       </ul>
       <div className="mobile-menu" onClick={handleClick} id="dhide">

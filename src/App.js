@@ -2,11 +2,11 @@ import { Switch, Route, withRouter } from "react-router-dom";
 import React, { Component, useEffect } from "react";
 import Homepage from "./Homepage";
 import Sponsors from "./Components/Sponsors/Sponsors";
-import Team from "./Components/Team/Team";
+import Team from "./Components/Team/Team1";
 import Registration from "./Components/Registration/Registration";
 import Navbar from "./Components/Navbar/Navbar4";
 import Events from "./Components/Events/eventroute";
-import Events2 from "./Components/Events/Eventpage/Events2";
+import Quizella from "./Components/Events/Eventpage/Quizella/Quizella";
 
 //css files
 import "./Components/public_html/css/nivo-slider-theme.css";
@@ -20,7 +20,6 @@ import "./Components/public_html/lib/owlcarousel/owl.transitions.css";
 import "./Components/public_html/lib/font-awesome/css/font-awesome.min.css";
 import "./Components/public_html/lib/animate/animate.min.css";
 import "./Components/public_html/lib/venobox/venobox.css";
-import quizella from "./Components/Events/Eventpage/Quizella";
 
 import { Link } from "react-router-dom";
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
@@ -31,7 +30,6 @@ import ReactGa from "react-ga";
 function App() {
   useEffect(() => {
     ReactGa.initialize("UA-187856504-1");
-
     //to report page view
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
@@ -51,7 +49,7 @@ function App() {
 
           {/* Events */}
           <Route path="/Events" component={Events} />
-          <Route exact path="/Events2" component={Events2} />
+          <Route exact path="/Quizella" component={Quizella} />
       </Switch>
       <ScrollUpButton
         StopPosition={0}

@@ -1,17 +1,20 @@
-import React, { Component } from "react";
-import "../styles.css";
-import SimpleImageSlider from "react-simple-image-slider";
-import img1 from "../../public_html/img/gl.jpeg";
-import img2 from "../../public_html/img/gl2.jpeg";
-import img3 from "../../public_html/img/gl3.jpeg";
+import React, { Component, useEffect, useState } from "react";
+import Product from "./Product";
+import "../../styles.css";
+import img1 from "../../../public_html/img/gl.jpeg";
+import img2 from "../../../public_html/img/gl2.jpeg";
+import img3 from "../../../public_html/img/gl3.jpeg";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import leftarrow from "../arrow-circle-left-solid.svg";
 import { Link } from "react-router-dom";
+import Modal from "./Modal";
 //You need this npm package to do createReactClass
 
 const fadeImages = [img1, img2, img3];
 export default class Events1 extends Component {
+  state = {
+    post: [{ id: 1, name: "Thanveer" }],
+  };
   render() {
     const zoomOutProperties = {
       indicators: true,
@@ -21,25 +24,31 @@ export default class Events1 extends Component {
       transitionDuration: 500,
       infinite: true,
       prevArrow: (
-        <div style={{ width: "30px", marginRight: "-30px", color: "white" }}>
-          <img
-            src={leftarrow}
-            style={{ width: "30px", marginRight: "-30px", color: "white" }}
-          />
-        </div>
+        <div
+          style={{
+            width: "4%",
+            height: "30vh",
+            marginRight: "-30px",
+            color: "white",
+            backgroundColor: "rgb(255,255,255,0.3)",
+            cursor: "pointer",
+          }}
+        ></div>
       ),
       nextArrow: (
-        <div style={{ width: "30px", marginLeft: "-30px" }}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-            fill="#fff"
-          >
-            <path d="M512 256L270 42.6v138.2H0v150.6h270v138z" />
-          </svg>
-        </div>
+        <div
+          style={{
+            width: "4%",
+            height: "30vh",
+            marginLeft: "-30px",
+            color: "white",
+            backgroundColor: "rgb(255,255,255,0.3)",
+            cursor: "pointer",
+          }}
+        ></div>
       ),
     };
+
     return (
       <div>
         <section id="schedules" className="schedule section-padding">
@@ -50,6 +59,7 @@ export default class Events1 extends Component {
                   <h1
                     className="section-title wow fadeInUp"
                     data-wow-delay="0.2s"
+                    style={{ fontFamily: "Josefin Sans", fontWeight: "500" }}
                   >
                     Events
                   </h1>
@@ -71,7 +81,7 @@ export default class Events1 extends Component {
                   <ul className="nav nav-tabs" id="myTab" role="tablist">
                     <li className="nav-item">
                       <Link
-                        className="nav-link active"
+                        className="nav-link"
                         to="/Events"
                         onClick={() => {
                           window.scroll({
@@ -82,14 +92,34 @@ export default class Events1 extends Component {
                         }}
                       >
                         <div className="item-text">
-                          <h4> Poster Presentation</h4>
-                          <h5></h5>
+                          <h4
+                            style={{
+                              textAlign: "left",
+                              fontFamily: "Lato, sans-serif",
+                              lineHeight: "22px",
+                              marginBottom: "0.5rem",
+                              marginTop: "0",
+                            }}
+                          >
+                            {" "}
+                            Poster Presentation
+                          </h4>
+                          <h5
+                            style={{
+                              textAlign: "left",
+                              fontFamily: "Lato, sans-serif",
+                              lineHeight: "22px",
+                              marginBottom: "0.5rem",
+                            }}
+                          >
+                            February 15
+                          </h5>
                         </div>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link
-                        className="nav-link"
+                        className="nav-link active"
                         to="/Quizella"
                         onClick={() => {
                           window.scroll({
@@ -100,8 +130,27 @@ export default class Events1 extends Component {
                         }}
                       >
                         <div className="item-text">
-                          <h4>Quizella</h4>
-                          <h5></h5>
+                          <h4
+                            style={{
+                              textAlign: "left",
+                              fontFamily: "Lato, sans-serif",
+                              lineHeight: "22px",
+                              marginBottom: "0.5rem",
+                              marginTop: "0",
+                            }}
+                          >
+                            Quizella
+                          </h4>
+                          <h5
+                            style={{
+                              textAlign: "left",
+                              fontFamily: "Lato, sans-serif",
+                              lineHeight: "22px",
+                              marginBottom: "0.5rem",
+                            }}
+                          >
+                            February 18
+                          </h5>
                         </div>
                       </Link>
                     </li>
@@ -118,7 +167,7 @@ export default class Events1 extends Component {
                         }}
                       >
                         <div className="item-text">
-                          <h4>Krishi Manthan	</h4>
+                          <h4>Krishi Manthan </h4>
                           <h5></h5>
                         </div>
                       </Link>
@@ -249,7 +298,6 @@ export default class Events1 extends Component {
                         </div>
                       </Link>
                     </li>
-
                   </ul>
                 </div>
               </div>
@@ -276,13 +324,22 @@ export default class Events1 extends Component {
                     </div>
                   </Fade>
                   <p>
-                    Poster design is an expression of thoughts and technical
-                    prowess. Your poster can be about anything you want but with
-                    one constraint: it must be inspired by the field of
-                    agriculture and food engineering. It might tell a story or
-                    explain and provide a visual impression of your thoughts -
-                    the only limit being your imagination! Come on, Showbiz your
-                    style, and put forth a message.
+                  Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
+                  <br/>
+                  <br/>
+                    It is said “Knowledge is Power” which proves itself time and
+                    again. To test the knowledge of the students in general
+                    awareness of the world around us and technical questions
+                    from the field of agriculture, we bring to you the Agro-tech
+                    quiz named, named “Quizella”. It would provide a platform to
+                    the best minds of India in the field of Agricultural and
+                    Food Engineering to test their excellence amongst others and
+                    find out their stand.
+                    <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
+                      <p>
+                        <Product data={this.state.post} />
+                      </p>
+                    </div>
                   </p>
                 </div>
               </div>

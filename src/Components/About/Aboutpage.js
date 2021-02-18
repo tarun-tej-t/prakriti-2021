@@ -67,7 +67,7 @@ export default class Aboutpage extends Component {
                 <br/>
                 <h4 class="sec-head">IMPORTANT NOTICE </h4>
                 <ul>
-                    <strong>*** RESULTS ARE OUT ***</strong><a href="Results.html" target = "_blank"> CLICK HERE</a>
+                    {/*<strong>*** RESULTS ARE OUT ***</strong><a href="Results.html" target = "_blank"> CLICK HERE</a>*/}
                    
                   <li>
                     <i class="fa fa-check"></i> Team Prakriti is deeply grieved to announce that, this year “Prakriti 2020” will not be conducted at IIT Kharagpur Campus as planned. 

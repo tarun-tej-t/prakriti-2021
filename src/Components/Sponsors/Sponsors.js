@@ -10,7 +10,7 @@ export default class Sponsors extends Component {
     return (
       <div
         style={{
-          background: `url('${sbg}') repeat center center`,
+          backgroundColor:'Aqua',
         }}
       >
         <div style={{ paddingTop: "20vh" }}>

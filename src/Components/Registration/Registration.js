@@ -10,7 +10,8 @@ export default class Registration extends Component {
   render() {
     return (
       <div style={{
-        background: `url('${rfb}') no-repeat center center`,
+        background: `url('${rfb}') `,
+        backgroundSize:'cover'
       }}>
        
       <div style={{paddingTop:'20vh',paddingBottom:'20vh'}}>
