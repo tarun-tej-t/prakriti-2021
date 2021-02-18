@@ -47,8 +47,8 @@ function App() {
         <Route exact path="/Sponsors" component={Sponsors} />
         <Route exact path="/Registration" component={Registration} />
 
-          {/* Events */}
-          <Route path="/Events" component={Events} />
+          {/* Events */} 
+          <Route path="/Events" component={Quizella} />
           <Route exact path="/Quizella" component={Quizella} />
       </Switch>
       <ScrollUpButton

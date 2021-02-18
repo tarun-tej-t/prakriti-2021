@@ -1,14 +1,32 @@
 import React, { Component } from "react";
+import Slider from "@farbenmeer/react-spring-slider";
 
 export default class Testimonial extends Component {
   render() {
     return (
       <div>
+        <Slider
+			activeIndex={2}
+			slidesAtOnce={2}
+			auto
+			hasBullets
+		
+		>
+			<div>chi <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />ld 1 b</div>
+			<div>child 2</div>
+			<div>child 3</div>
+		</Slider>
+    <Slider hasBullets bulletStyle={{ backgroundColor: "#fff",color:'white' }}>
+    <div>child 1</div>
+			<div>child 2</div>
+			<div>child 3</div>
+</Slider>
         <div class="testimonials-area">
           <div class="testi-inner area-padding">
             <div class="testi-overly"></div>
             <div class="container ">
               <div class="row">
+              
                 <div class="col-md-12 col-sm-12 col-xs-12">
                   {/* Start testimonials Start */}
                   <div class="testimonial-content text-center">

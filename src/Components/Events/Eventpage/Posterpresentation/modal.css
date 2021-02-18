@@ -1,0 +1,47 @@
+.modal1 {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background: linear-gradient(to bottom, #F0720D);
+  box-shadow: 0 10px 30px 0 rgba(127, 127, 127, 0.0);
+  z-index: 10000000000;
+  border-radius: 5%;
+}
+
+.body999 {
+  
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.body999:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  
+}
+.modal1 {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.body999 {
+  margin: 0;
+  
+  line-height: 1.4em;
+}
+#container2 {
+  
+  background-color: #fff;
+  margin: 20px 5%;
+  
+  border-radius: 20px;
+  box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.20);
+}
+

@@ -25,7 +25,8 @@ const Header = () => {
         width: "100vw",
         zIndex: "9999999999999999999999999999999999999999",
         fontFamily: 'Raleway,sans-serif',
-        fontSize:'15px'
+        fontSize:'19px',
+        fontWeight:'600'
       }}
     >
       <div className="logo-nav">
