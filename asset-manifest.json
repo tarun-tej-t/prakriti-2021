@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/prakriti-2021/static/css/main.6d1ae025.chunk.css",
-    "main.js": "/prakriti-2021/static/js/main.5941000b.chunk.js",
-    "main.js.map": "/prakriti-2021/static/js/main.5941000b.chunk.js.map",
-    "runtime-main.js": "/prakriti-2021/static/js/runtime-main.2bae1890.js",
-    "runtime-main.js.map": "/prakriti-2021/static/js/runtime-main.2bae1890.js.map",
-    "static/css/2.95381e97.chunk.css": "/prakriti-2021/static/css/2.95381e97.chunk.css",
-    "static/js/2.e4c82cdd.chunk.js": "/prakriti-2021/static/js/2.e4c82cdd.chunk.js",
-    "static/js/2.e4c82cdd.chunk.js.map": "/prakriti-2021/static/js/2.e4c82cdd.chunk.js.map",
-    "static/js/3.f504a8ab.chunk.js": "/prakriti-2021/static/js/3.f504a8ab.chunk.js",
-    "static/js/3.f504a8ab.chunk.js.map": "/prakriti-2021/static/js/3.f504a8ab.chunk.js.map",
+    "main.css": "/prakriti-2021/static/css/main.a2f63333.chunk.css",
+    "main.js": "/prakriti-2021/static/js/main.b0c7923c.chunk.js",
+    "main.js.map": "/prakriti-2021/static/js/main.b0c7923c.chunk.js.map",
+    "runtime-main.js": "/prakriti-2021/static/js/runtime-main.697d2b10.js",
+    "runtime-main.js.map": "/prakriti-2021/static/js/runtime-main.697d2b10.js.map",
+    "static/css/2.4dcf0385.chunk.css": "/prakriti-2021/static/css/2.4dcf0385.chunk.css",
+    "static/js/2.af5c74eb.chunk.js": "/prakriti-2021/static/js/2.af5c74eb.chunk.js",
+    "static/js/2.af5c74eb.chunk.js.map": "/prakriti-2021/static/js/2.af5c74eb.chunk.js.map",
+    "static/js/3.6c2fb443.chunk.js": "/prakriti-2021/static/js/3.6c2fb443.chunk.js",
+    "static/js/3.6c2fb443.chunk.js.map": "/prakriti-2021/static/js/3.6c2fb443.chunk.js.map",
     "index.html": "/prakriti-2021/index.html",
-    "static/css/2.95381e97.chunk.css.map": "/prakriti-2021/static/css/2.95381e97.chunk.css.map",
-    "static/css/main.6d1ae025.chunk.css.map": "/prakriti-2021/static/css/main.6d1ae025.chunk.css.map",
-    "static/js/2.e4c82cdd.chunk.js.LICENSE.txt": "/prakriti-2021/static/js/2.e4c82cdd.chunk.js.LICENSE.txt",
+    "static/css/2.4dcf0385.chunk.css.map": "/prakriti-2021/static/css/2.4dcf0385.chunk.css.map",
+    "static/css/main.a2f63333.chunk.css.map": "/prakriti-2021/static/css/main.a2f63333.chunk.css.map",
+    "static/js/2.af5c74eb.chunk.js.LICENSE.txt": "/prakriti-2021/static/js/2.af5c74eb.chunk.js.LICENSE.txt",
     "static/media/6.542d9dda.jpeg": "/prakriti-2021/static/media/6.542d9dda.jpeg",
     "static/media/777_1.d45ff5ac.jpg": "/prakriti-2021/static/media/777_1.d45ff5ac.jpg",
     "static/media/Cover_web.db4ecfcd.jpg": "/prakriti-2021/static/media/Cover_web.db4ecfcd.jpg",
@@ -33,10 +33,10 @@
     "static/media/sbg.781db072.jpg": "/prakriti-2021/static/media/sbg.781db072.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2bae1890.js",
-    "static/css/2.95381e97.chunk.css",
-    "static/js/2.e4c82cdd.chunk.js",
-    "static/css/main.6d1ae025.chunk.css",
-    "static/js/main.5941000b.chunk.js"
+    "static/js/runtime-main.697d2b10.js",
+    "static/css/2.4dcf0385.chunk.css",
+    "static/js/2.af5c74eb.chunk.js",
+    "static/css/main.a2f63333.chunk.css",
+    "static/js/main.b0c7923c.chunk.js"
   ]
 }
