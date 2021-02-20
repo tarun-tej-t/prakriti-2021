@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/prakriti-2021/static/css/main.a2f63333.chunk.css",
-    "main.js": "/prakriti-2021/static/js/main.b0c7923c.chunk.js",
-    "main.js.map": "/prakriti-2021/static/js/main.b0c7923c.chunk.js.map",
+    "main.js": "/prakriti-2021/static/js/main.6bb4a908.chunk.js",
+    "main.js.map": "/prakriti-2021/static/js/main.6bb4a908.chunk.js.map",
     "runtime-main.js": "/prakriti-2021/static/js/runtime-main.697d2b10.js",
     "runtime-main.js.map": "/prakriti-2021/static/js/runtime-main.697d2b10.js.map",
     "static/css/2.4dcf0385.chunk.css": "/prakriti-2021/static/css/2.4dcf0385.chunk.css",
@@ -37,6 +37,6 @@
     "static/css/2.4dcf0385.chunk.css",
     "static/js/2.af5c74eb.chunk.js",
     "static/css/main.a2f63333.chunk.css",
-    "static/js/main.b0c7923c.chunk.js"
+    "static/js/main.6bb4a908.chunk.js"
   ]
 }
