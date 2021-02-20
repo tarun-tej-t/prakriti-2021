@@ -9,9 +9,8 @@ export default class Sponsorcard extends Component {
   render() {
     return (
       <div>
-            <div style={{ width: "100vw", display: "flex", justifyContent: "center" }} >
-        <div class="row">
-          <div >
+           
+          <div style={{padding:'30px'}}>
             <div class="hovereffect">
               <img
                 class="img-responsive"
@@ -27,7 +26,7 @@ export default class Sponsorcard extends Component {
               </div>
             </div>
           </div>
-        </div>    </div>
+        
         <br/>
       </div>
     );

@@ -123,3 +123,25 @@
   .option{
       color:'white';
   }
+
+  .navreg{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+   
+    border-radius: 25px;
+  }
+  .navreg:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 25px;
+  }
+
+  .navother{
+    color: rgb(255, 0, 0);
+    border-radius: 25px;
+  }
+  .navother:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+  }

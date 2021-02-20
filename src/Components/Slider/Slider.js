@@ -51,14 +51,15 @@ export default class iSlider extends Component {
  
         <div style={{background: `url('${leaf}') no-repeat center center`,backgroundSize:'100vw 100vh',minWidth:'100vw',minHeight:'100vh'}}>
        <br/> <br/>    <br/> <br/>    <br/> <br/>  
-        <p style={{paddingLeft:'6vw',paddingRight:'20vw',textAlign:'left',letterSpacing:'1.5px',fontsize:'1em',fontFamily:'Arial',fontWeight:'lighter',lineHeight:'5vh',backgroundColor:'rgb(242, 246, 250,0.4)'}}>Prakriti is an Agri and Food Innovation Fest organized by the students of
-          <br/>
-          the Department of Agricultural and Food Engineering, IIT Kharagpur,
-          <br/>
-          targeting the amalgamation of academia and industry associated
-          <br/>
-          with the agricultural and food sector. We aim to provide
-          <br/>
+        <p style={{paddingLeft:'6vw',paddingRight:'20vw',textAlign:'left',letterSpacing:'1.5px',fontsize:'1em',fontFamily:'Arial',fontWeight:'lighter',lineHeight:'5vh',backgroundColor:'rgb(242, 246, 250,0.4)'}}>
+          Prakriti is an Agri and Food Innovation Fest organized by the students of
+          
+          the Department <br/> of Agricultural and Food Engineering, IIT Kharagpur,
+         
+          targeting the amalgamation <br/> of academia and industry associated
+         
+          with the agricultural and food sector.<br/> We aim to provide
+          
           a conduit for budding innovators . .
           <button type="button" class="btn btn-sm read-more-button">
             <Lin to="about" spy={true} smooth={true} onClick={() => {

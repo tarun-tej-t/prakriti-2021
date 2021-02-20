@@ -58,7 +58,7 @@ button {
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
   border: none;
-  background: #FFD800;
+  background: #00ccff;
   border-radius: 30px;
   text-transform: uppercase;
   box-sizing: border-box;
@@ -66,6 +66,7 @@ button {
   font-weight: 400;
   font-size: 23px;
   cursor: cursor;
+  color:'white';
 }
 
 button:hover {

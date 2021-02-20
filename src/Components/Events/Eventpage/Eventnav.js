@@ -45,7 +45,7 @@ export default class Eventnav extends Component {
                               marginBottom: "0.5rem",
                             }}
                           >
-                           
+                           alkjlkj kajsldkfj 
                           </h5>
                         </div>
                       </Link>
@@ -81,7 +81,7 @@ export default class Eventnav extends Component {
                               marginBottom: "0.5rem",
                             }}
                           >
-                            
+                            sadfasdfasdf
                           </h5>
                         </div>
                       </Link>

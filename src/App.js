@@ -17,6 +17,7 @@ import TreasureHunt from "./Components/Events/Eventpage/TreasureHunt/TreasureHun
 import MadAd from "./Components/Events/Eventpage/MadAd/MadAd";
 import SelfiewithNature from "./Components/Events/Eventpage/SelfiewithNature/SelfiewithNature";
 import Quizella from "./Components/Events/Eventpage/Quizella/Quizella";
+import PosterPresentation from "./Components/Events/Eventpage/PosterPresentation/PosterPresentation";
 
 //css files
 import "./Components/public_html/css/nivo-slider-theme.css";
@@ -68,6 +69,7 @@ function App() {
           <Route exact path="/MadAd" component={MadAd} />
           <Route exact path="/SelfiewithNature" component={SelfiewithNature} />
           <Route exact path="/Quizella" component={Quizella} />
+          <Route exact path="/PosterPresentation" component={PosterPresentation} />
 
       </Switch>
       <ScrollUpButton

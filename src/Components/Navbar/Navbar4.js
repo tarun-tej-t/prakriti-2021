@@ -83,7 +83,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }}>Registrarion</a>
+                }}>Registration</a>
           </li>
         </ul>
       </div>
@@ -95,7 +95,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{color:'Red'}}>Home</a>
+                }} style={{fontFamily:'lato', padding:'11px',border:'2.5px solid red'}} class="navother" > Home </a>
         </li>
        
         
@@ -106,7 +106,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{color:'Red'}}>Events</a>
+                }} style={{fontFamily:'lato', padding:'11px',border:'2.5px solid red'}} class="navother">Events</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Team" onClick={() => {
@@ -115,7 +115,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{color:'Red'}}>Team</a>
+                }} style={{fontFamily:'lato', padding:'11px',border:'2.5px solid red'}} class="navother">Team</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Sponsors"  onClick={() => {
@@ -124,7 +124,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{color:'Red'}}>Sponsors</a>
+                }} style={{fontFamily:'lato', padding:'11px',border:'2.5px solid red'}} class="navother">Sponsors</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Registration"  onClick={() => {
@@ -133,7 +133,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{color:'Red'}}>Registrarion</a>
+                }} style={{fontFamily:'lato', padding:'11px'}} class="navreg">Registration</a>
         </li>
       </ul>
       <div className="mobile-menu" onClick={handleClick} id="dhide">

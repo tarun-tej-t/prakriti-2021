@@ -29,7 +29,6 @@ export default class Team extends Component {
           <h1 style={{ color: "#11785D" }}>Our Team</h1>
           <h2 style={{ color: "#11785D" }}>Professors</h2>
           <hr style={{ width: "8%", marginLeft: "46%" ,backgroundColor: "#11785D",height:'2px'}} />
-
           <div className="our_team"></div>
           <br />
           <div className="our_team">
@@ -48,21 +47,12 @@ export default class Team extends Component {
               <h5>Head of the department</h5>
               <p />
             </div>
-            <div className="team_member" style={{ width: "280px" }}>
-              <div
-                className="member_img"
-                style={{ height: "240px", maxWidth: "240px" }}
-              >
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/1517605756966.jpeg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-              </div>
-              <h3>Jayeeta Mitra</h3>
-              <h5>Chairperson</h5>
-              <p />
-            </div>
+           </div>
+          <div className="our_team"></div>
+          <br />
+          <div className="our_team">
+            
+           
             <div className="team_member" style={{ width: "280px" }}>
               <div
                 className="member_img"
@@ -75,7 +65,37 @@ export default class Team extends Component {
                 />
               </div>
               <h3>Rajendra Machavaram</h3>
-              <h5>Co-Chairperson</h5>
+              <h5>Chairperson</h5>
+              <p />
+            </div>
+            <div className="team_member" style={{ width: "280px" }}>
+              <div
+                className="member_img"
+                style={{ height: "240px", maxWidth: "240px" }}
+              >
+                <img
+                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/1517605756966.jpeg"
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+              </div>
+              <h3>Jayeeta Mitra</h3>
+              <h5>Faculty Advisor</h5>
+              <p />
+            </div>
+            <div className="team_member" style={{ width: "280px" }}>
+              <div
+                className="member_img"
+                style={{ height: "240px", maxWidth: "240px" }}
+              >
+                <img
+                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/ag-joydeep.png"
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+              </div>
+              <h3>Joydeep Banerjee</h3>
+              <h5>Faculty Advisor</h5>
               <p />
             </div>
           </div>
@@ -101,7 +121,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/ajoonp.kalwaniyan"
+                      href="https://www.linkedin.com/in/narpat-ram-kalwaniya-54521316b"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -140,7 +160,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/amitkumar.jha.92505956"
+                      href="https://www.linkedin.com/in/amit-kumar-jha-80b308154"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -178,7 +198,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/profile.php?id=100008984739412"
+                      href="https://www.linkedin.com/in/subhash-bayal-018b2a129"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -218,7 +238,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/prachi.bajpai.58726"
+                      href="https://www.linkedin.com/in/prachi-bajpai-011086172/"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -257,7 +277,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/rima.jana.7399"
+                      href="https://www.linkedin.com/in/rima-jana-5921a7191"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -295,7 +315,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/harsh.thakur.5070276"
+                      href="https://www.linkedin.com/in/harshvardhan-singh-thakur-750764191"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -327,7 +347,7 @@ export default class Team extends Component {
                 <div className="social_media">
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/ak.jmphed"
+                      href="https://www.linkedin.com/in/aashish-kumar-419515165"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f" />
@@ -335,7 +355,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/ak.jmphed"
+                      href="https://www.linkedin.com/in/aashish-kumar-419515165"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -374,7 +394,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/ninad.shelke.5621"
+                      href="https://www.linkedin.com/in/ninad-shelke-4163a8170"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -412,7 +432,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/rakshit.rana.313"
+                      href="https://www.linkedin.com/in/rakshit-rana-3aa151190"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -452,7 +472,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/abhinav.jha.77"
+                      href="https://www.linkedin.com/in/abhinav-jha-431a901a0"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -491,7 +511,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/devendra.kumarmaurya.5680"
+                      href="https://www.linkedin.com/in/devendra-maurya-605a26190/"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />

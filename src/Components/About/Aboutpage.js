@@ -29,7 +29,7 @@ export default class Aboutpage extends Component {
               <div class="single-well">
                 
                     
-                    <img src={coverweb} alt="" height= '340px' width='600px' />
+                    <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/All%20Events%20Poster.jpg" alt="" height= '340px' width='600px' />
               
               </div>
             </div>
@@ -44,11 +44,9 @@ export default class Aboutpage extends Component {
                 <p>
                   With its inception in 2010, Prakriti pioneered the cause of organizing an Agri and Food Innovation Fest at a national level. The first edition of Prakriti saw a huge participation from both the academic and the industrial front. Association with renowned companies like ITC, John Deere, Tetrapak and Siemens contributed significantly in catalyzing its success and helped it achieve greater heights. This year, we hope to make the fest bigger and better by extending our heartiest welcome to many more agro-based institutions and enterprises, and coalesce it with the concept of sustainability.
                 </p>
-                <h4 class="sec-head">Registration Fee</h4>
+                <h4 class="sec-head">Registration</h4>
                 <ul>
-                  <li>
-                      <i class="fa fa-check"></i> <strong>INR 300.</strong>
-                  </li>
+                  
                   <li>
                     <i class="fa fa-check"></i>  The registration fee has been revised due to the shift from AT-SITE mode to ONLINE mode of conduction of the events.
                   </li>
@@ -65,9 +63,9 @@ export default class Aboutpage extends Component {
                   
                 </ul>
                 <br/>
-                <h4 class="sec-head">IMPORTANT NOTICE </h4>
+               {/* <h4 class="sec-head">IMPORTANT NOTICE </h4>
                 <ul>
-                    {/*<strong>*** RESULTS ARE OUT ***</strong><a href="Results.html" target = "_blank"> CLICK HERE</a>*/}
+                    <strong>*** RESULTS ARE OUT ***</strong><a href="Results.html" target = "_blank"> CLICK HERE</a>
                    
                   <li>
                     <i class="fa fa-check"></i> Team Prakriti is deeply grieved to announce that, this year “Prakriti 2020” will not be conducted at IIT Kharagpur Campus as planned. 
@@ -83,7 +81,7 @@ export default class Aboutpage extends Component {
                   </li>
                   
                   
-                </ul>
+                </ul>*/}
               </div>
             </div>
           </div>
