@@ -79,12 +79,12 @@ export default class Events1 extends Component {
               kmactive="nav-link  "
               daactive="nav-link"
               glactive="nav-link"
-              agactive="nav-link"
-              fdactive="nav-link"
+              agactive="nav-link "
+              fdactive="nav-link active"
               thactive="nav-link"
               maactive="nav-link"
               snactive="nav-link"
-              qactive="nav-link active"
+              qactive="nav-link "
               ppactive="nav-link"
                />
 
@@ -111,17 +111,11 @@ export default class Events1 extends Component {
                     </div>
                   </Fade>
                   <p>
-                  Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
-                  <br/>
-                  <br/>
-                    It is said “Knowledge is Power” which proves itself time and
-                    again. To test the knowledge of the students in general
-                    awareness of the world around us and technical questions
-                    from the field of agriculture, we bring to you the Agro-tech
-                    quiz named, named “Quizella”. It would provide a platform to
-                    the best minds of India in the field of Agricultural and
-                    Food Engineering to test their excellence amongst others and
-                    find out their stand.
+                  Prakriti 2021 introduces an entirely new Online event: Find The Devil to make you more aware about hidden killers in your food,
+We can’t imagine our lives without food. Whether a family dinner, or binging out with friends, food is a common thread that binds us all. But today, our food system is changing. Food companies are coming up with new products every day. Just visit your local Kirana shop after a week and you find completely new items on the shelves. These items come with attractive packages and innovative ad campaigns to grab your attention. Their branding is done in a way that compels you to spend your money on them. Some claim to be “Tasty and Healthy”, some promise “Weight loss”, while others use tags like “Fat free”, “Sugar Free”, “Gluten free”, etc.
+<br/><br/>
+But, a careful look at their ingredients would reveal a completely different story. Majority of food products in the Indian market contain some of the most hazardous chemicals in the form of artificial flavouring agents, cheap preservatives, and taste enhancers. They are heavily processed in order to enhance their taste and make them more appealing to consumers. Eating such ultra-processed food products is degrading our health exposing us to deadly diseases like cancer. 
+
                     <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />

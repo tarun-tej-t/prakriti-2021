@@ -81,10 +81,10 @@ export default class Events1 extends Component {
               glactive="nav-link"
               agactive="nav-link"
               fdactive="nav-link"
-              thactive="nav-link"
+              thactive="nav-link active"
               maactive="nav-link"
               snactive="nav-link"
-              qactive="nav-link active"
+              qactive="nav-link "
               ppactive="nav-link"
                />
 
@@ -111,17 +111,9 @@ export default class Events1 extends Component {
                     </div>
                   </Fade>
                   <p>
-                  Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
+                  (THEME : SAVE THE AMAZON)                  <br/>
                   <br/>
-                  <br/>
-                    It is said “Knowledge is Power” which proves itself time and
-                    again. To test the knowledge of the students in general
-                    awareness of the world around us and technical questions
-                    from the field of agriculture, we bring to you the Agro-tech
-                    quiz named, named “Quizella”. It would provide a platform to
-                    the best minds of India in the field of Agricultural and
-                    Food Engineering to test their excellence amongst others and
-                    find out their stand.
+                  "The world has enough for everyone's needs, but not everyone's greed", that’s what Mahatma Gandhi said in one of his best-known quotes. But it took us several decades and a devastating pandemic to realize the depth of his quote. Indeed, we have limited resources on our planet and our everlasting greeds may soon turn the planet lifeless. To change the current scenario, and make our youth aware of different environmental issues, PRAKRITI 2021 is launching an online treasure hunt event for the first time.
                     <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />

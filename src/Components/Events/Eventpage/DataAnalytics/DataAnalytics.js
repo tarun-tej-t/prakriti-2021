@@ -3,8 +3,9 @@ import Product from "./Product";
 import "../../styles.css";
 import img1 from "../../../public_html/img/gl.jpeg";
 import img2 from "../../../public_html/img/gl2.jpeg";
-import img3 from "../../../public_html/img/gl3.jpeg"; 
+import img3 from "../../../public_html/img/gl3.jpeg";
 import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
 import Enav from '../Eventnav'
@@ -66,7 +67,7 @@ export default class Events1 extends Component {
                   <hr className="schedule-hr1" />
                   <hr className="schedule-hr2" />
                   <p className="wow fadeInDown" data-wow-delay="0.2s">
-                  
+                   
                   </p>
                 </div>
               </div>
@@ -75,19 +76,18 @@ export default class Events1 extends Component {
               className="schedule-area row wow fadeInDown"
               data-wow-delay="0.3s"
             >
-              <Enav 
-              kmactive="nav-link  "
-              daactive="nav-link"
+               <Enav 
+              kmactive="nav-link "
+              daactive="nav-link  active"
               glactive="nav-link"
               agactive="nav-link"
               fdactive="nav-link"
               thactive="nav-link"
               maactive="nav-link"
               snactive="nav-link"
-              qactive="nav-link active"
+              qactive="nav-link"
               ppactive="nav-link"
                />
-
               <div className="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
                 <div
                   className="tab-content"
@@ -111,17 +111,9 @@ export default class Events1 extends Component {
                     </div>
                   </Fade>
                   <p>
-                  Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
-                  <br/>
-                  <br/>
-                    It is said “Knowledge is Power” which proves itself time and
-                    again. To test the knowledge of the students in general
-                    awareness of the world around us and technical questions
-                    from the field of agriculture, we bring to you the Agro-tech
-                    quiz named, named “Quizella”. It would provide a platform to
-                    the best minds of India in the field of Agricultural and
-                    Food Engineering to test their excellence amongst others and
-                    find out their stand.
+                  Data Analytics is based upon analysing past information to predict future conditions and plan accordingly.
+               <br/> <br/>   In the agriculture sector, farmers and agribusiness have to make innumerable decisions every day and intricate complexities involve the various factors influencing them. An essential issue for agricultural planning intention is the accurate yield estimation and estimation of nutrients concentration for the numerous crops involved in the planning or making decisions like which crop to plant before the next harvest. In making these decisions past information is very crucial. Data analysis is based on analyzing past information to predict future conditions in order to make more informed decisions and plan accordingly.
+
                     <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />

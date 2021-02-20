@@ -82,9 +82,9 @@ export default class Events1 extends Component {
               agactive="nav-link"
               fdactive="nav-link"
               thactive="nav-link"
-              maactive="nav-link"
+              maactive="nav-link active"
               snactive="nav-link"
-              qactive="nav-link active"
+              qactive="nav-link "
               ppactive="nav-link"
                />
 
@@ -111,18 +111,7 @@ export default class Events1 extends Component {
                     </div>
                   </Fade>
                   <p>
-                  Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
-                  <br/>
-                  <br/>
-                    It is said “Knowledge is Power” which proves itself time and
-                    again. To test the knowledge of the students in general
-                    awareness of the world around us and technical questions
-                    from the field of agriculture, we bring to you the Agro-tech
-                    quiz named, named “Quizella”. It would provide a platform to
-                    the best minds of India in the field of Agricultural and
-                    Food Engineering to test their excellence amongst others and
-                    find out their stand.
-                    <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
+                  Advertise an agricultural product in a humorous way via eye-catching Ad multimedia expressing your dramatics & marketing skills.    <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />
                       </p>

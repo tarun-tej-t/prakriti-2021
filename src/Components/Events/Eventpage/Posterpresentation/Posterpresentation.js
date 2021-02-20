@@ -3,15 +3,15 @@ import Product from "./Product";
 import "../../styles.css";
 import img1 from "../../../public_html/img/gl.jpeg";
 import img2 from "../../../public_html/img/gl2.jpeg";
-import img3 from "../../../public_html/img/gl3.jpeg";
+import img3 from "../../../public_html/img/gl3.jpeg"; 
 import { Fade } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
+import Enav from '../Eventnav'
 //You need this npm package to do createReactClass
 
 const fadeImages = [img1, img2, img3];
-export default class Events1 extends Component {
+export default class PosterPesentation extends Component {
   state = {
     post: [{ id: 1, name: "Thanveer" }],
   };
@@ -66,8 +66,7 @@ export default class Events1 extends Component {
                   <hr className="schedule-hr1" />
                   <hr className="schedule-hr2" />
                   <p className="wow fadeInDown" data-wow-delay="0.2s">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing <br />{" "}
-                    elit, sed do eiusmod tempor
+                  
                   </p>
                 </div>
               </div>
@@ -76,232 +75,19 @@ export default class Events1 extends Component {
               className="schedule-area row wow fadeInDown"
               data-wow-delay="0.3s"
             >
-              <div className="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
-                <div className="table-responsive">
-                  <ul className="nav nav-tabs" id="myTab" role="tablist">
-                   
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link active"
-                        to="/Quizella"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 1000,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4
-                            style={{
-                              textAlign: "left",
-                              fontFamily: "Lato, sans-serif",
-                              lineHeight: "22px",
-                              marginBottom: "0.5rem",
-                              marginTop: "0",
-                            }}
-                          >
-                            Quizella
-                          </h4>
-                          <h5
-                            style={{
-                              textAlign: "left",
-                              fontFamily: "Lato, sans-serif",
-                              lineHeight: "22px",
-                              marginBottom: "0.5rem",
-                            }}
-                          >
-                            February 18
-                          </h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 1000,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4
-                            style={{
-                              textAlign: "left",
-                              fontFamily: "Lato, sans-serif",
-                              lineHeight: "22px",
-                              marginBottom: "0.5rem",
-                              marginTop: "0",
-                            }}
-                          >
-                            {" "}
-                            Poster Presentation
-                          </h4>
-                          <h5
-                            style={{
-                              textAlign: "left",
-                              fontFamily: "Lato, sans-serif",
-                              lineHeight: "22px",
-                              marginBottom: "0.5rem",
-                            }}
-                          >
-                            February 15
-                          </h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events2"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 0,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4>Krishi Manthan </h4>
-                          <h5></h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events2"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 0,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4>Data Analysis</h4>
-                          <h5></h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events2"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 0,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4>MAD-AD</h4>
-                          <h5></h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events2"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 0,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4>SELFIE WITH NATURE</h4>
-                          <h5></h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events2"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 0,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4>GUEST LECTURE</h4>
-                          <h5></h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events2"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 0,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4>TREASURE HUNT</h4>
-                          <h5></h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events2"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 0,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4>Find the Devil</h4>
-                          <h5></h5>
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/Events2"
-                        onClick={() => {
-                          window.scroll({
-                            left: 0,
-                            top: 0,
-                            behavior: "smooth",
-                          });
-                        }}
-                      >
-                        <div className="item-text">
-                          <h4>Agrivation</h4>
-                          <h5></h5>
-                        </div>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <Enav 
+              kmactive="nav-link  "
+              daactive="nav-link"
+              glactive="nav-link"
+              agactive="nav-link"
+              fdactive="nav-link"
+              thactive="nav-link"
+              maactive="nav-link "
+              snactive="nav-link "
+              qactive="nav-link "
+              ppactive="nav-link active"
+               />
+
               <div className="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
                 <div
                   className="tab-content"
@@ -325,18 +111,9 @@ export default class Events1 extends Component {
                     </div>
                   </Fade>
                   <p>
-                  Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
-                  <br/>
-                  <br/>
-                    It is said “Knowledge is Power” which proves itself time and
-                    again. To test the knowledge of the students in general
-                    awareness of the world around us and technical questions
-                    from the field of agriculture, we bring to you the Agro-tech
-                    quiz named, named “Quizella”. It would provide a platform to
-                    the best minds of India in the field of Agricultural and
-                    Food Engineering to test their excellence amongst others and
-                    find out their stand.
-                    <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
+                  Poster design is an expression of thoughts and technical prowess. Your poster can be about anything you want but with one constraint: it must be inspired by the field of agriculture and food engineering. It might tell a story or explain and provide a visual impression of your thoughts - the only limit being your imagination! Come on, Showbiz your style, and put forth a message.
+
+                     <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />
                       </p>

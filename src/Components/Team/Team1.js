@@ -6,7 +6,7 @@ export default class Team extends Component {
     return (
       <div
         style={{
-          backgroundColor: "#8C7AE6",
+          backgroundColor: "#B3F9F3",
           width: "100vw",
           marginTop: "-60px",
         }}
@@ -18,7 +18,7 @@ export default class Team extends Component {
         <div
           className="wrapper"
           style={{
-            backgroundColor: "#8C7AE6",
+            backgroundColor: "#B3F9F3",
             width: "100vw",
           }}
         >
@@ -26,9 +26,9 @@ export default class Team extends Component {
           <br />
           <br />
           <br />
-          <h1>Our Team</h1>
-          <h2 style={{ color: "white" }}>Professors</h2>
-          <hr style={{ width: "8%", marginLeft: "46%" }} />
+          <h1 style={{ color: "#11785D" }}>Our Team</h1>
+          <h2 style={{ color: "#11785D" }}>Professors</h2>
+          <hr style={{ width: "8%", marginLeft: "46%" ,backgroundColor: "#11785D",height:'2px'}} />
 
           <div className="our_team"></div>
           <br />
@@ -79,8 +79,9 @@ export default class Team extends Component {
               <p />
             </div>
           </div>
-          <h2 style={{ color: "white" }}>Heads</h2>
-          <hr style={{ width: "8%", marginLeft: "46%" }} />
+          <h2 style={{ color: "#11785D" }}>Heads</h2>
+          <hr style={{ width: "4%", marginLeft: "48%" ,backgroundColor: "#11785D",height:'2px'}} />
+
           <div className="our_team">
             <div className="team_member">
               <div className="member_img">
@@ -365,7 +366,7 @@ export default class Team extends Component {
                 <div className="social_media">
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/amitkumar.jha.92505956"
+                      href="https://www.facebook.com/ninad.shelke.5621"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f" />
@@ -373,7 +374,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/amitkumar.jha.92505956"
+                      href="https://www.facebook.com/ninad.shelke.5621"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -403,7 +404,7 @@ export default class Team extends Component {
                 <div className="social_media">
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/ninad.shelke.5621"
+                      href="https://www.facebook.com/rakshit.rana.313"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f" />
@@ -411,7 +412,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/ninad.shelke.5621"
+                      href="https://www.facebook.com/rakshit.rana.313"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />
@@ -436,14 +437,14 @@ export default class Team extends Component {
             <div className="team_member">
               <div className="member_img">
                 <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Narpat.jpeg"
+                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/abhinav.jpg"
                   alt="our_team"
                   style={{ borderRadius: "50%" }}
                 />
                 <div className="social_media">
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/rakshit.rana.313"
+                      href="https://www.facebook.com/abhinav.jha.77"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f" />
@@ -451,7 +452,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/rakshit.rana.313"
+                      href="https://www.facebook.com/abhinav.jha.77"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in" />

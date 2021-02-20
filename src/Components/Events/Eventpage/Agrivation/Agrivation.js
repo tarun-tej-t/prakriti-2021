@@ -79,12 +79,12 @@ export default class Events1 extends Component {
               kmactive="nav-link  "
               daactive="nav-link"
               glactive="nav-link"
-              agactive="nav-link"
+              agactive="nav-link active"
               fdactive="nav-link"
               thactive="nav-link"
               maactive="nav-link"
               snactive="nav-link"
-              qactive="nav-link active"
+              qactive="nav-link "
               ppactive="nav-link"
                />
 
@@ -111,17 +111,8 @@ export default class Events1 extends Component {
                     </div>
                   </Fade>
                   <p>
-                  Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
-                  <br/>
-                  <br/>
-                    It is said “Knowledge is Power” which proves itself time and
-                    again. To test the knowledge of the students in general
-                    awareness of the world around us and technical questions
-                    from the field of agriculture, we bring to you the Agro-tech
-                    quiz named, named “Quizella”. It would provide a platform to
-                    the best minds of India in the field of Agricultural and
-                    Food Engineering to test their excellence amongst others and
-                    find out their stand.
+                  Agrivation is an Agri-Innovation competition that encourages business minded people to build viable food and agriculture-based enterprises which may have the potential to upgrade the existing agriculture scenarios, create employment and improve the incomes of people engaged directly and indirectly in agro-based activities.
+
                     <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />

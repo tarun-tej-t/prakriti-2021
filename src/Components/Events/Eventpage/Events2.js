@@ -6,7 +6,6 @@ import img1 from "../../public_html/img/gl.jpeg";
 import img2 from "../../public_html/img/gl2.jpeg";
 import img3 from "../../public_html/img/gl3.jpeg";
 import { Fade } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
 import leftarrow from "../arrow-circle-left-solid.svg";
 import { Link } from "react-router-dom";
 import Modal from './Modal';

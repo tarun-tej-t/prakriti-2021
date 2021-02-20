@@ -10,7 +10,7 @@ export default class Sponsors extends Component {
     return (
       <div
         style={{
-          backgroundColor:'Aqua',
+          backgroundColor: "#B3F9F3",
         }}
       >
         <div style={{ paddingTop: "20vh" }}>
@@ -22,9 +22,9 @@ export default class Sponsors extends Component {
             </div>
           </div>
 
-          <h4>Event Partners</h4>
-
-          <Sponsorcard
+          
+<div ><img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/past%20spon.png" style={{display:'block',marginLeft:'auto',marginRight:'auto',width:'90%'}}/></div>
+         {/*} <Sponsorcard
             simage={maharshiimage}
             stitle="MAHARANI RICE"
             slink="http://www.maharanirice.in/"
@@ -63,7 +63,7 @@ export default class Sponsors extends Component {
             simage={maharshiimage}
             stitle="MAHARANI RICE"
             slink="http://www.maharanirice.in/"
-          />
+      />*/}
         </div>
         <br />
         <br />

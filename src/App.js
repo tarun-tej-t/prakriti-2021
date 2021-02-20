@@ -5,7 +5,17 @@ import Sponsors from "./Components/Sponsors/Sponsors";
 import Team from "./Components/Team/Team1";
 import Registration from "./Components/Registration/Registration";
 import Navbar from "./Components/Navbar/Navbar4";
-import Events from "./Components/Events/eventroute";
+
+
+//Events
+import KrishiManthan from './Components/Events/Eventpage/KrishiManthan//KrishiManthan'
+import DataAnalytics from './Components/Events/Eventpage/DataAnalytics/DataAnalytics'
+import GuestLecture from './Components/Events/Eventpage/GuestLecture/GuestLecture'
+import Agrivation from './Components/Events/Eventpage/Agrivation/Agrivation'
+import Findthedevil from './Components/Events/Eventpage/Findthedevil/Findthedevil'
+import TreasureHunt from "./Components/Events/Eventpage/TreasureHunt/TreasureHunt";
+import MadAd from "./Components/Events/Eventpage/MadAd/MadAd";
+import SelfiewithNature from "./Components/Events/Eventpage/SelfiewithNature/SelfiewithNature";
 import Quizella from "./Components/Events/Eventpage/Quizella/Quizella";
 
 //css files
@@ -48,8 +58,17 @@ function App() {
         <Route exact path="/Registration" component={Registration} />
 
           {/* Events */} 
-          <Route path="/Events" component={Quizella} />
+          <Route path="/Events" component={KrishiManthan} />
+          <Route exact path="/KrishiManthan" component={KrishiManthan}/>
+          <Route exact path="/DataAnalytics" component={DataAnalytics}/>
+          <Route exact path="/GuestLecture" component={GuestLecture}/>
+          <Route exact path="/Agrivation" component={Agrivation} />
+          <Route exact path="/Findthedevil" component={Findthedevil} />
+          <Route exact path="/TreasureHunt" component={TreasureHunt} />
+          <Route exact path="/MadAd" component={MadAd} />
+          <Route exact path="/SelfiewithNature" component={SelfiewithNature} />
           <Route exact path="/Quizella" component={Quizella} />
+
       </Switch>
       <ScrollUpButton
         StopPosition={0}

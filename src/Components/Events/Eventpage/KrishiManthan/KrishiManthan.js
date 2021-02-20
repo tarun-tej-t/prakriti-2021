@@ -3,8 +3,9 @@ import Product from "./Product";
 import "../../styles.css";
 import img1 from "../../../public_html/img/gl.jpeg";
 import img2 from "../../../public_html/img/gl2.jpeg";
-import img3 from "../../../public_html/img/gl3.jpeg"; 
-import { Fade } from "react-slideshow-image";
+import img3 from "../../../public_html/img/gl3.jpeg";
+import { Fade } from "react-slideshow-image"; 
+import "react-slideshow-image/dist/styles.css";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
 import Enav from '../Eventnav'
@@ -76,7 +77,7 @@ export default class Events1 extends Component {
               data-wow-delay="0.3s"
             >
               <Enav 
-              kmactive="nav-link  "
+              kmactive="nav-link  active"
               daactive="nav-link"
               glactive="nav-link"
               agactive="nav-link"
@@ -84,10 +85,9 @@ export default class Events1 extends Component {
               thactive="nav-link"
               maactive="nav-link"
               snactive="nav-link"
-              qactive="nav-link active"
+              qactive="nav-link"
               ppactive="nav-link"
                />
-
               <div className="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
                 <div
                   className="tab-content"
@@ -111,17 +111,9 @@ export default class Events1 extends Component {
                     </div>
                   </Fade>
                   <p>
-                  Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
-                  <br/>
-                  <br/>
-                    It is said “Knowledge is Power” which proves itself time and
-                    again. To test the knowledge of the students in general
-                    awareness of the world around us and technical questions
-                    from the field of agriculture, we bring to you the Agro-tech
-                    quiz named, named “Quizella”. It would provide a platform to
-                    the best minds of India in the field of Agricultural and
-                    Food Engineering to test their excellence amongst others and
-                    find out their stand.
+                  Rigorous analysis of a trending problem in agriculture,facing ground level challenges and providing the most economical solution via one's financial expertise.<br/><br/>
+                  Prakriti presents to you “Krishi-Manthan”, where the participant needs to ponder upon a particular challenge(to be uploaded soon) faced by the farmers. Participants need to place themselves in the situation of farmers and provide the most feasible solution based on all the relevant data which will be provided by us regarding the resources and the budget constraints. Fit in the shoes of a real farmer and tackle their problem just like you manage your pocket money.
+
                     <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />

@@ -1,0 +1,9 @@
+.small1 {
+   
+    float: left;
+    background: rgba(173, 216, 230, 0);
+    margin: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
