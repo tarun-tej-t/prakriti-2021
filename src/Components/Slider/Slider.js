@@ -50,7 +50,7 @@ export default class iSlider extends Component {
       <div>
  
         <div style={{background: `url('https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/dargad.PNG') center`,backgroundSize:'cover',minWidth:'100vw',minHeight:'100vh'}}>
-       <br/> <br/>    <br/> <br/>    <br/> <br/>  
+       <br/> <br/>    <br/> <br/>    <br/> <br/>  <br/> 
         <p style={{paddingLeft:'6vw',paddingRight:'20vw',textAlign:'left',letterSpacing:'1.5px',fontsize:'1em',fontFamily:'Arial',fontWeight:'lighter',lineHeight:'5vh',backgroundColor:'rgb(242, 246, 250,0.4)'}}>
           Prakriti is an Agri and Food Innovation Fest organized by the students of
           

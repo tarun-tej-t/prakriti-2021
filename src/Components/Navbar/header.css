@@ -1,10 +1,12 @@
 .header1 {
     display: flex;
-    background-color: #f6faf885;
+    background-color: #f6faf800;
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
-    height: 80px;
+    height: 130px;
+   
+   
   }
   .logo-nav {
     display: flex;
@@ -145,3 +147,12 @@
     color: rgb(255, 255, 255);
     border-radius: 25px;
   }
+
+ 
+  
+  .scroll1{
+    background-color: #ffffffd8;
+    height: 70px;
+  } 
+
+  
