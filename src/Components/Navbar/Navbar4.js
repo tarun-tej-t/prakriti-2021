@@ -14,7 +14,7 @@ const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  
+  const lw='300px';
 
   return (
     <div
@@ -26,14 +26,14 @@ const Header = () => {
         width: "100vw",
         zIndex: "9999999999999999999999999999999999999999",
         fontFamily: 'Raleway,sans-serif',
-        fontSize:'1.5vw',
-        fontWeight:'600'
+        
+        fontWeight:'900'
       }}
     >
-      <div className="logo-nav" >
-        <div className="logo-container">
-          <a href="#" className="plogo">
-            <img src={logoprakriti} width="300vw" />
+      <div  >
+        <div >
+          <a href="#" >
+            <img src={logoprakriti} width={lw} />
           </a>
         </div>
 
@@ -45,7 +45,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px'}}>Home</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>Home</a>
           </li>
          
          
@@ -56,7 +56,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px'}}>Events</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>Events</a>
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="#Team" onClick={() => {
@@ -65,7 +65,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px'}}>Team</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>Team</a>
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="#Sponsors" onClick={() => {
@@ -74,7 +74,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px'}}>Sponsors</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>Sponsors</a>
           </li>
 
           <li className=" option mobile-option" onClick={closeMobileMenu}>
@@ -84,7 +84,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px'}}>Registration</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>Registration</a>
           </li>
         </ul>
       </div>
@@ -96,7 +96,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontFamily:'lato', padding:'0.8vw',border:'0.2vw solid red'}} class="navother" > Home </a>
+                }}  class="navother" >HOME</a>
         </li>
        
         
@@ -107,7 +107,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontFamily:'lato', padding:'0.8vw',border:'0.2vw solid red'}} class="navother">Events</a>
+                }}  class="navother">EVENTS</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Team" onClick={() => {
@@ -116,7 +116,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontFamily:'lato', padding:'0.8vw',border:'0.2vw solid red'}} class="navother">Team</a>
+                }}  class="navother">TEAM</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Sponsors"  onClick={() => {
@@ -125,7 +125,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontFamily:'lato', padding:'0.8vw',border:'0.2vw solid red'}} class="navother">Sponsors</a>
+                }}  class="navother">SPONSORS</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Registration"  onClick={() => {
@@ -134,7 +134,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontFamily:'lato', padding:'1vw'}} class="navreg">Registration</a>
+                }} style={{fontFamily:'lato', padding:'0.7vw',textDecoration:'none',letterSpacing:'2.5px'}} class="navreg">REGISTRATION</a>
         </li>
       </ul>
       <div className="mobile-menu" onClick={handleClick} id="dhide">
@@ -163,9 +163,10 @@ componentWillUnmount() {
 handleScroll = () => {
   if (window.scrollY > 20) {
     document.querySelector(".header1").className = "header1 scroll1";
-    //document.querySelector(".plogo").className = "plogo plogoscroll";
+
   } else {
     document.querySelector(".header1").className = "header1";
+    
   }
 };
   render() {

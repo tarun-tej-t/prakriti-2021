@@ -5,23 +5,10 @@
     align-items: center;
     padding: 0px 40px;
     height: 130px;
-   
-   
   }
-  .logo-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .logo {
-    width: 45px;
-    height: 45px;
-  }
+  
+  
+  
   .nav-options {
     padding-left: 25px;
     display: grid;
@@ -62,7 +49,7 @@
   }
   @media (max-width: 948px) {
     /*Mobile View */
-    .header {
+    .header1 {
       padding: 0px 10px;
     }
     .logo {
@@ -127,32 +114,54 @@
   }
 
   .navreg{
-    background-color: rgb(255, 0, 0);
+    background-color: #EE6C08;
     color: rgb(255, 255, 255);
    
     border-radius: 25px;
   }
   .navreg:hover{
     background-color: rgb(255, 255, 255);
-    color: rgb(255, 0, 0);
+    color: #EE6C08;
     border-radius: 25px;
+    font-size: 105%;
   }
 
   .navother{
-    color: rgb(255, 0, 0);
+    color: #EE6C08;
     border-radius: 25px;
+    display: inline-flex;
+  height: 25px;
+  width: 100px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  margin: 0 0 0 5%;
+  color: #fd5800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .75em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
   }
   .navother:hover{
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+     border:'5px solid green';
+
     border-radius: 25px;
+  
+    box-shadow: 0 0 5px rgba(30, 130, 76, 1);
+    height: 27px;
+    width: 100px;
+    text-decoration: none;
+    color: rgba(30, 130, 76, 1);
+    font-size: 101%;
   }
 
  
   
   .scroll1{
-    background-color: #ffffffd8;
-    height: 70px;
+    background-color: #ffffff3d;
+    height: 80px;
   } 
 
   
