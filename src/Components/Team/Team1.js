@@ -42,6 +42,16 @@ export default class Team extends Component {
                   alt="our_team"
                   style={{ borderRadius: "50%" }}
                 />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="http://www.iitkgp.ac.in/department/AG/faculty/ag-rb"
+                      target="_blank"
+                    >
+                      <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                    </a>
+                  </div>
+                  </div>
               </div>
               <h3>Rintu Banerjee</h3>
               <h5>Head of the department</h5>
@@ -62,7 +72,16 @@ export default class Team extends Component {
                   src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/DSC_0782-2.jpeg"
                   alt="our_team"
                   style={{ borderRadius: "50%" }}
-                />
+                /> <div className="social_media">
+                <div className="facebook item">
+                  <a
+                    href="http://www.iitkgp.ac.in/department/AG/faculty/ag-rajendra"
+                    target="_blank"
+                  >
+                    <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                  </a>
+                </div>
+                </div>
               </div>
               <h3>Rajendra Machavaram</h3>
               <h5>Chairperson</h5>
@@ -77,7 +96,16 @@ export default class Team extends Component {
                   src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/1517605756966.jpeg"
                   alt="our_team"
                   style={{ borderRadius: "50%" }}
-                />
+                /> <div className="social_media">
+                <div className="facebook item">
+                  <a
+                    href="http://www.iitkgp.ac.in/department/AG/faculty/ag-jayeeta.mitra"
+                    target="_blank"
+                  >
+                    <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                  </a>
+                </div>
+                </div>
               </div>
               <h3>Jayeeta Mitra</h3>
               <h5>Faculty Advisor</h5>
@@ -92,7 +120,16 @@ export default class Team extends Component {
                   src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/ag-joydeep.png"
                   alt="our_team"
                   style={{ borderRadius: "50%" }}
-                />
+                /> <div className="social_media">
+                <div className="facebook item">
+                  <a
+                    href="http://www.iitkgp.ac.in/department/AG/faculty/ag-joydeep"
+                    target="_blank"
+                  >
+                    <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                  </a>
+                </div>
+                </div>
               </div>
               <h3>Joydeep Banerjee</h3>
               <h5>Faculty Advisor</h5>
@@ -116,8 +153,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/ajoonp.kalwaniyan"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
-                    </a>
+<i className="fab fa-facebook-f" />                    </a>
                   </div>
                   <div className="facebook item">
                     <a
