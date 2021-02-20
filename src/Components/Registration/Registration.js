@@ -1,16 +1,14 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar2";
 import '../public_html/reg/css/style.css'
-import rfb from '../public_html/img/rfb.jpg'
+
 import pdf from '../public_html/documents/Registration Guide Manual.pdf'
-const imagess=[
-  rfb
-]
+
 export default class Registration extends Component {
   render() {
     return (
       <div style={{
-        background: `url('${rfb}') `,
+        background: `url('https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/rfb.jpg') `,
         backgroundSize:'cover'
       }}>
        
