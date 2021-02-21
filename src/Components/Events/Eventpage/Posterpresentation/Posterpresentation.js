@@ -94,7 +94,7 @@ export default class Present extends Component {
                   <Fade {...zoomOutProperties}>
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[0]} />
+                        <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/posterpresentation1.jpg" />
                       </div>
                     </div>
                     <div className="each-fade">

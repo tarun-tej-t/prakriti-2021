@@ -156,6 +156,7 @@
   
   .schedule .schedule-tab-title .nav-tabs {
     background: #ffffff;
+    overflow: hidden;
   }
   
   .schedule .schedule-tab-title .nav-tabs .nav-link {
@@ -167,6 +168,7 @@
     border-bottom: 1px solid #e5e5e5;
     transition: all 500ms ease;
     padding: 20px 20px;
+    overflow: hidden;
   }
   
   .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link, .schedule .schedule-tab-title .nav-tabs .nav-link.active,
@@ -182,11 +184,13 @@
   .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h4, .schedule .schedule-tab-title .nav-tabs .nav-link.active h4,
   .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h4 {
     color: #fff;
+    overflow: hidden;
   }
   
   .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h5, .schedule .schedule-tab-title .nav-tabs .nav-link.active h5,
   .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h5 {
     color: #fff;
+    overflow: hidden;
   }
   
   .schedule .schedule-tab-title .item-text h4 {
@@ -209,6 +213,8 @@
   
   .schedule .schedule-tab-content .tab-content {
     box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    text-justify: inter-word;
   }
   
   .schedule .schedule-tab-content .card {

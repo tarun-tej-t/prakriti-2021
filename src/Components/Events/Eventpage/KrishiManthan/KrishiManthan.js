@@ -96,21 +96,18 @@ export default class Events1 extends Component {
                   <Fade {...zoomOutProperties}>
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[0]} />
+                        <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/krishi1.jpg" />
                       </div>
                     </div>
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[1]} />
+                        <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/krishi2.jpg" />
                       </div>
                     </div>
-                    <div className="each-fade">
-                      <div className="image-container">
-                        <img src={fadeImages[2]} />
-                      </div>
-                    </div>
+                   
                   </Fade>
                   <p>
+                  
                   Rigorous analysis of a trending problem in agriculture,facing ground level challenges and providing the most economical solution via one's financial expertise.<br/><br/>
                   Prakriti presents to you “Krishi-Manthan”, where the participant needs to ponder upon a particular challenge(to be uploaded soon) faced by the farmers. Participants need to place themselves in the situation of farmers and provide the most feasible solution based on all the relevant data which will be provided by us regarding the resources and the budget constraints. Fit in the shoes of a real farmer and tackle their problem just like you manage your pocket money.
 

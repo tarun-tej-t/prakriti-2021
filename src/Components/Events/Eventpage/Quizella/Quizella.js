@@ -96,19 +96,15 @@ export default class Events1 extends Component {
                   <Fade {...zoomOutProperties}>
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[0]} />
+                        <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/quizella1.jpg" />
                       </div>
                     </div>
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[1]} />
+                        <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/quizella2.jpg" />
                       </div>
                     </div>
-                    <div className="each-fade">
-                      <div className="image-container">
-                        <img src={fadeImages[2]} />
-                      </div>
-                    </div>
+                    
                   </Fade>
                   <p>
                   Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.

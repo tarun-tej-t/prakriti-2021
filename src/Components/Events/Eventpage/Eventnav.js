@@ -45,7 +45,7 @@ export default class Eventnav extends Component {
                               marginBottom: "0.5rem",
                             }}
                           >
-                           alkjlkj kajsldkfj 
+                           A Case Study Competition
                           </h5>
                         </div>
                       </Link>
@@ -66,7 +66,7 @@ export default class Eventnav extends Component {
                             style={{
                               textAlign: "left",
                               fontFamily: "Lato, sans-serif",
-                              lineHeight: "22px",
+                              lineHeight: "20px",
                               marginBottom: "0.5rem",
                               marginTop: "0",
                             }}
@@ -77,11 +77,11 @@ export default class Eventnav extends Component {
                             style={{
                               textAlign: "left",
                               fontFamily: "Lato, sans-serif",
-                              lineHeight: "22px",
-                              marginBottom: "0.5rem",
+                              lineHeight: "18px",
+                              marginBottom: "1rem",
                             }}
                           >
-                            sadfasdfasdf
+                            Analyse the past and predict the future
                           </h5>
                         </div>
                       </Link>
@@ -225,7 +225,7 @@ export default class Eventnav extends Component {
                               marginBottom: "0.5rem",
                             }}
                           >
-                            
+                            Be the first in finding something
                           </h5>
                         </div>
                       </Link>
@@ -261,7 +261,7 @@ export default class Eventnav extends Component {
                               marginBottom: "0.5rem",
                             }}
                           >
-                          
+                          Showcase your Advertising Skills
                           </h5>
                         </div>
                       </Link>
@@ -297,7 +297,7 @@ export default class Eventnav extends Component {
                               marginBottom: "0.5rem",
                             }}
                           >
-                            
+                            A Photography contest
                           </h5>
                         </div>
                       </Link>
@@ -333,7 +333,7 @@ export default class Eventnav extends Component {
                               marginBottom: "0.5rem",
                             }}
                           >
-                         
+                         Let's play a mind sport
                           </h5>
                         </div>
                       </Link>
@@ -367,11 +367,12 @@ export default class Eventnav extends Component {
                             style={{
                               textAlign: "left",
                               fontFamily: "Lato, sans-serif",
-                              lineHeight: "22px",
-                              marginBottom: "0.5rem",
+                              lineHeight: "20px",
+                              marginBottom: "1rem",
+                              fontSize:'11px'
                             }}
                           >
-                           
+                           Communicate your Research & Understanding
                           </h5>
                         </div>
                       </Link>

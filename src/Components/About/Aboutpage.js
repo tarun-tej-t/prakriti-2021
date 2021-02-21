@@ -37,11 +37,11 @@ export default class Aboutpage extends Component {
          {/*single-well end-->*/}
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="well-middle">
-              <div class="single-well">
+              <div class="single-well" style={{textAlign:'justify',textJustify:'inter-word'}}>
                 
                   <h4 class="sec-head">History</h4>
                 
-                <p>
+                <p style={{textAlign:'justify',textJustify:'inter-word'}}>
                   With its inception in 2010, Prakriti pioneered the cause of organizing an Agri and Food Innovation Fest at a national level. The first edition of Prakriti saw a huge participation from both the academic and the industrial front. Association with renowned companies like ITC, John Deere, Tetrapak and Siemens contributed significantly in catalyzing its success and helped it achieve greater heights. This year, we hope to make the fest bigger and better by extending our heartiest welcome to many more agro-based institutions and enterprises, and coalesce it with the concept of sustainability.
                 </p>
                 <h4 class="sec-head">Registration</h4>
