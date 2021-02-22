@@ -104,7 +104,11 @@ export default class Events1 extends Component {
                         <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/quizella2.jpg" />
                       </div>
                     </div>
-                    
+                    <div className="each-fade">
+                      <div className="image-container">
+                        <img src="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/q01.jpg?raw=true" />
+                      </div>
+                    </div>
                   </Fade>
                   <p>
                   Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.

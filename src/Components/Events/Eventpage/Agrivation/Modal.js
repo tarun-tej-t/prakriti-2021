@@ -14,7 +14,7 @@ class Modal extends Component {
           >
             <h1
               style={{
-                backgroundColor: "#09AFDF",
+                backgroundColor: "red",
                 borderRadius: "9px",
                 marginLeft: "5%",
                 marginTop: "-0vh",

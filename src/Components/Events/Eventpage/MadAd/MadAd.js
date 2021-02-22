@@ -94,19 +94,15 @@ export default class Events1 extends Component {
                   style={{ backgroundColor: "white" }}
                 >
                   <Fade {...zoomOutProperties}>
+                  
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[0]} />
+                        <img src="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/ma1.jpg?raw=true" />
                       </div>
                     </div>
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[1]} />
-                      </div>
-                    </div>
-                    <div className="each-fade">
-                      <div className="image-container">
-                        <img src={fadeImages[2]} />
+                        <img src="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/ma2.jpg?raw=true" />
                       </div>
                     </div>
                   </Fade>

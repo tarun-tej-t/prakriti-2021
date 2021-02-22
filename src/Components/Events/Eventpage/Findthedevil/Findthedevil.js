@@ -96,19 +96,15 @@ export default class Events1 extends Component {
                   <Fade {...zoomOutProperties}>
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[0]} />
+                        <img src="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/findthedevil1.JPG?raw=true" />
                       </div>
                     </div>
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[1]} />
+                        <img src="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/findthedevil2.jpg?raw=true" />
                       </div>
                     </div>
-                    <div className="each-fade">
-                      <div className="image-container">
-                        <img src={fadeImages[2]} />
-                      </div>
-                    </div>
+                   
                   </Fade>
                   <p>
                   Prakriti 2021 introduces an entirely new Online event: Find The Devil to make you more aware about hidden killers in your food,

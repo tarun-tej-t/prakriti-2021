@@ -101,6 +101,12 @@ export default class Events1 extends Component {
                     </div>
                     <div className="each-fade">
                       <div className="image-container">
+                        <img src="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/th3.PNG?raw=true" width="3000px"/>
+                      </div>
+                    </div>
+                   
+                    <div className="each-fade">
+                      <div className="image-container">
                         <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/treasurehunt1.jpg" />
                       </div>
                     </div>

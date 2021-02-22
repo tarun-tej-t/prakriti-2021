@@ -113,11 +113,12 @@ export default class Eventnav extends Component {
                             style={{
                               textAlign: "left",
                               fontFamily: "Lato, sans-serif",
-                              lineHeight: "22px",
+                              lineHeight: "20px",
                               marginBottom: "0.5rem",
+                              fontSize:'11px'
                             }}
                           >
-                         
+                         Interaction session with Industry Experts
                           </h5>
                         </div>
                       </Link>
@@ -153,7 +154,7 @@ export default class Eventnav extends Component {
                               marginBottom: "0.5rem",
                             }}
                           >
-                            
+                            Pitch your startup
                           </h5>
                         </div>
                       </Link>
@@ -187,9 +188,10 @@ export default class Eventnav extends Component {
                               fontFamily: "Lato, sans-serif",
                               lineHeight: "22px",
                               marginBottom: "0.5rem",
+                              fontSize:"11px"
                             }}
                           >
-                     
+                     Test your knowledge of food adulterants
                           </h5>
                         </div>
                       </Link>

@@ -48,13 +48,11 @@ export default class Testimonial extends Component {
                             industrial applications. This fest gives you the
                             opportunity to interact with your peers and listen
                             to field experts in the country, I therefore urge
-                            you to participate in the 11th edition of Prakriti
-                            and understand the future lying ahead. See you all
-                            on March,20th 2020.{" "}
+                            you to participate in the 12th edition of Prakriti
+                            and understand the future lying ahead. {" "}
                           </p>
                           <h6>
-                            From the Desk of Head Of Department, Prof. Nirupama
-                            Mallick
+                            From the Desk of Head Of Department, Prof. Rintu Banerjee
                           </h6>
                         </div>
                       </div>
@@ -74,7 +72,7 @@ export default class Testimonial extends Component {
                             great success. See you soon at IIT Kharagpur.
                           </p>
                           <h6>
-                            From the Desk of Chairperson, Prof Jayeeta Mitra.{" "}
+                            From the Desk of Chairperson, Prof Rajendra Machavaram .{" "}
                           </h6>
                         </div>
                       </div>

@@ -54,7 +54,7 @@ export default class Team extends Component {
                   </div>
               </div>
               <h3>Rintu Banerjee</h3>
-              <h5>Head of the department</h5>
+              <h5>Head of the Department</h5>
               <p />
             </div>
            </div>
@@ -84,7 +84,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Rajendra Machavaram</h3>
-              <h5>Chairperson</h5>
+              <h5>Faculty Advisor</h5>
               <p />
             </div>
             <div className="team_member" style={{ width: "280px" }}>

@@ -14,14 +14,14 @@ class Modal extends Component {
           >
             <h1
               style={{
-                backgroundColor: "#09AFDF",
+                backgroundColor: "red",
                 borderRadius: "9px",
                 marginLeft: "5%",
                 marginTop: "-0vh",
                 position: "fixed",
                 width: "90%",
                 color: "white",
-                fontSize:'3rem'
+                fontSize: "3rem",
               }}
             >
               Treasure Hunt{" "}
@@ -48,14 +48,21 @@ class Modal extends Component {
                   lineHeight: "1.6",
                   fontFamily: "Raleway,sans-serif",
                 }}
-              >(THEME : SAVE THE AMAZON)
-              <br/>
-              "The world has enough for everyone's needs, but not everyone's greed", that’s what Mahatma Gandhi said in one of his best-known quotes. But it took us several decades and a devastating pandemic to realize the depth of his quote. Indeed, we have limited resources on our planet and our everlasting greeds may soon turn the planet lifeless. To change the current scenario, and make our youth aware of different environmental issues, PRAKRITI 2021 is launching an online treasure hunt event for the first time.
-
+              >
+                (THEME : SAVE THE AMAZON)
+                <br />
+                "The world has enough for everyone's needs, but not everyone's
+                greed", that’s what Mahatma Gandhi said in one of his best-known
+                quotes. But it took us several decades and a devastating
+                pandemic to realize the depth of his quote. Indeed, we have
+                limited resources on our planet and our everlasting greeds may
+                soon turn the planet lifeless. To change the current scenario,
+                and make our youth aware of different environmental issues,
+                PRAKRITI 2021 is launching an online treasure hunt event for the
+                first time.
               </h5>
               <span>
                 <h3>Rules</h3>
-              
 
                 <ul
                   style={{
@@ -64,32 +71,37 @@ class Modal extends Component {
                     fontSize: "16px",
                   }}
                 >
+                  <li> 1) This is an individual event.</li>
+
                   <li>
                     {" "}
-                   
-1) This is an individual event.
-
+                    2) Only those are allowed to participate who have registered
+                    online. .
                   </li>
 
-               
-                  <li> 2) Only those are allowed to participate who have registered online.
-.</li>
-                
                   <li>
-                   3) In this event, participants would be given different virtual missions that would address some burning environmental issues like climate change, amazon fires, urban pollution etc. Each mission would be further divided into smaller tasks and to complete each task participants need to solve a bunch interesting riddles.
+                    3) In this event, participants would be given different
+                    virtual missions that would address some burning
+                    environmental issues like climate change, amazon fires,
+                    urban pollution etc. Each mission would be further divided
+                    into smaller tasks and to complete each task participants
+                    need to solve a bunch interesting riddles.
                   </li>
 
-                  <li> 4) After solving each task, participants would receive “completion codes”, which they would need in the later stages of the game.
-</li>
-
-                  <li> 5) Participants who would complete all the missions in the shortest time would be the winner.
-</li>
-          
                   <li>
-                   6) Total Prize Money: INR 10,000
+                    {" "}
+                    4) After solving each task, participants would receive
+                    “completion codes”, which they would need in the later
+                    stages of the game.
                   </li>
 
-               
+                  <li>
+                    {" "}
+                    5) Participants who would complete all the missions in the
+                    shortest time would be the winner.
+                  </li>
+
+                  <li>6) Total Prize Money: INR 10,000</li>
                 </ul>
               </span>
               <button onClick={this.props.onHide}>Close</button>

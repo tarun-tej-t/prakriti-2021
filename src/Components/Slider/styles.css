@@ -58,15 +58,15 @@ button {
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
   border: none;
-  background: #00ccff;
+  background: red;
   border-radius: 30px;
   text-transform: uppercase;
   box-sizing: border-box;
   padding: 15px 40px;
   font-weight: 400;
   font-size: 23px;
-  cursor: cursor;
-  color:'white';
+  cursor: pointer;
+  
 }
 
 button:hover {

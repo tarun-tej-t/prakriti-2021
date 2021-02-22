@@ -92,19 +92,20 @@ export default class Present extends Component {
                   style={{ backgroundColor: "white" }}
                 >
                   <Fade {...zoomOutProperties}>
+                  <div className="each-fade">
+                      <div className="image-container">
+                        <img src="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/pp2.jpg?raw=true" />
+                      </div>
+                    </div>
                     <div className="each-fade">
                       <div className="image-container">
                         <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/posterpresentation1.jpg" />
                       </div>
                     </div>
+                    
                     <div className="each-fade">
                       <div className="image-container">
-                        <img src={fadeImages[1]} />
-                      </div>
-                    </div>
-                    <div className="each-fade">
-                      <div className="image-container">
-                        <img src={fadeImages[2]} />
+                        <img src="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/pp3.jpg?raw=true" />
                       </div>
                     </div>
                   </Fade>
