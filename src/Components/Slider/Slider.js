@@ -42,7 +42,7 @@ const content = [
   },
 ];
 
-const images = [mainbuilding, oneimg, prakriticover];
+
 
 export default class iSlider extends Component {
   render() {

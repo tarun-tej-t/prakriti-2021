@@ -20,17 +20,17 @@ import Quizella from "./Components/Events/Eventpage/Quizella/Quizella";
 import PosterPresentation from "./Components/Events/Eventpage/PosterPresentation/PosterPresentation";
 
 //css files
-import "./Components/public_html/css/nivo-slider-theme.css";
+
 import "./Components/public_html/css/style.css";
 import "./Components/public_html/css/styleold.css";
 import "./Components/public_html/css/responsive.css";
 import "./Components/public_html/lib/bootstrap/css/bootstrap.min.css";
-import "./Components/public_html/lib/nivo-slider/css/nivo-slider.css";
-import "./Components/public_html/lib/owlcarousel/owl.carousel.css";
-import "./Components/public_html/lib/owlcarousel/owl.transitions.css";
+
+
+
 import "./Components/public_html/lib/font-awesome/css/font-awesome.min.css";
-import "./Components/public_html/lib/animate/animate.min.css";
-import "./Components/public_html/lib/venobox/venobox.css";
+
+
 
 import { Link } from "react-router-dom";
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
@@ -38,7 +38,7 @@ import Footer from "./Components/Footer/Footer";
 
 import ReactGa from "react-ga";
 
-function App() {
+function App() {  
   useEffect(() => {
     ReactGa.initialize("UA-187856504-1");
     //to report page view
@@ -46,9 +46,9 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App"> 
       <Navbar />
-
+ 
       <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/home" component={Homepage} />
@@ -80,7 +80,7 @@ function App() {
         ContainerClassName="ScrollUpButton__Container"
         TransitionClassName="ScrollUpButton__Toggled"
         style={{ zIndex: "100" }}
-        ToggledStyle={{}}
+        ToggledStyle={{}} 
       />
       <Footer />
     </div>

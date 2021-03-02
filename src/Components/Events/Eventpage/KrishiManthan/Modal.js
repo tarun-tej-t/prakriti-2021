@@ -41,7 +41,7 @@ class Modal extends Component {
                 <h5 style={{fontSize:'15px',fontWeight:'700',color:'#333',lineHeight:'1.2',fontFamily:'Raleway,sans-serif'}}>
                 Prakriti presents to you, a new event named “Krishi-Manthan”, where the participant needs to ponder upon a particular challenge faced by the farmers. Participants need to place themselves in the situation of farmers and provide the most feasible solution based on all the relevant data which will be provided by us regarding the resources and the budget constraints. Fit in the shoes of a real farmer and tackle their problem just like you manage your pocket money.
                 </h5>
-                <h4>Problem Statement : Will be updated soon <a href="/" target="_blank" style={{color:'blue'}}></a></h4>
+                <h4>Problem Statement : <a href="https://tinyurl.com/KrishiManthan" target="_blank" style={{color:'blue'}}>Click Here</a></h4>
                 <span>
                   <h3>Rules</h3>
                   <h4 style={{textAlign:'left'}}>The online quiz will be conducted in two phases. Participants can appear for any one or both of them :</h4>
@@ -55,12 +55,12 @@ class Modal extends Component {
 
                     <li>
                       {" "}
-                      3) Teams must mail their detailed abstract(in word or PDF form) or presentation to contact@prkrt.co.in with the subject of the mail as “Prakriti2021_Krishi-Manthan_Submission_abstractSubmission_team name” before the deadline ().
+                      3) Teams must mail their detailed abstract(in word or PDF form) or presentation to contact@prkrt.co.in with the subject of the mail as “Prakriti2021_Krishi-Manthan_Submission_abstractSubmission_team name” before the deadline (17th March,2021).
                     </li>
 
                     <li>
                       {" "}
-                      4) Teams also have to submit a video-abstract, of not more than 5 minutes, explaining their abstract or presentation before the deadline().
+                      4) Teams also have to submit a video-abstract, of not more than 5 minutes, explaining their abstract or presentation before the deadline(17th March,2021).
                     </li>
 
                     <li>

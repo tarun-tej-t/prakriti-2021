@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Navbar from "./Components/Navbar/Navbar4";
+
 import Slider from "./Components/Slider/Slider";
 import Aboutpage from "./Components/About/Aboutpage";
-import Events from "./Components/Events/Events";
+import Posterupdates from './Components/Posterupdates/Posterupdates'
 import Contactus from "./Components/Contactus/Contactus";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import {Link} from 'react-scroll'
@@ -22,8 +22,9 @@ export default class Homepage extends Component {
  
         <Slider />
         <Aboutpage />
+        <Posterupdates/>
         <Testimonial />
-        <Contactus id="contactus" />
+     
        
        
       </div>

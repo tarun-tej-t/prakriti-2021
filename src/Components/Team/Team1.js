@@ -11,10 +11,7 @@ export default class Team extends Component {
           marginTop: "-60px",
         }}
       >
-        <link
-          rel="stylesheet"
-          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        />
+       
         <div
           className="wrapper"
           style={{
@@ -22,6 +19,7 @@ export default class Team extends Component {
             width: "100vw",
           }}
         >
+          <br />
           <br />
           <br />
           <br />
@@ -84,7 +82,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Rajendra Machavaram</h3>
-              <h5>Faculty Advisor</h5>
+              <h5>Chairperson</h5>
               <p />
             </div>
             <div className="team_member" style={{ width: "280px" }}>
@@ -136,6 +134,135 @@ export default class Team extends Component {
               <p />
             </div>
           </div>
+          <div className="our_team">
+            
+           
+            <div className="team_member" style={{ width: "280px" }}>
+              <div
+                className="member_img"
+                style={{ height: "240px", maxWidth: "240px" }}
+              >
+                <img
+                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/somsubhra.jpeg"
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                /> <div className="social_media">
+                <div className="facebook item">
+                  <a
+                    href="http://www.iitkgp.ac.in/department/AG/faculty/ag-somsubhra"
+                    target="_blank"
+                  >
+                    <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                  </a>
+                </div>
+                </div>
+              </div>
+              <h3> Somsubhra Chakraborty</h3>
+              <h5>Faculty Advisor</h5>
+              <p />
+            </div>
+            <div className="team_member" style={{ width: "280px" }}>
+              <div
+                className="member_img"
+                style={{ height: "240px", maxWidth: "240px" }}
+              >
+                <img
+                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/peeyush.jpeg"
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                /> <div className="social_media">
+                <div className="facebook item">
+                  <a
+                    href="http://www.iitkgp.ac.in/department/AG/faculty/ag-soni"
+                    target="_blank"
+                  >
+                    <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                  </a>
+                </div>
+                </div>
+              </div>
+              <h3>Peeyush Soni</h3>
+              <h5>Faculty Advisor</h5>
+              <p />
+            </div>
+            <div className="team_member" style={{ width: "280px" }}>
+              <div
+                className="member_img"
+                style={{ height: "240px", maxWidth: "240px" }}
+              >
+                <img
+                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/amey.jpeg"
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                /> <div className="social_media">
+                <div className="facebook item">
+                  <a
+                    href="http://www.iitkgp.ac.in/department/AG/faculty/ag-amey"
+                    target="_blank"
+                  >
+                    <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                  </a>
+                </div>
+                </div>
+              </div>
+              <h3>Amey Pathak </h3>
+              <h5>Faculty Advisor</h5>
+              <p />
+            </div>
+          </div>
+          <div className="our_team">
+            
+           
+           
+            <div className="team_member" style={{ width: "280px" }}>
+              <div
+                className="member_img"
+                style={{ height: "240px", maxWidth: "240px" }}
+              >
+                <img
+                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/poulomi.jpeg"
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                /> <div className="social_media">
+                <div className="facebook item">
+                  <a
+                    href="http://www.iitkgp.ac.in/department/AG/faculty/ag-pganguli"
+                    target="_blank"
+                  >
+                    <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                  </a>
+                </div>
+                </div>
+              </div>
+              <h3> Poulomi Ganguli</h3>
+              <h5>Faculty Advisor</h5>
+              <p />
+            </div>
+            <div className="team_member" style={{ width: "280px" }}>
+              <div
+                className="member_img"
+                style={{ height: "240px", maxWidth: "240px" }}
+              >
+                <img
+                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Kanishka.jpeg"
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                /> <div className="social_media">
+                <div className="facebook item">
+                  <a
+                    href="http://www.iitkgp.ac.in/department/AG/faculty/ag-kanishka"
+                    target="_blank"
+                  >
+                    <img src='https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/iitkgp_icon.png' style={{width:'55px',backgroundColor:'white'}}/>
+                  </a>
+                </div>
+                </div>
+              </div>
+              <h3>Kanishka Bhunia</h3>
+              <h5>Faculty Advisor</h5>
+              <p />
+            </div>
+          </div>
           <h2 style={{ color: "#11785D" }}>Heads</h2>
           <hr style={{ width: "4%", marginLeft: "48%" ,backgroundColor: "#11785D",height:'2px'}} />
 
@@ -153,14 +280,14 @@ export default class Team extends Component {
                       href="https://www.facebook.com/ajoonp.kalwaniyan"
                       target="_blank"
                     >
-<i className="fab fa-facebook-f" />                    </a>
+<i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>                </a>
                   </div>
                   <div className="facebook item">
                     <a
                       href="https://www.linkedin.com/in/narpat-ram-kalwaniya-54521316b"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -191,7 +318,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/amitkumar.jha.92505956"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -199,7 +326,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/amit-kumar-jha-80b308154"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -229,7 +356,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/profile.php?id=100008984739412"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -237,7 +364,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/subhash-bayal-018b2a129"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -269,7 +396,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/prachi.bajpai.58726"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -277,7 +404,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/prachi-bajpai-011086172/"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -308,7 +435,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/rima.jana.7399"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -316,7 +443,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/rima-jana-5921a7191"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -346,7 +473,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/harsh.thakur.5070276"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -354,7 +481,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/harshvardhan-singh-thakur-750764191"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -386,7 +513,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/aashish-kumar-419515165"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -394,7 +521,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/aashish-kumar-419515165"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -425,7 +552,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/ninad.shelke.5621"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -433,7 +560,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/ninad-shelke-4163a8170"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -463,7 +590,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/rakshit.rana.313"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -471,7 +598,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/rakshit-rana-3aa151190"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -503,7 +630,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/abhinav.jha.77"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -511,7 +638,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/abhinav-jha-431a901a0"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>
@@ -542,7 +669,7 @@ export default class Team extends Component {
                       href="https://www.facebook.com/devendra.kumarmaurya.5680"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                       <i class="fa fa-facebook-official" style={{fontSize:'29px'}}></i>
                     </a>
                   </div>
                   <div className="facebook item">
@@ -550,7 +677,7 @@ export default class Team extends Component {
                       href="https://www.linkedin.com/in/devendra-maurya-605a26190/"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin-in" />
+                      <i class="fa fa-linkedin" style={{fontSize:'29px'}} ></i>
                     </a>
                   </div>
                 </div>

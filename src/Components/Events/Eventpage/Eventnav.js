@@ -20,7 +20,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 300,
                             behavior: "smooth",
                           });
                         }}
@@ -56,7 +56,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}
@@ -92,7 +92,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}
@@ -129,7 +129,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}
@@ -165,7 +165,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}
@@ -202,7 +202,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}
@@ -238,7 +238,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}
@@ -274,7 +274,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}
@@ -310,7 +310,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}
@@ -347,7 +347,7 @@ export default class Eventnav extends Component {
                         onClick={() => {
                           window.scroll({
                             left: 0,
-                            top: 1000,
+                            top: 400,
                             behavior: "smooth",
                           });
                         }}

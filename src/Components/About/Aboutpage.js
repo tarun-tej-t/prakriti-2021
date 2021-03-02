@@ -36,7 +36,7 @@ export default class Aboutpage extends Component {
           </div>
          {/*single-well end-->*/}
           <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-middle">
+            <div class="well-middle"> 
               <div class="single-well" style={{textAlign:'justify',textJustify:'inter-word'}}>
                 
                   <h4 class="sec-head">History</h4>

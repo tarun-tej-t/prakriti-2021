@@ -9,7 +9,7 @@ export default class Eventcard extends Component {
   render() {
     return (
       <div>
-        <div class="column text-center">
+        <div class="column text-center">    
           <div class="services-contents">
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="about-move">

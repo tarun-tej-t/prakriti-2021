@@ -8,7 +8,7 @@ import close from './close.svg'
 import Scroll from "react-scroll"; 
 import "./header.css";
 
-const ScrollLink = Scroll.Link;
+
 
 
 
@@ -79,7 +79,7 @@ const Header = () => {
                 }} style={{fontSize:'20px',textDecoration:'none'}}>SPONSORS</a>
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
-            <a href="#" onClick={() => {
+            <span href="#" onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 6100,
@@ -87,7 +87,7 @@ const Header = () => {
                   });
                 }} style={{fontSize:'20px',textDecoration:'none'}}>
                 CONTACT US
-             </a>
+             </span>
           </li>
 
           <li className=" option mobile-option" onClick={closeMobileMenu}>
@@ -138,16 +138,16 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }}  class="navother" style={{fontSize:'12px'}}>SPONSORS</a>
+                }}  class="navother" >SPONSORS</a>
         </li>
         <li className="sign-in" onClick={closeMobileMenu}>
-          <a href="#"  onClick={() => {
+          <p href="#"  onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 10000,
                     behavior: "smooth",
                   });
-                }}  class="navother">CONTACT</a>
+                }}  class="navother" style={{cursor:'pointer'}}>CONTACT</p>
         </li>
  
         <li className="sign-in" onClick={closeMobileMenu}>
