@@ -52,7 +52,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/home" component={Homepage} />
-      
+        <Route exact path="/contact" component={Homepage} />
      
         <Route exact path="/Team" component={Team} />
         <Route exact path="/Sponsors" component={Sponsors} />

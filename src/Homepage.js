@@ -23,7 +23,7 @@ export default class Homepage extends Component {
         <Slider />
         <Aboutpage />
         <Testimonial />
-        <Contactus />
+        <Contactus id="contactus" />
        
        
       </div>

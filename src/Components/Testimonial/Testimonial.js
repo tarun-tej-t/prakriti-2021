@@ -1,26 +1,42 @@
 import React, { Component } from "react";
 import Slider from "@farbenmeer/react-spring-slider";
+import { Fade } from "react-slideshow-image";
 
 export default class Testimonial extends Component {
+  
   render() {
+    const zoomOutProperties = {
+      indicators: (i) => <div className="indicator" style={{borderRadius:'50%'}}><div style={{backgroundColor:'white',borderRadius:'50%',padding:'5px'}}></div></div>,
+
+      scale: 0.1,
+
+      duration: 8000,
+      transitionDuration: 1000,
+      infinite: true,
+      canSwipe:true,
+      prevArrow: (
+        <div style={{ width: "30px", marginRight: "-30px", color: "white" }}>
+          <img
+        
+            style={{ width: "30px", marginRight: "-30px", color: "white" }}
+          />
+        </div>
+      ),
+      nextArrow: (
+        <div style={{ width: "30px", marginLeft: "-30px" }}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            fill="#fff"
+          >
+           
+          </svg>
+        </div>
+      ),
+    };
     return (
       <div>
-        <Slider
-			activeIndex={2}
-			slidesAtOnce={2}
-			auto
-			hasBullets
-		
-		>
-			<div>chi <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />ld 1 b</div>
-			<div>child 2</div>
-			<div>child 3</div>
-		</Slider>
-    <Slider hasBullets bulletStyle={{ backgroundColor: "#fff",color:'white' }}>
-    <div>child 1</div>
-			<div>child 2</div>
-			<div>child 3</div>
-</Slider>
+       
         <div class="testimonials-area">
           <div class="testi-inner area-padding">
             <div class="testi-overly"></div>
@@ -30,11 +46,16 @@ export default class Testimonial extends Component {
                 <div class="col-md-12 col-sm-12 col-xs-12">
                   {/* Start testimonials Start */}
                   <div class="testimonial-content text-center">
-                    <a class="quate" href="#">
+                    <span class="quate" >
                       <i class="fa fa-quote-right"></i>
-                    </a>
+                    </span>
                     {/* start testimonial carousel */}
                     <div class="testimonial-carousel">
+                    <Fade {...zoomOutProperties}>
+                  
+                   
+                    <div className="each-fade">
+                      <div className="image-container">
                       <div class="single-testi">
                         <div class="testi-text">
                           <p>
@@ -56,7 +77,10 @@ export default class Testimonial extends Component {
                           </h6>
                         </div>
                       </div>
-                      {/* End single item */}
+                      </div>
+                    </div>
+                    <div className="each-fade">
+                      <div className="image-container">
                       <div class="single-testi">
                         <div class="testi-text">
                           <p>
@@ -76,6 +100,10 @@ export default class Testimonial extends Component {
                           </h6>
                         </div>
                       </div>
+                      </div>
+                    </div>
+                  </Fade>
+                      
                       {/* End single item */}
                     </div>
                   </div>

@@ -23,30 +23,7 @@ export default class Events1 extends Component {
       duration: 3000,
       transitionDuration: 500,
       infinite: true,
-      prevArrow: (
-        <div
-          style={{
-            width: "4%",
-            height: "30vh",
-            marginRight: "-30px",
-            color: "white",
-            backgroundColor: "rgb(255,255,255,0.3)",
-            cursor: "pointer",
-          }}
-        ></div>
-      ),
-      nextArrow: (
-        <div
-          style={{
-            width: "4%",
-            height: "30vh",
-            marginLeft: "-30px",
-            color: "white",
-            backgroundColor: "rgb(255,255,255,0.3)",
-            cursor: "pointer",
-          }}
-        ></div>
-      ),
+     
     };
 
     return (
@@ -76,7 +53,7 @@ export default class Events1 extends Component {
               data-wow-delay="0.3s"
             >
               <Enav 
-              kmactive="nav-link  "
+              kmactive="nav-link  " 
               daactive="nav-link"
               glactive="nav-link"
               agactive="nav-link"

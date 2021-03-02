@@ -22,8 +22,8 @@ export default class Contactus extends Component {
                     <div class="single-icon">
                       <i class="fa fa-mobile"></i>
                       <p>
-                        Call+Whatsapp: 7479370099 <br />
-                        Call+Whatsapp: 9694533544; 9304037602
+                        Call+Whatsapp: 9694533544 <br />
+                        Call+Whatsapp: 7602099943
                       </p>
                     </div>
                   </div>

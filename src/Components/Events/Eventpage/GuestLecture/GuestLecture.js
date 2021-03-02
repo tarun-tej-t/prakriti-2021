@@ -24,30 +24,7 @@ export default class Events1 extends Component {
       duration: 3000,
       transitionDuration: 500,
       infinite: true,
-      prevArrow: (
-        <div
-          style={{
-            width: "4%",
-            height: "30vh",
-            marginRight: "-30px",
-            color: "white",
-            backgroundColor: "rgb(255,255,255,0.3)",
-            cursor: "pointer",
-          }}
-        ></div>
-      ),
-      nextArrow: (
-        <div
-          style={{
-            width: "4%",
-            height: "30vh",
-            marginLeft: "-30px",
-            color: "white",
-            backgroundColor: "rgb(255,255,255,0.3)",
-            cursor: "pointer",
-          }}
-        ></div>
-      ),
+     
     };
 
     return (

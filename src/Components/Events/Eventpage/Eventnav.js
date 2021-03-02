@@ -11,8 +11,8 @@ export default class Eventnav extends Component {
         return (
          
                 <div className="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
-                <div className="table-responsive">
-                  <ul className="nav nav-tabs" id="myTab" role="tablist">
+                <div >
+                  <ul className=" nav-tabs" id="myTab" role="tablist">
                   <li className="nav-item">
                       <Link
                         className={this.props.kmactive}

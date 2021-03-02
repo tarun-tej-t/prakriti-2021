@@ -24,7 +24,7 @@ class Product extends Component {
           <div key={key} className="small1">
             
            
-            <button onClick={() => this.getModal(data.id)}>Know more</button>
+            <button onClick={() => this.getModal(data.id)} style={{color:'whitesmoke'}}>Know more</button>
 
             <Modal
               show={this.state.showModal === data.id}

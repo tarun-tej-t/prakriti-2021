@@ -1,14 +1,16 @@
 import React, { useState,Component } from "react";
 
 import logoprakriti from "../public_html/img/logo copy.png";
-import { Link as Lin } from "react-scroll";
+
 import { Link } from "react-router-dom";
 import bars from './list-solid.svg'
 import close from './close.svg'
-
-
-
+import Scroll from "react-scroll"; 
 import "./header.css";
+
+const ScrollLink = Scroll.Link;
+
+
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -45,7 +47,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px',textDecoration:'none'}}>Home</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>HOME</a>
           </li>
          
          
@@ -56,7 +58,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px',textDecoration:'none'}}>Events</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>EVENTS</a>
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="#Team" onClick={() => {
@@ -65,7 +67,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px',textDecoration:'none'}}>Team</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>TEAM</a>
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="#Sponsors" onClick={() => {
@@ -74,7 +76,18 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px',textDecoration:'none'}}>Sponsors</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>SPONSORS</a>
+          </li>
+          <li className="option mobile-option" onClick={closeMobileMenu}>
+            <a href="#" onClick={() => {
+                  window.scroll({
+                    left: 0,
+                    top: 6100,
+                    behavior: "smooth",
+                  });
+                }} style={{fontSize:'20px',textDecoration:'none'}}>
+                CONTACT US
+             </a>
           </li>
 
           <li className=" option mobile-option" onClick={closeMobileMenu}>
@@ -84,7 +97,7 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px',textDecoration:'none'}}>Registration</a>
+                }} style={{fontSize:'20px',textDecoration:'none'}}>REGISTRATION</a>
           </li>
         </ul>
       </div>
@@ -125,8 +138,18 @@ const Header = () => {
                     top: 0,
                     behavior: "smooth",
                   });
-                }}  class="navother">SPONSORS</a>
+                }}  class="navother" style={{fontSize:'12px'}}>SPONSORS</a>
         </li>
+        <li className="sign-in" onClick={closeMobileMenu}>
+          <a href="#"  onClick={() => {
+                  window.scroll({
+                    left: 0,
+                    top: 10000,
+                    behavior: "smooth",
+                  });
+                }}  class="navother">CONTACT</a>
+        </li>
+ 
         <li className="sign-in" onClick={closeMobileMenu}>
           <a href="#Registration"  onClick={() => {
                   window.scroll({
