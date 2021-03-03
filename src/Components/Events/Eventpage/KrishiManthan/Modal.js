@@ -42,6 +42,9 @@ class Modal extends Component {
                 Prakriti presents to you, a new event named “Krishi-Manthan”, where the participant needs to ponder upon a particular challenge faced by the farmers. Participants need to place themselves in the situation of farmers and provide the most feasible solution based on all the relevant data which will be provided by us regarding the resources and the budget constraints. Fit in the shoes of a real farmer and tackle their problem just like you manage your pocket money.
                 </h5>
                 <h4>Problem Statement : <a href="https://tinyurl.com/KrishiManthan" target="_blank" style={{color:'blue'}}>Click Here</a></h4>
+                <h4>Deadline for the submissions is 17 March.</h4>
+<h4>To submit your abstracts with other necessary details in the google form <a  href="https://tinyurl.com/PrakritiSubmission" target="_blank" style={{color:'blue'}}>Click Here</a>
+</h4>
                 <span>
                   <h3>Rules</h3>
                   <h4 style={{textAlign:'left'}}>The online quiz will be conducted in two phases. Participants can appear for any one or both of them :</h4>
@@ -55,38 +58,39 @@ class Modal extends Component {
 
                     <li>
                       {" "}
-                      3) Teams must mail their detailed abstract(in word or PDF form) or presentation to contact@prkrt.co.in with the subject of the mail as “Prakriti2021_Krishi-Manthan_Submission_abstractSubmission_team name” before the deadline (17th March,2021).
+                      3) Teams must submit their detailed abstract(in word or PDF form of not more than 12 pages) to this  google form  link   before the deadline (17th March,11:59 pm).​
+
                     </li>
 
                     <li>
                       {" "}
-                      4) Teams also have to submit a video-abstract, of not more than 5 minutes, explaining their abstract or presentation before the deadline(17th March,2021).
+                      4) The submission abstract  must contain the team name, team members name, contact number, mail address and college they belong to.​
+
                     </li>
 
                     <li>
                       {" "}
-                      5) NOTE:-In the video-abstract the voice of the presenting member must be clear.                    </li>
+                      5) On the basis of abstract ,teams will be selected for the second round(Online  Presentation and Question and Answer round on 20th March) .​
+ </li>
 
                     <li>
                       {" "}
-                      6) On the basis of video-abstract,teams will be selected for the second round(Question and Answer round) which will be conducted preferably live through Google Hangouts on the day of the event.                    </li>
+                      6) The presentation time of each team must not exceed 6 minutes followed by 2 minutes of Q&A round.​
+ </li>
                    
                     <li>
                       {" "}
                    
-                      7) The submission abstract or presentation must contain the team name, team members name, contact number,mail address and college they belong to.                    </li>
+                      7) Exceeding the time limit can lead to the imposition of penalties on the teams.​
+ </li>
 
-                    <li>
+ <li>
                       {" "}
-                      8) Exceeding the time limit can lead to the imposition of penalties on the teams.                    </li>
-
-                    <li>
-                      {" "}
-                      9) The decision of judges is final and binding. Team Prakriti reserves the right to disqualify any team in case of violation of any of the above rules.
+                      8) The decision of judges is final and binding. Team Prakriti reserves the right to disqualify any team in case of violation of any of the above rules.
                     </li>
 
                     <li>
-                    10) Total Prize Money:- INR 8000.             
+                    9) Total Prize Money:- INR 8000.             
                            </li>
 
                   </ul>

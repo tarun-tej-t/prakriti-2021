@@ -20,17 +20,17 @@ export default class Footer extends Component {
               </div>
             </div>
           </div>
-    </footer>*/}
+    </footer>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet" />
-        {/* Vendor CSS Files */}
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+       Vendor CSS Files */}
+          {/*<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
         <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
         <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
         <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-        {/* Template Main CSS File */}
-        <link href="assets/css/style.css" rel="stylesheet" />
-        <a href="#" className="back-to-top"><i className="fa fa-angle-up" /></a>
+         Template Main CSS File */}
+        {/*<link href="assets/css/style.css" rel="stylesheet" />
+        <a href="#" className="back-to-top"><i className="fa fa-angle-up" /></a>*/}
           <footer id="footer">
         <div className="footer-top">
           <div className="container">
