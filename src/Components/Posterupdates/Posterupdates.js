@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Zoom } from "react-slideshow-image";
 import CA from "./Campus Ambassador Program 3.jpg";
 import kmposter from "./kmposter.jpg";
+import dael from "./dael.jpeg";
 import fbcover from "./Fb Cover Page 3.jpg";
 import "./Posterupdates.css";
 import { Slide } from "react-slideshow-image";
@@ -37,7 +38,15 @@ export default class Posterupdates extends Component {
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <p class="card-text" style={{ padding: "3vw",fontWeight:'500',fontSize:'18px',fontFamily:'Josefin Sans' }}>
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Josefin Sans",
+                      }}
+                    >
                       {" "}
                       Hola Folks !!
                       <br />
@@ -52,7 +61,9 @@ export default class Posterupdates extends Component {
                       <br />
                       <br />
                       Registration Link -{" "}
-                      <a href="http://tiny.cc/Prkrt_CA21" target='_blank'>Click Here</a>
+                      <a href="http://tiny.cc/Prkrt_CA21" target="_blank">
+                        Click Here
+                      </a>
                       <br />
                       <br />
                       Limited openings!
@@ -68,7 +79,15 @@ export default class Posterupdates extends Component {
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <p class="card-text" style={{ padding: "3vw",fontWeight:'500',fontSize:'18px',fontFamily:'Josefin Sans'  }}>
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Josefin Sans",
+                      }}
+                    >
                       {" "}
                       The Agricultural Marketing in India is very unorganized.
                       The middlemen of the agricultural supply chain in India
@@ -83,18 +102,107 @@ export default class Posterupdates extends Component {
                       <br />
                       <br />
                       To download the Problem Statement,{" "}
-                      <a href="https://tinyurl.com/KrishiManthan" target='_blank'>Click Here</a>
+                      <a
+                        href="https://tinyurl.com/KrishiManthan"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
                       <br />
                       Deadline for the submissions is 17 March
                       <br />
                       <br />
-                      To submit your abstracts with other necessary details
-                      in the google form  
-                      <a href="https://tinyurl.com/PrakritiSubmission" target='_blank'> Click Here</a>
+                      To submit your abstracts with other necessary details in
+                      the google form
+                      <a
+                        href="https://tinyurl.com/PrakritiSubmission"
+                        target="_blank"
+                      >
+                        {" "}
+                        Click Here
+                      </a>
                       <br />
                       <br />
                       Visit{" "}
-                      <a href="https://www.prkrt.co.in/#/KrishiManthan" target='_blank'>
+                      <a
+                        href="/#/KrishiManthan"
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                      >
+                        {" "}
+                        The Event Page
+                      </a>{" "}
+                      for more details.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={dael} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Josefin Sans",
+                      }}
+                    >
+                      {" "}
+                      “Information is the oil of the 21st century, and analytics
+                      is the combustion engine” – Peter Sondergaard. Presenting
+                      to you the Data Analytics event of Prakriti’21. Ignite
+                      your mind engines and come up with solutions that can
+                      bring out the maximum efficiency from the data oil
+                      provided by us.
+                      <br />
+                      <br />
+                      To download the Problem Statement,{" "}
+                      <a
+                        href="https://lnkd.in/g8_fhjF
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      Deadline for the submissions is 17 March
+                      <br />
+                      <br />
+                      To submit your abstracts with other necessary details in
+                      the google form
+                      <a
+                        href="https://lnkd.in/gSbyU8y
+"
+                        target="_blank"
+                      >
+                        {" "}
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Visit{" "}
+                      <a
+                        href="/#/DataAnalytics"
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                      >
                         {" "}
                         The Event Page
                       </a>{" "}

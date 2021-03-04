@@ -64,15 +64,17 @@ class Modal extends Component {
                   decisions and plan accordingly.{" "}
                 </h5>
                 <h4>
-                  Problem Statement : Will be updated soon{" "}
-                  <a href={pdf} target="_blank" style={{ color: "blue" }}></a>
+                  Problem Statement : 
+                  <a href="https://lnkd.in/g8_fhjF
+" target="_blank" style={{ color: "red" }}>Click Here</a>
                 </h4>
+                <h4>Deadline for the submissions is 17 March.</h4>
+                <h4>To submit your abstracts with other necessary details <a  href="https://lnkd.in/gSbyU8y"
+ target="_blank" style={{ color: "red" }}>Click here</a>
+</h4>
                 <span>
                   <h3>Rules</h3>
-                  <h4 style={{ textAlign: "left" }}>
-                    The online quiz will be conducted in two phases.
-                    Participants can appear for any one or both of them :
-                  </h4>
+                 
 
                   <ul
                     style={{
@@ -95,36 +97,42 @@ class Modal extends Component {
 
                     <li>
                       {" "}
-                      3) All Teams must submit the following files to
-                      contact@prkrt.co.in before the deadline :-{" "}
+                      3)  Students from different colleges can form a single team.
                     </li>
+<li>4) All Teams must submit the following files to https://tinyurl.com/PrakritiSubmission
+ before the deadline (8th March,11:59 pm) from the beginning of the event.
 
-                    <li> 4) Code: In any language</li>
+
+
+</li>
+<ul>
+  <li>Code: In any language</li>
+  <li>Presentation and appendix( word/PDF document) containing the technical explanation in short.</li>
+</ul>     
                     <li>
                       {" "}
-                      5) Detailed presentation and appendix( word/PDF document)
-                      containing the technical explanation in short.{" "}
+                      5) All the reports and presentations submitted by the team must contain the team name, team members name, their contact number, and the name of the college they belong to.
+
                     </li>
                     <li>
                       {" "}
-                      6) The submissions must be in a folder named
-                      “prakriti2021_DataAnalytics_Abstract_TeamName”.
+                      6) On the basis of abstract ,teams will be selected for the second round(Online Presentation and Question and Answer round on 21st March) .
                     </li>
                     <li>
                       {" "}
-                      7) All the reports and presentations submitted by the team
-                      must contain the team name, team members name, their
-                      contact number and the name of the college they belong to.
+                      7) The presentation time must not exceed 6 minutes followed by the Q&A round of 2minutes, exceeding this may yield negative points.
+
                     </li>
                     <li>
                       {" "}
-                      8) On the basis of RMSE,teams will be selected for the second round(Question and Answer round) which will be conducted preferably live through Google Hangouts on the day of the event.
+                      8) The whole analysis of the problem statement should be done by the participants themselves. Plagiarism will lead to the cancellation of participation.
+
                     </li>
                     <li>
                       {" "}
-                      9) The whole analysis of the problem statement should be done by the participants themselves. Plagiarism will lead to cancellation of participation.                    </li>
-                    <li>10) The decision of judges is final and binding. Team Prakriti reserves the right to disqualify any team in case of violation of any of the above rules.</li>
-                    <li>11) Total Prize Money:- INR 8000.</li>
+                      9) The decision of judges is final and binding. Team Prakriti reserves the right to disqualify any team in case of violation of any of the above rules.
+                    </li>
+                    <li>10) Total Prize Money:- INR 8000.</li>
                   </ul>
                 </span>
                 <button onClick={this.props.onHide}>Close</button>

@@ -106,7 +106,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Jayeeta Mitra</h3>
-              <h5>Faculty Advisor</h5>
+              <h5>Convener</h5>
               <p />
             </div>
             <div className="team_member" style={{ width: "280px" }}>
@@ -130,7 +130,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Joydeep Banerjee</h3>
-              <h5>Faculty Advisor</h5>
+              <h5>Co-convener (ERP)</h5>
               <p />
             </div>
           </div>
@@ -158,7 +158,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3> Somsubhra Chakraborty</h3>
-              <h5>Faculty Advisor</h5>
+              <h5>Industry Connect</h5>
               <p />
             </div>
             <div className="team_member" style={{ width: "280px" }}>
@@ -182,7 +182,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Peeyush Soni</h3>
-              <h5>Faculty Advisor</h5>
+              <h5>Guest Lecturers and Industry Connect</h5>
               <p />
             </div>
             <div className="team_member" style={{ width: "280px" }}>
@@ -206,7 +206,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Amey Pathak </h3>
-              <h5>Faculty Advisor</h5>
+              <h5>Software/Algorithmic competition</h5>
               <p />
             </div>
           </div>
@@ -235,7 +235,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3> Poulomi Ganguli</h3>
-              <h5>Faculty Advisor</h5>
+              <h5>Software/Algorithmic competition</h5>
               <p />
             </div>
             <div className="team_member" style={{ width: "280px" }}>
@@ -259,7 +259,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Kanishka Bhunia</h3>
-              <h5>Faculty Advisor</h5>
+              <h5>Quiz/competition</h5>
               <p />
             </div>
           </div>
