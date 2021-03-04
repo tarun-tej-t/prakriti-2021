@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.25755cf0.chunk.css",
-    "main.js": "/static/js/main.4d3e95a1.chunk.js",
-    "main.js.map": "/static/js/main.4d3e95a1.chunk.js.map",
+    "main.js": "/static/js/main.d7f3cf5a.chunk.js",
+    "main.js.map": "/static/js/main.d7f3cf5a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.02c0d8a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.02c0d8a6.js.map",
     "static/css/2.4dcf0385.chunk.css": "/static/css/2.4dcf0385.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/Prakriti_cover_1.79ceaa2e.jpg": "/static/media/Prakriti_cover_1.79ceaa2e.jpg",
     "static/media/Registration Guide Manual.af72ad01.pdf": "/static/media/Registration Guide Manual.af72ad01.pdf",
     "static/media/close.0f761569.svg": "/static/media/close.0f761569.svg",
+    "static/media/dael.f0c3c3d1.jpeg": "/static/media/dael.f0c3c3d1.jpeg",
     "static/media/styles.css": "/static/media/dargad.3fcd1bf6.PNG",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/gl.0cb4e8a0.jpeg": "/static/media/gl.0cb4e8a0.jpeg",
@@ -40,6 +41,6 @@
     "static/css/2.4dcf0385.chunk.css",
     "static/js/2.69ac3d54.chunk.js",
     "static/css/main.25755cf0.chunk.css",
-    "static/js/main.4d3e95a1.chunk.js"
+    "static/js/main.d7f3cf5a.chunk.js"
   ]
 }
