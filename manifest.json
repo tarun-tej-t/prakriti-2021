@@ -4,18 +4,20 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "45x45",
+      "sizes": "600x600",
       "type": "image/x-icon"
     },
     {
       "src": "favicon1.png",
       "type": "image/png",
-      "sizes": "45x45"
+      "sizes": "192x192",
+      "purpose": "any"
     },
     {
       "src": "favicon1.png",
       "type": "image/png",
-      "sizes": "45x45"
+      "sizes": "192x192",
+      "purpose": "maskable"
     }
   ],
   "start_url": ".",
