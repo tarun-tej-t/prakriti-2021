@@ -14,7 +14,7 @@ class Modal extends Component {
           >
             <h1
               style={{
-                backgroundColor: "#09AFDF",
+                backgroundColor: "red",
                 borderRadius: "9px",
                 marginLeft: "5%",
                 marginTop: "-0vh",
@@ -53,6 +53,28 @@ class Modal extends Component {
                 eye-catching Ad multimedia expressing your dramatics & marketing
                 skills.
               </h5>
+              <h4>
+                Problem Statement :{" "}
+                <a
+                  href="https://tinyurl.com/Prakriti21MadAd"
+                  target="_blank"
+                  style={{ color: "blue" }}
+                >
+                  Click Here
+                </a>
+              </h4>
+              <h4>Deadline for the submissions is 17 March.</h4>
+              <h4>
+                To submit your abstracts with other necessary details in the
+                google form{" "}
+                <a
+                  href="https://forms.gle/sRavW4YQBKKXf5ii8"
+                  target="_blank"
+                  style={{ color: "blue" }}
+                >
+                  Click Here
+                </a>
+              </h4>
               <span>
                 <h3>Rules</h3>
 
@@ -69,47 +91,43 @@ class Modal extends Component {
                     able to participate as teams.
                   </li>
 
-                  <li>
-                    {" "}
-                    2) An advertisement video film (shoot) to be presented along with the banner of your product in JPEG format.
-
-                  </li>
+                  <li> 2) Maximum of 4 members can represent a team.</li>
 
                   <li>
-                  3) You can choose any of the topics from the list: 
-                  <ul style={{paddingLeft:'4vw'}}>
-                    <li>  a) Concept of E- Mandi</li>
-                    <li>b) Any Agricultural Product (implements, tractor, seeds , etc.)</li>
-     <li>c) Government Schemes on Agricultural Development and Advanced Irrigation Practices</li>
-     <li>d) Less known Agronomic Products and Techniques</li>
-     <li>e) Organic Food Products</li>
-     <li>f) Food Processing Techniques & Products (dairy, fisheries, etc.)</li>
-
-
-                  </ul>
+                    3) Animated video (for e.g. cartoons) will not be allowed.
                   </li>
 
                   <li>
                     {" "}
-                    4) Video must not be more than 2.5 minutes of duration keeping in mind that it is an Ad.
+                    4) Participants must submit the above mentioned files to
+                    this google form link before the deadline (17th
+                    March,11:59pm).
                   </li>
 
                   <li>
                     {" "}
-                    5) Animated video (for e.g. cartoons) will not be allowed.
-
+                    5) The video shoot should be entirely original and
+                    plagiarism will lead to disqualification.
                   </li>
 
-                  <li>6) Maximum of 4 members can represent a team.
-</li>
-<li>7) Participants need to send their names,contact number,mail address and the college name at our mail address (contact@prkrt.co.in) while sending the following:- Video , Banner and a short write-up explaining their Ad, product and their marketing approach.</li>
-<li>8) The video shoot should be entirely original and plagiarism will lead to disqualification.</li>
-<li>9) Participants are free to choose any other idea and include as many actors they want in their play but merit will be given only to those whose contact details have been sent to our mail address mentioned above(4 members).</li>
+                  <li>
+                    6) Participants are free to include as many actors they want
+                    in their play but merit will be given only to those whose
+                    have registered as a team (maximum 4 members).
+                  </li>
+                  <li>
+                    7) Video can be in Hindi/English language. Use of adult
+                    content, cuss words, abusive language and hurting religious
+                    sentiments are strictly prohibited and will lead to
+                    immediate disqualification.
+                  </li>
+                  <li>
+                    8) The decision of judges is final and binding. Team
+                    Prakriti reserves the rights to disqualify any team in case
+                    of violation of any of the above rules.
+                  </li>
 
-<li>10) Video can be in Hindi/English language. Use of adult content, cuss words, abusive language and hurting religious sentiments are strictly prohibited and will lead to immediate disqualification.</li>
-<li>11) The decision of judges is final and binding. Team Prakriti reserves the rights to disqualify any team in case of violation of any of the above rules.</li>
-<li>12) Total Prize Money: INR 10,000.</li>
-
+                  <li>9) Total Prize Money: INR 10,000.</li>
                 </ul>
               </span>
               <button onClick={this.props.onHide}>Close</button>

@@ -57,6 +57,11 @@ class Modal extends Component {
                 imagination! Come on, Showbiz your style, and put forth a
                 message.
               </h5>
+              <h4>PRAKRITI presents to you the Poster Presentation event, where participants need to design a poster that is both informative and eye-catching that can express ideas as well as messages in the most dazzling way possible ! </h4>
+              <h4>Problem Statement: <a href="https://tinyurl.com/PrakritiPosterPresentation" target="_blank" style={{color:'red'}}>Click Here</a></h4>
+              <h4>Deadline for the submissions is 17 March.</h4>
+              <h4>To submit your abstracts with other necessary details please <a href="https://tinyurl.com/PrakritiSubmission" target="_blank" style={{color:'red'}}>Click Here</a></h4>
+              
               <span>
                 <h3>Rules</h3>
 
@@ -80,51 +85,39 @@ class Modal extends Component {
                   </li>
 
                   <li>
-                    3) Teams must mail their detailed description (in word or
-                    PDF form) or presentation along with the poster to
-                    contact@prkrt.co.in with the subject of the mail as
-                    “Prakriti2021_poster_presentation_Submission_abstractSubmission_team
-                    name” before the deadline
+                    3) Teams must submit their detailed description (in word or PDF form)  along with the poster to this <a href="https://tinyurl.com/PrakritiSubmission" target="_blank">google form link</a> before the deadline (17th March,11:59 pm).​
+
                   </li>
 
                   <li>
                     {" "}
-                    4) Teams also have to submit a video-abstract, of not more
-                    than 5 minutes, explaining their description of poster or
-                    presentation before the deadline
+                    4)The submission abstract must contain the entire description of the poster and the message that is being conveyed through the poster ​
+
                   </li>
 
                   <li>
                     {" "}
-                    5) NOTE:-In the video-abstract the voice of the presenting
-                    member must be clear.
+                    5) The submission abstract  must contain the team name, team members name, contact number, mail address and college they belong to. ​
                   </li>
 
                   <li>
-                    6) On the basis of video-abstract,teams will be selected for
-                    the second round(Question and Answer round) which will be
-                    conducted preferably live through Google Hangouts on the day
-                    of the event.
+                    6) On the basis of abstract ,teams will be selected for the second round(Online  Presentation and Question and Answer round on 21st March) .
                   </li>
                   <li>
-                    7) The video-abstract of each team must not exceed 5 minutes
-                    and exceeding the time limit can lead to the imposition of
-                    penalties on the teams.
+                    7) The presentation time of each team must not exceed 6 minutes followed by 2 minutes of Q&A round.
                   </li>
                   <li>
-                    8) The submission abstract or presentation must contain the
-                    team name, team members name, contact number,mail address
-                    and college they belong to.
+                    8) Exceeding the time limit can lead to the imposition of penalties on the teams. ​
+
                   </li>
                   <li>
-                    9) If any plagiarised content is found it can lead to the
-                    imposition of penalties on the teams.
+                    9) If any plagiarised content is found it can lead to the imposition of penalties on the teams.​
+
                   </li>
 
                   <li>
-                    10) The decision of judges is final and binding. Team
-                    Prakriti reserves the right to disqualify any team in case
-                    of violation of any of the above rules.
+                    10) The decision of judges is final and binding. Team Prakriti reserves the right to disqualify any team in case of violation of any of the above rules.​
+
                   </li>
                   <li>11) Total Prize Money: INR 8,000.</li>
                 </ul>

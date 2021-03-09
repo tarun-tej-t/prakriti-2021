@@ -96,7 +96,7 @@ export default class Testimonial extends Component {
                             great success. See you soon at IIT Kharagpur.
                           </p>
                           <h6>
-                            From the Desk of Chairperson, Prof Rajendra Machavaram .{" "}
+                            From the Desk of Convener, Prof. Jayeeta Mitra{" "}
                           </h6>
                         </div>
                       </div>

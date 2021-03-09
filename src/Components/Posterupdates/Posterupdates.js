@@ -3,6 +3,9 @@ import { Zoom } from "react-slideshow-image";
 import CA from "./Campus Ambassador Program 3.jpg";
 import kmposter from "./kmposter.jpg";
 import dael from "./dael.jpeg";
+import ppposter from "./ppposter.jpg";
+import maposter from "./maposter.jpg";
+import qposter from "./qposter.jpg";
 import fbcover from "./Fb Cover Page 3.jpg";
 import "./Posterupdates.css";
 import { Slide } from "react-slideshow-image";
@@ -207,6 +210,230 @@ export default class Posterupdates extends Component {
                         The Event Page
                       </a>{" "}
                       for more details.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={ppposter} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Josefin Sans",
+                      }}
+                    >
+                      {" "}
+                      PRAKRITI presents to you the Poster Presentation event,
+                      where participants need to design a poster that is both
+                      informative and eye-catching that can express ideas as
+                      well as messages in the most dazzling way possible!
+                      <br />
+                      <br />
+                      To download the Problem Statement,{" "}
+                      <a
+                        href="https://tinyurl.com/PrakritiPosterPresentation
+                        "
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      Deadline for the submissions is 17 March
+                      <br />
+                      <br />
+                      To submit your abstracts with other necessary details in
+                      the google form
+                      <a
+                        href="https://tinyurl.com/PrakritiSubmission"
+                        target="_blank"
+                      >
+                        {" "}
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Visit{" "}
+                      <a
+                        href="/#/PosterPresentation"
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                      >
+                        {" "}
+                        The Event Page
+                      </a>{" "}
+                      for more details.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={maposter} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Josefin Sans",
+                      }}
+                    >
+                      {" "}
+                      The “Mad-Ad” Event of Prakriti 2021, in association with
+                      24 Mantra, challenges its participants to design ads that
+                      are capable of encouraging conventional food consumers to
+                      switch to organic food thus helping 24 Mantra increase
+                      their consumer base. Participants need to come up with ads
+                      that are not only capable of drawing the attention of
+                      consumers towards organic products but also convincing
+                      them for the consumption of the same. <br />
+                      <br />
+                      To download the Problem Statement,{" "}
+                      <a
+                        href="https://tinyurl.com/Prakriti21MadAd
+                        "
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      Deadline for the submissions is 17 March
+                      <br />
+                      <br />
+                      To submit your abstracts with other necessary details in
+                      the google form
+                      <a
+                        href="https://forms.gle/sRavW4YQBKKXf5ii8
+ 
+                        "
+                        target="_blank"
+                      >
+                        {" "}
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Visit{" "}
+                      <a
+                        href="/#/MadAd"
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                      >
+                        {" "}
+                        The Event Page
+                      </a>{" "}
+                      for more details.
+                      <br />
+                      <br />
+                      Visit 24 Mantra{" "}
+                      <a
+                        href="https://www.24mantra.com/
+          "
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                        target="_blank"
+                      >
+                        {" "}
+                        Here
+                      </a>{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={qposter} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Josefin Sans",
+                      }}
+                    >
+                      {" "}
+                      “The beautiful thing about learning is nobody can take it away from you”—B. B. King.
+                      <br />2020 had been quite a year to remember! A lot has happened in the last 12 months. The world has observed changes environmentally, technically, and also in the field of agriculture, etc.
+                      <br />The time has come to showcase your learnings and test your general awareness.
+                      <br />Prakriti 2021, in association with "FundaMakers" presents to you “General Quiz” and “Agro-Food Quiz” to test your general awareness and technical knowledge in the field of agriculture and food processing.  <br />
+                      <br />
+                      Date: General Quiz – 20/03/21, Agro Food Quiz – 21/03/21
+                    
+                      <br />
+                      Deadline for the submissions is 17 March
+                      <br />
+                      Time: 5pm – 7pm for General as well as Agro Food Quiz.
+                      <br />
+                      Note: The details of the quiz platform will be shared with the registered participants via Gmail.
+                      <br />
+                      <br />
+                      Visit{" "}
+                      <a
+                        href="/#/Quizella"
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                      >
+                        {" "}
+                        The Event Page
+                      </a>{" "}
+                      for more details.
+                      <br />
+                      <br />
+                      Visit FundaMakers {" "}
+                      <a
+                        href="https://fundamakers.com/"
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                        target="_blank"
+                      >
+                        {" "}
+                        Here
+                      </a>{" "}
                     </p>
                   </div>
                 </div>

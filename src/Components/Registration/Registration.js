@@ -21,15 +21,10 @@ export default class Registration extends Component {
           
               <div style={{display: "flex", justifyContent: "center"}}  > 
                 <div class="signup-content" style={{width:'70vw'}} >
-                  <ul class="list" style={{ textAlign: "center",}}>
+                 {/*} <ul class="list" style={{ textAlign: "center",}}>
                     <li>
                       <i class="icon-check-1"></i>
-                      <h5>
-                        {" "}
-                        It is recommended to all the participants to go through
-                        this document before proceeding for the registration
-                        process.
-                      </h5>
+                      
                     </li>
                   </ul>
                   <ul class="list" style={{ textAlign: "center" }}>
@@ -38,26 +33,19 @@ export default class Registration extends Component {
                       <h5>
                         {" "}
                         <strong>
-                          <a
-                            href= {pdf}
-                            target="_blank"
-                          >
-                            {" "}
-                            Registration Guide Manual.pdf (must read)
-                          </a>
+                         
                         </strong>
                       </h5>
                     </li>
-                  </ul>
-                  <br />
-                  <br />
+    </ul>*/}
                   <form id="signup-form" name="signup-form" class="signup-form">
                     <h2 class="form-title">
                       <a
-                        href="https://erp.iitkgp.ac.in/CEP/secure/courses.htm"
+                        href="https://www.meraevents.com/event/prakriti-iit-kharagpur"
                         rel="noreferrer"
                         target="_blank"
-                        style={{fontSize:'0.8em'}}
+                        style={{fontSize:'0.8em',color:"red",fontWeight:'700',fontFamily:':Lato'}}
+                        
                       >
                         CLICK HERE TO REGISTER FOR PRAKRITI 2021
                       </a>

@@ -47,7 +47,7 @@ class Modal extends Component {
 </h4>
                 <span>
                   <h3>Rules</h3>
-                  <h4 style={{textAlign:'left'}}>The online quiz will be conducted in two phases. Participants can appear for any one or both of them :</h4>
+                 
                   
                   <ul style={{listStyle:'none',lineHeight:'30px',fontSize:'16px'}}>
                    <li>1) Only those teams are allowed to participate who have registered online.</li>
