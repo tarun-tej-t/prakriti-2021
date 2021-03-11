@@ -56,6 +56,7 @@ class Modal extends Component {
                 Here comes the first Pre-Event of PRAKRITI 2021 Selfie With
                 Nature.
               </h5>
+              <h4>To submit your entries,  <a href="https://tinyurl.com/Prakriti21Submission" target="_blank" style={{color:'red'}}>Click here</a></h4>
               <span>
                 <h3>Rules</h3>
 
@@ -71,11 +72,14 @@ class Modal extends Component {
                   <li>
                     {" "}
                     2) Please do send the photograph with your details by
-                    filling this Google Form.
+                    filling  <a
+              href="http://tiny.cc/SelfiewithNature"
+              target="_blank"
+            >this Google Form.</a>
                   </li>
 
                   <li>
-                    3)Only the entries sent through this Google form will be
+                    3) Only the entries sent through this Google form will be
                     accepted.
                   </li>
 
@@ -87,7 +91,7 @@ class Modal extends Component {
 
                   <li>
                     {" "}
-                    5)Your entries will be uploaded on an Album named "Selfie
+                    5) Your entries will be uploaded on an Album named "Selfie
                     With Nature, Prakriti 2021" on the Facebook page of Prakriti
                     by the team.
                   </li>
@@ -98,7 +102,7 @@ class Modal extends Component {
                     of shares.
                   </li>
                   <li>
-                    7)The number of shares which are done applying privacy over them or done in private groups will not be counted. 
+                    7) The number of shares which are done applying privacy over them or done in private groups will not be counted. 
 
                   </li>
                   <li>
@@ -106,7 +110,7 @@ class Modal extends Component {
 
                   </li>
                   <li>
-                    9)Prizes will be given to those participants who will be registering through our CEP portal of  Prakriti 2021. 
+                    9) Prizes will be given to those participants who will be registering through our CEP portal of  Prakriti 2021. 
                   </li>
 
                   <li>

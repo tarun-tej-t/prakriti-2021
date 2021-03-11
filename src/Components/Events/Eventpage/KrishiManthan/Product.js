@@ -25,7 +25,7 @@ class Product extends Component {
             
            
             <button onClick={() => this.getModal(data.id)} style={{color:'whitesmoke'}}>Know more</button>&ensp;
-            <button onClick={() => this.getModal(data.id)} style={{color:'whitesmoke'}}>My Submission</button>
+            <a href="https://tinyurl.com/Prakriti21Submission" target="_blank"><button style={{color:'whitesmoke'}}>My Submission</button></a>
             <Modal
               show={this.state.showModal === data.id}
               onHide={() => this.hideModal(data.id)}
