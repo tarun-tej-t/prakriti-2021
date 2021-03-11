@@ -85,7 +85,7 @@ const Header = () => {
                     top: 6100,
                     behavior: "smooth",
                   });
-                }} style={{fontSize:'20px',textDecoration:'none'}}>
+                }} style={{fontSize:'20px',textDecoration:'none',color:'red'}}>
                 CONTACT US
              </span>
           </li>
@@ -98,6 +98,15 @@ const Header = () => {
                     behavior: "smooth",
                   });
                 }} style={{fontSize:'20px',textDecoration:'none'}}>REGISTRATION</a>
+          </li>
+          <li className=" option mobile-option" onClick={closeMobileMenu}>
+            <a href="https://tinyurl.com/Prakriti21Submission" onClick={() => {
+                  window.scroll({
+                    left: 0,
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }} style={{fontSize:'20px',textDecoration:'none'}} target="_blank">SUBMIT</a>
           </li>
         </ul>
       </div>

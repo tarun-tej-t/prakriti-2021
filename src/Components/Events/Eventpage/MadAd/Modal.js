@@ -68,7 +68,7 @@ class Modal extends Component {
                 To submit your abstracts with other necessary details in the
                 google form{" "}
                 <a
-                  href="https://forms.gle/sRavW4YQBKKXf5ii8"
+                  href="https://tinyurl.com/Prakriti21Submission"
                   target="_blank"
                   style={{ color: "blue" }}
                 >

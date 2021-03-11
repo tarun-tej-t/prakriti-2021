@@ -8,11 +8,11 @@ export default class Registration extends Component {
   render() {
     return (
       <div style={{
-        background: `url('https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/rfb.jpg') `,
-        backgroundSize:'cover'
+        background: `url('https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/rfb.jpg') center`,
+        backgroundSize:'cover',minWidth:'100vw',minHeight:'100vh'
       }}>
        
-      <div style={{paddingTop:'20vh',paddingBottom:'20vh'}}>
+      <div style={{paddingTop:'30vh',paddingBottom:'20vh'}}>
        
 
         <div class="main" >
@@ -65,7 +65,8 @@ export default class Registration extends Component {
             </section>
           </div>
         </div>
-      </div></div>
+      </div>
+      </div>
     );
   }
 }

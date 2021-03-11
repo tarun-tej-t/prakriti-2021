@@ -118,7 +118,7 @@ export default class Posterupdates extends Component {
                       To submit your abstracts with other necessary details in
                       the google form
                       <a
-                        href="https://tinyurl.com/PrakritiSubmission"
+                        href="https://tinyurl.com/Prakriti21Submission"
                         target="_blank"
                       >
                         {" "}
@@ -186,7 +186,7 @@ export default class Posterupdates extends Component {
                       To submit your abstracts with other necessary details in
                       the google form
                       <a
-                        href="https://lnkd.in/gSbyU8y
+                        href="https://tinyurl.com/Prakriti21Submission
 "
                         target="_blank"
                       >
@@ -253,7 +253,7 @@ export default class Posterupdates extends Component {
                       To submit your abstracts with other necessary details in
                       the google form
                       <a
-                        href="https://tinyurl.com/PrakritiSubmission"
+                        href="https://tinyurl.com/Prakriti21Submission"
                         target="_blank"
                       >
                         {" "}
@@ -322,7 +322,7 @@ export default class Posterupdates extends Component {
                       To submit your abstracts with other necessary details in
                       the google form
                       <a
-                        href="https://forms.gle/sRavW4YQBKKXf5ii8
+                        href="https://tinyurl.com/Prakriti21Submission
  
                         "
                         target="_blank"

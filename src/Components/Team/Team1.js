@@ -180,8 +180,7 @@ export default class Team extends Component {
               <h5>Industry Connect</h5>
               <p />
             </div>
-          </div>
-          <div className="our_team">
+          
             <div className="team_member" style={{ width: "280px" }}>
               <div
                 className="member_img"
@@ -296,7 +295,7 @@ export default class Team extends Component {
               <p />
             </div>
           </div>
-          <div className="our_team"></div>
+         
           <h2 style={{ color: "#11785D" }}>Student Members</h2>
           <hr
             style={{
@@ -485,8 +484,7 @@ export default class Team extends Component {
               </h6>
               <p />
             </div>
-          </div>
-          <div className="our_team">
+         
             
 
             <div className="team_member">
@@ -666,8 +664,7 @@ export default class Team extends Component {
               </h6>
               <p />
             </div>
-          </div>
-          <div className="our_team">
+          
            
             <div className="team_member">
               <div className="member_img">

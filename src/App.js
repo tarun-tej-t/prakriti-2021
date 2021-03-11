@@ -33,7 +33,7 @@ import "./Components/public_html/lib/font-awesome/css/font-awesome.min.css";
 
 
 import { Link } from "react-router-dom";
-import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Footer from "./Components/Footer/Footer";
 
 import ReactGa from "react-ga";
@@ -79,8 +79,8 @@ function App() {
         AnimationDuration={500}
         ContainerClassName="ScrollUpButton__Container"
         TransitionClassName="ScrollUpButton__Toggled"
-        style={{ zIndex: "100" }}
-        ToggledStyle={{}} 
+        style={{ zIndex: "100",color:'red',backgroundColor:'#F17612',width:'40px',height:'40px' }}
+        ToggledStyle={{right: 20}} 
       />
       <Footer />
     </div>

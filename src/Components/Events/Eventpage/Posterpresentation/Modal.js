@@ -60,7 +60,7 @@ class Modal extends Component {
               <h4>PRAKRITI presents to you the Poster Presentation event, where participants need to design a poster that is both informative and eye-catching that can express ideas as well as messages in the most dazzling way possible ! </h4>
               <h4>Problem Statement: <a href="https://tinyurl.com/PrakritiPosterPresentation" target="_blank" style={{color:'red'}}>Click Here</a></h4>
               <h4>Deadline for the submissions is 17 March.</h4>
-              <h4>To submit your abstracts with other necessary details please <a href="https://tinyurl.com/PrakritiSubmission" target="_blank" style={{color:'red'}}>Click Here</a></h4>
+              <h4>To submit your abstracts with other necessary details please <a href="https://tinyurl.com/Prakriti21Submission" target="_blank" style={{color:'red'}}>Click Here</a></h4>
               
               <span>
                 <h3>Rules</h3>
