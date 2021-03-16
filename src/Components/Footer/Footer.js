@@ -98,9 +98,11 @@ export default class Footer extends Component {
                   <strong>Phone:</strong> +91 9694533544<br />
                   <strong>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</strong> +91 7602099943<br />
                   <strong>Email:</strong> contact@prkrt.co.in<br />
+                
                 </p>
+              
                 <div className="social-links">
-               
+                  <p>Follow us</p>
                   <a href="https://www.facebook.com/prkrt.iitkgp/" className="facebook" target='_blank'> <i class="fa fa-facebook-official"></i></a>
                   <a href="https://www.instagram.com/prkrt.iitkgp/" className="instagram" target='_blank'><i className="fa fa-instagram" /></a>
                   <a href="https://www.linkedin.com/feed/update/urn:li:activity:6772036042422910976" className="linkedin"   target='_blank'><i class="fa fa-linkedin"></i></a>
@@ -115,8 +117,6 @@ export default class Footer extends Component {
                       Reserved
           </div>
           <div className="credits">
-        
-         
           </div>
         </div>
       </footer>

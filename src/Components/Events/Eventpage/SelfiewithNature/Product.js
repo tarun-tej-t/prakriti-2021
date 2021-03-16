@@ -27,7 +27,7 @@ class Product extends Component {
               style={{ color: "whitesmoke" }}
             >
               Know more
-            </button>&ensp;
+            </button>&ensp;&ensp;&ensp;&ensp;
             <a
               href="http://tiny.cc/SelfiewithNature"
               target="_blank"

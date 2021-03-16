@@ -35,7 +35,8 @@ import "./Components/public_html/lib/font-awesome/css/font-awesome.min.css";
 import { Link } from "react-router-dom";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Footer from "./Components/Footer/Footer";
-
+import Loader from "react-loader-spinner";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import ReactGa from "react-ga";
 
 function App() {  
@@ -47,6 +48,7 @@ function App() {
 
   return (
     <div className="App"> 
+  
       <Navbar />
  
       <Switch>
@@ -79,12 +81,22 @@ function App() {
         AnimationDuration={500}
         ContainerClassName="ScrollUpButton__Container"
         TransitionClassName="ScrollUpButton__Toggled"
-        style={{ zIndex: "100",color:'red',backgroundColor:'#F17612',width:'40px',height:'40px' }}
+        style={{ zIndex: "100",backgroundColor:'#F17612'}}
         ToggledStyle={{right: 20}} 
       />
       <Footer />
+  
+      <Loader
+        type="MutatingDots"
+        color="#EE7026"
+        height={100}
+        width={100}
+        timeout={3000} //3 secs
+        style={{position:'fixed',top:"50%",left:"50%",transform:'translate(-50%,-50%)'}}
+      />
     </div>
   );
 }
 
 export default App;
+

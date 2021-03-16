@@ -38,7 +38,7 @@ class Modal extends Component {
               </span>
             </h1>
             <div id="container2">
-              <br />
+            
               <hr />
               <h5
                 style={{
@@ -61,6 +61,8 @@ class Modal extends Component {
                 PRAKRITI 2021 is launching an online treasure hunt event for the
                 first time.
               </h5>
+              <h4>Instructions: <a href="https://tinyurl.com/InstructionsTreasureHunt" target="_blank" rel="noreferrer" style={{color:'red'}}>Click Here</a></h4>
+              <h4>Demo Treasure Hunt:<a href="https://tinyurl.com/DummyTreasureHunt" target="_blank" rel="noreferrer" style={{color:'red'}}>Click Here</a></h4>
               <span>
                 <h3>Rules</h3>
 

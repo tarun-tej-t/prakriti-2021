@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import { Zoom } from "react-slideshow-image";
 import CA from "./Campus Ambassador Program 3.jpg";
+import swnposter from "./swnpoter.jpg";
+
 import kmposter from "./kmposter.jpg";
 import dael from "./dael.jpeg";
 import ppposter from "./ppposter.jpg";
 import maposter from "./maposter.jpg";
 import qposter from "./qposter.jpg";
+import thposter from "./thposter.jpg";
 import fbcover from "./Fb Cover Page 3.jpg";
 import "./Posterupdates.css";
 import { Slide } from "react-slideshow-image";
@@ -70,6 +73,65 @@ export default class Posterupdates extends Component {
                       <br />
                       <br />
                       Limited openings!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={swnposter} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Josefin Sans",
+                      }}
+                    >
+                      {" "}
+                      Let yourself slow down for a while and enjoy the pleasure
+                      in life !! In a world of constant change and streaming
+                      technology, find solace in nature. Bring out your love for
+                      nature by capturing
+                      <br />
+                      <br />
+                      Total Prize Money: 5000 INR
+                      <br />
+                      Deadline for the submissions is 17 March
+                      <br />
+                      <br />
+                      To submit your entries
+                      <a
+                        href=" http://tiny.cc/SelfiewithNature
+                        "
+                        target="_blank"
+                      >
+                        {" "}
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Visit{" "}
+                      <a
+                        href="/#/SelfiewithNature"
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                      >
+                        {" "}
+                        The Event Page
+                      </a>{" "}
+                      for more details.
                     </p>
                   </div>
                 </div>
@@ -387,19 +449,30 @@ export default class Posterupdates extends Component {
                       }}
                     >
                       {" "}
-                      “The beautiful thing about learning is nobody can take it away from you”—B. B. King.
-                      <br />2020 had been quite a year to remember! A lot has happened in the last 12 months. The world has observed changes environmentally, technically, and also in the field of agriculture, etc.
-                      <br />The time has come to showcase your learnings and test your general awareness.
-                      <br />Prakriti 2021, in association with "FundaMakers" presents to you “General Quiz” and “Agro-Food Quiz” to test your general awareness and technical knowledge in the field of agriculture and food processing.  <br />
+                      “The beautiful thing about learning is nobody can take it
+                      away from you”—B. B. King.
+                      <br />
+                      2020 had been quite a year to remember! A lot has happened
+                      in the last 12 months. The world has observed changes
+                      environmentally, technically, and also in the field of
+                      agriculture, etc.
+                      <br />
+                      The time has come to showcase your learnings and test your
+                      general awareness.
+                      <br />
+                      Prakriti 2021, in association with "FundaMakers" presents
+                      to you “General Quiz” and “Agro-Food Quiz” to test your
+                      general awareness and technical knowledge in the field of
+                      agriculture and food processing. <br />
                       <br />
                       Date: General Quiz – 20/03/21, Agro Food Quiz – 21/03/21
-                    
                       <br />
                       Deadline for the submissions is 17 March
                       <br />
                       Time: 5pm – 7pm for General as well as Agro Food Quiz.
                       <br />
-                      Note: The details of the quiz platform will be shared with the registered participants via Gmail.
+                      Note: The details of the quiz platform will be shared with
+                      the registered participants via Gmail.
                       <br />
                       <br />
                       Visit{" "}
@@ -419,7 +492,7 @@ export default class Posterupdates extends Component {
                       for more details.
                       <br />
                       <br />
-                      Visit FundaMakers {" "}
+                      Visit FundaMakers{" "}
                       <a
                         href="https://fundamakers.com/"
                         onClick={() => {
@@ -434,6 +507,78 @@ export default class Posterupdates extends Component {
                         {" "}
                         Here
                       </a>{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={thposter} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Josefin Sans",
+                      }}
+                    >
+                      {" "}
+                      “There is more treasure in books than in all the pirates'
+                      loot on Treasure Island”
+                      <br />
+                      <br />
+                      The wait for the most exciting event of the fest is over.
+                      Prakriti 2021 presents to you “Treasure Hunt”, a fun event
+                      focusing on learning facts in the most adventurous way
+                      possible! Gather your gears and get ready for the hunt!
+                      <br />
+                      <br />
+                      Please make sure that you go through the following for the
+                      efficient progress of your hunt:
+                      <br />
+                      <br />
+                      Instructions,{" "}
+                      <a
+                        href="https://tinyurl.com/InstructionsTreasureHunt
+                        "
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Demo Treasure Hunt
+                      <a
+                        href="https://tinyurl.com/DummyTreasureHunt
+                        "
+                        target="_blank"
+                      >
+                        {" "}
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Visit{" "}
+                      <a
+                        href="/#/TreasureHunt"
+                        onClick={() => {
+                          window.scroll({
+                            left: 0,
+                            top: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                      >
+                        {" "}
+                        The Event Page
+                      </a>{" "}
+                      for more details.
                     </p>
                   </div>
                 </div>

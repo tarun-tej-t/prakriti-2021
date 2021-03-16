@@ -345,7 +345,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 9694533544
               </h6>
@@ -390,7 +390,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 9304037602
               </h6>
@@ -434,7 +434,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 8597165831
               </h6>
@@ -478,7 +478,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 7602099943
               </h6>
@@ -525,7 +525,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 8121247812
               </h6>
@@ -569,7 +569,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 7024494919
               </h6>
@@ -613,7 +613,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 8084662242
               </h6>
@@ -658,7 +658,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 9130965960
               </h6>
@@ -704,7 +704,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 6280031474
               </h6>
@@ -749,7 +749,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 8107843172
               </h6>
@@ -794,7 +794,7 @@ export default class Team extends Component {
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
-                  style={{ transform: "scaleX(-1)" }}
+                  style={{ transform: "scaleX(1)" }}
                 ></i>
                 &nbsp;(+91) 6387998567
               </h6>

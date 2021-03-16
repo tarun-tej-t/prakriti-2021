@@ -122,7 +122,8 @@ export default class Eventnav extends Component {
                           </h5>
                         </div>
                       </Link>
-                    </li><li className="nav-item">
+                    </li>
+                      {/*<li className="nav-item">
                       <Link
                         className={this.props.agactive}
                         to="/Agrivation"
@@ -158,7 +159,9 @@ export default class Eventnav extends Component {
                           </h5>
                         </div>
                       </Link>
-                    </li><li className="nav-item">
+                    </li>
+                  
+                    <li className="nav-item">
                       <Link
                         className={this.props.fdactive}
                         to="/Findthedevil"
@@ -195,7 +198,8 @@ export default class Eventnav extends Component {
                           </h5>
                         </div>
                       </Link>
-                    </li><li className="nav-item">
+                    </li>*/}
+                    <li className="nav-item">
                       <Link
                         className={this.props.thactive}
                         to="/TreasureHunt"

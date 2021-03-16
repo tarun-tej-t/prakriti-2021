@@ -4,11 +4,11 @@ import "../../styles.css";
 import img1 from "../../../public_html/img/gl.jpeg";
 import img2 from "../../../public_html/img/gl2.jpeg";
 import img3 from "../../../public_html/img/gl3.jpeg";
-import { Fade } from "react-slideshow-image"; 
+import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
-import Enav from '../Eventnav'
+import Enav from "../Eventnav";
 //You need this npm package to do createReactClass
 
 const fadeImages = [img1, img2, img3];
@@ -24,8 +24,6 @@ export default class Events1 extends Component {
       duration: 3000,
       transitionDuration: 500,
       infinite: true,
-   
-    
     };
 
     return (
@@ -44,9 +42,7 @@ export default class Events1 extends Component {
                   </h1>
                   <hr className="schedule-hr1" />
                   <hr className="schedule-hr2" />
-                  <p className="wow fadeInDown" data-wow-delay="0.2s">
-                  
-                  </p>
+                  <p className="wow fadeInDown" data-wow-delay="0.2s"></p>
                 </div>
               </div>
             </div>
@@ -54,18 +50,18 @@ export default class Events1 extends Component {
               className="schedule-area row wow fadeInDown"
               data-wow-delay="0.3s"
             >
-              <Enav 
-              kmactive="nav-link  active"
-              daactive="nav-link"
-              glactive="nav-link"
-              agactive="nav-link"
-              fdactive="nav-link"
-              thactive="nav-link"
-              maactive="nav-link"
-              snactive="nav-link"
-              qactive="nav-link"
-              ppactive="nav-link"
-               />
+              <Enav
+                kmactive="nav-link  active"
+                daactive="nav-link"
+                glactive="nav-link"
+                agactive="nav-link"
+                fdactive="nav-link"
+                thactive="nav-link"
+                maactive="nav-link"
+                snactive="nav-link"
+                qactive="nav-link"
+                ppactive="nav-link"
+              />
               <div className="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
                 <div
                   className="tab-content"
@@ -82,13 +78,21 @@ export default class Events1 extends Component {
                         <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/krishi2.jpg" />
                       </div>
                     </div>
-                   
                   </Fade>
-                  <p>
-                  
-                  Rigorous analysis of a trending problem in agriculture,facing ground level challenges and providing the most economical solution via one's financial expertise.<br/><br/>
-                  Prakriti presents to you “Krishi-Manthan”, where the participant needs to ponder upon a particular challenge(to be uploaded soon) faced by the farmers. Participants need to place themselves in the situation of farmers and provide the most feasible solution based on all the relevant data which will be provided by us regarding the resources and the budget constraints. Fit in the shoes of a real farmer and tackle their problem just like you manage your pocket money.
-
+                  <p id="kmcontent">
+                    Rigorous analysis of a trending problem in
+                    agriculture,facing ground level challenges and providing the
+                    most economical solution via one's financial expertise.
+                    <br />
+                    <br />
+                    Prakriti presents to you “Krishi-Manthan”, where the
+                    participant needs to ponder upon a particular challenge(to
+                    be uploaded soon) faced by the farmers. Participants need to
+                    place themselves in the situation of farmers and provide the
+                    most feasible solution based on all the relevant data which
+                    will be provided by us regarding the resources and the
+                    budget constraints. Fit in the shoes of a real farmer and
+                    tackle their problem just like you manage your pocket money.
                     <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />
