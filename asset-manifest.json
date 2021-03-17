@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a2452ee7.chunk.css",
-    "main.js": "/static/js/main.7287cd24.chunk.js",
-    "main.js.map": "/static/js/main.7287cd24.chunk.js.map",
+    "main.js": "/static/js/main.d8283ff0.chunk.js",
+    "main.js.map": "/static/js/main.d8283ff0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c6c923d7.js",
     "runtime-main.js.map": "/static/js/runtime-main.c6c923d7.js.map",
     "static/css/2.c99e2e1d.chunk.css": "/static/css/2.c99e2e1d.chunk.css",
@@ -14,8 +14,6 @@
     "static/css/2.c99e2e1d.chunk.css.map": "/static/css/2.c99e2e1d.chunk.css.map",
     "static/css/main.a2452ee7.chunk.css.map": "/static/css/main.a2452ee7.chunk.css.map",
     "static/js/2.fc0afaae.chunk.js.LICENSE.txt": "/static/js/2.fc0afaae.chunk.js.LICENSE.txt",
-    "static/media/6.542d9dda.jpeg": "/static/media/6.542d9dda.jpeg",
-    "static/media/777_1.d45ff5ac.jpg": "/static/media/777_1.d45ff5ac.jpg",
     "static/media/Campus Ambassador Program 3.e17ca831.jpg": "/static/media/Campus Ambassador Program 3.e17ca831.jpg",
     "static/media/Fb Cover Page 3.e200175f.jpg": "/static/media/Fb Cover Page 3.e200175f.jpg",
     "static/media/style.css": "/static/media/signup-bg_prev.1b2c57b4.jpg",
@@ -45,6 +43,6 @@
     "static/css/2.c99e2e1d.chunk.css",
     "static/js/2.fc0afaae.chunk.js",
     "static/css/main.a2452ee7.chunk.css",
-    "static/js/main.7287cd24.chunk.js"
+    "static/js/main.d8283ff0.chunk.js"
   ]
 }
