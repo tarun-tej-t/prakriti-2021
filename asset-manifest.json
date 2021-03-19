@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7b74722a.chunk.css",
-    "main.js": "/static/js/main.a1feacec.chunk.js",
-    "main.js.map": "/static/js/main.a1feacec.chunk.js.map",
+    "main.js": "/static/js/main.ca40ebf6.chunk.js",
+    "main.js.map": "/static/js/main.ca40ebf6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9972681f.js",
     "runtime-main.js.map": "/static/js/runtime-main.9972681f.js.map",
     "static/css/2.c99e2e1d.chunk.css": "/static/css/2.c99e2e1d.chunk.css",
@@ -31,6 +31,7 @@
     "static/media/gl2poster.14ffeb04.jpg": "/static/media/gl2poster.14ffeb04.jpg",
     "static/media/gl3.9bd7a151.jpeg": "/static/media/gl3.9bd7a151.jpeg",
     "static/media/bootstrap.min.css": "/static/media/glyphicons-halflings-regular.be810be3.woff2",
+    "static/media/inceposter.f08cdc68.jpg": "/static/media/inceposter.f08cdc68.jpg",
     "static/media/kmposter.47f46d6e.jpg": "/static/media/kmposter.47f46d6e.jpg",
     "static/media/list-solid.0daba6d5.svg": "/static/media/list-solid.0daba6d5.svg",
     "static/media/logo copy.60db2ec5.png": "/static/media/logo copy.60db2ec5.png",
@@ -47,6 +48,6 @@
     "static/css/2.c99e2e1d.chunk.css",
     "static/js/2.78ae995b.chunk.js",
     "static/css/main.7b74722a.chunk.css",
-    "static/js/main.a1feacec.chunk.js"
+    "static/js/main.ca40ebf6.chunk.js"
   ]
 }
