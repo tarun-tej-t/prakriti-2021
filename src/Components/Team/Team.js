@@ -5,8 +5,7 @@ import Machavaram from "../public_html/img/Rajendra Machavaram sir.jpg";
 import Hod from "../public_html/img/hod.jpg";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
-import tbg from "../public_html/img/tbg.jpeg";
-import tbg1 from "../public_html/img/tbg1.jpg";
+
 
 export default class Team extends Component {
   render() {

@@ -67,7 +67,7 @@ class Modal extends Component {
                   Click Here
                 </a>
               </h4>
-              <h4>Deadline for the submissions is 17 March.</h4>
+              <h4>Deadline for the submissions is 19th March, 11:59pm.</h4>
               <h4>
                 To submit your abstracts with other necessary details in the
                 google form{" "}
@@ -103,7 +103,7 @@ class Modal extends Component {
                     {" "}
                     3) Teams must submit their detailed abstract(in word or PDF
                     form of not more than 12 pages) to this google form link
-                    before the deadline (17th March,11:59 pm).​
+                    before the deadline (18th March,11:59 pm).​
                   </li>
 
                   <li>

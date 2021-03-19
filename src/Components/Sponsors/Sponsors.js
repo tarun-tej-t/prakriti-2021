@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import Sponsorcard from "./Sponsorcard";
-import Navbar from "../Navbar/Navbar2";
-import maharshiimage from "../public_html/img/mrice.jpg";
-import sbg from "../public_html/img/sbg.jpg";
+import nabardad from "./NABARD AD.jpg"
+import ABIC from "./ABIC.png"
+import swots from './swots.png'
+import fundamakers from './fundamakers.png'
+import meraevents from './meraevents.png'
+import mantra from './24mantra.png'
 import "./Sponsors.css";
 
 export default class Sponsors extends Component {
@@ -13,36 +16,94 @@ export default class Sponsors extends Component {
           backgroundColor: "#B3F9F3",
         }}
       >
-        <div style={{ paddingTop: "20vh" }}>
-          <div class="row">
+        <div style={{ paddingTop: "14vh" }}>
+        <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="section-headline text-center">
-                <h2 style={{ color: "#11785D" }}>Our Sponsors</h2>
+                <h2 style={{ color: "#11785D" }}>Co-Sponsor</h2>
               </div>
             </div>
           </div>
-
+          <div
+            style={{ width: "100%", display: "flex", justifyContent: "center" }}
+          >
+            <div class="row">
+            <Sponsorcard
+                simage="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Nabard.png"
+                stitle="Nabard"
+                slink="https://www.nabard.org/"
+              />
+               <div style={{padding:'30px'}}>
+            <div >
+              <img
+                class="img-responsive"
+                alt="Nabard AD"
+                src={nabardad}
+                style={{  width:"60vw",minWidth:'320px' }}
+              />
+              
+            </div>
+          </div>
+             
+            </div>
+          </div>
+          <br/><br/><br/>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2 style={{ color: "#11785D" }}>Event Sponsors</h2>
+              </div>
+            </div>
+          </div>
+         
           <div
             style={{ width: "100%", display: "flex", justifyContent: "center" }}
           >
             <div class="row">
               <Sponsorcard
-                simage="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Nestle.png"
-                stitle="Nestle"
-                slink="http://www.nestle.com"
+                simage={ABIC}
+                stitle="ABIC-IIT KHARAGPUR"
+                slink="https://kgpchronicle.iitkgp.ac.in/agri-food-techathon-aft-2021/"
               />
               <Sponsorcard
-                simage="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Oyo.png"
-                stitle="Oyo"
-                slink="https://www.oyorooms.com/"
+                simage={fundamakers}
+                stitle="FundaMakers"
+                slink="https://fundamakers.com/"
               />
               <Sponsorcard
-                simage="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/ITC%20Limited.png"
-                stitle="ITC Limited"
-                slink="https://www.itcportal.com/"
+                simage={swots}
+                stitle="MY SWOTs"
+                slink="https://myswots.com/"
               />
             </div>{" "}
           </div>
+          <div
+            style={{ width: "100%", display: "flex", justifyContent: "center" }}
+          >
+            <div class="row">
+              <Sponsorcard
+                simage={meraevents}
+                stitle="MeraEvents"
+                slink="https://www.meraevents.com/"
+              />
+             <Sponsorcard
+                simage={mantra}
+                stitle="24 Mantra Organic"
+                slink="https://www.24mantra.com/"
+              />
+             
+            </div>
+          </div>
+          <br/><br/>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2 style={{ color: "#11785D" }}>Past Sponsors</h2>
+              </div>
+            </div>
+          </div>
+
+        
           <div
             style={{ width: "100%", display: "flex", justifyContent: "center" }}
           >
@@ -63,6 +124,27 @@ export default class Sponsors extends Component {
                 slink="http://www.newholland.com/"
               />
             </div>{" "}
+          </div>
+          <div
+            style={{ width: "100%", display: "flex", justifyContent: "center" }}
+          >
+            <div class="row">
+              <Sponsorcard
+                simage="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Nestle.png"
+                stitle="Nestle"
+                slink="http://www.nestle.com"
+              />
+              <Sponsorcard
+                simage="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Oyo.png"
+                stitle="Oyo"
+                slink="https://www.oyorooms.com/"
+              />
+              <Sponsorcard
+                simage="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/ITC%20Limited.png"
+                stitle="ITC Limited"
+                slink="https://www.itcportal.com/"
+              />
+            </div>
           </div>
           <div
             style={{ width: "100%", display: "flex", justifyContent: "center" }}

@@ -71,7 +71,7 @@ class Modal extends Component {
                   Click Here
                 </a>
               </h4>
-              <h4>Deadline for the submissions is 17 March.</h4>
+              <h4>Deadline for the submissions is 18th March, 11:59pm.</h4>
               <h4>
                 To submit your abstracts with other necessary details{" "}
                 <a
@@ -109,8 +109,8 @@ class Modal extends Component {
                   </li>
                   <li>
                     4) All Teams must submit the following files to
-                    https://tinyurl.com/PrakritiSubmission before the deadline
-                    (8th March,11:59 pm) from the beginning of the event.
+                    https://tinyurl.com/Prakriti21Submission before the deadline
+                    (18th March,11:59 pm) from the beginning of the event.
                   </li>
                   <ul>
                     <li>Code: In any language</li>

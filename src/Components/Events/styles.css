@@ -14,7 +14,7 @@
   
   .banner {
     position: relative;
-    background: url(../public_html/img/dargad.PNG);
+   
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;

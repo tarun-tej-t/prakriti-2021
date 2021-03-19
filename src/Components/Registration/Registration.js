@@ -20,7 +20,8 @@ export default class Registration extends Component {
             <section class="signup" >
           
               <div style={{display: "flex", justifyContent: "center"}}  > 
-                <div class="signup-content" style={{width:'70vw'}} >
+                <div class="signup-content" style={{textAlign: "justify",
+                      textJustify: "inter-word",fontFamily:'Montserrat',width:'70vw', fontWeight:'500'}} >
                  {/*} <ul class="list" style={{ textAlign: "center",}}>
                     <li>
                       <i class="icon-check-1"></i>
@@ -38,13 +39,14 @@ export default class Registration extends Component {
                       </h5>
                     </li>
     </ul>*/}
-                  <form id="signup-form" name="signup-form" class="signup-form">
+                  <form id="signup-form" name="signup-form" class="signup-form" style={{ textAlign: "justify",
+                      textJustify: "inter-word",fontFamily:'Montserrat'}}>
                     <h2 class="form-title">
                       <a
                         href="https://www.meraevents.com/event/prakriti-iit-kharagpur"
                         rel="noreferrer"
                         target="_blank"
-                        style={{fontSize:'0.8em',color:"red",fontWeight:'700',fontFamily:':Lato'}}
+                        style={{fontSize:'0.8em',color:"red",fontWeight:'700',fontFamily:'Montserrat'}}
                         
                       >
                         CLICK HERE TO REGISTER FOR PRAKRITI 2021
@@ -54,12 +56,14 @@ export default class Registration extends Component {
                   <strong>Note</strong> : Participants are requested to :
                   <br />
                   <br />
+                  <p style={{textAlign: "justify",
+                      textJustify: "inter-word",fontFamily:'Montserrat'}}>
                   1. Keep a soft copy of the Application and the Payment slip
                   generated from the registration portal.
-                  <br />
+                  <br /><br />
                   2. Remember the registration ID.
                   <br /> It will be required for verification of the participant
-                  before appearing for any of the online events.
+                  before appearing for any of the online events.</p>
                 </div>
               </div>
             </section>

@@ -86,7 +86,7 @@ class Modal extends Component {
 
                   <li>
                     {" "}
-                    1)The date of the quiz is 20th March,2021 (Saturday).
+                    1)The date of the quiz is 19th March,2021 (Friday).
                   </li>
 
                   <li> 2)Total Prize Money: INR 4000.</li>
@@ -104,7 +104,7 @@ class Modal extends Component {
                     field..
                   </li>
 
-                  <li> 1)The date of the quiz is 21st March,2021 (Sunday).</li>
+                  <li> 1)The date of the quiz is 20th March,2021 (Saturday).</li>
 
                   <li> 2)Total Prize Money: INR 4000.</li>
                   <br />

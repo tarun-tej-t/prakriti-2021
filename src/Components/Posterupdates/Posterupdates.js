@@ -4,14 +4,18 @@ import CA from "./Campus Ambassador Program 3.jpg";
 import swnposter from "./swnpoter.jpg";
 
 import kmposter from "./kmposter.jpg";
-import dael from "./dael.jpeg";
+import dael from "./daposter.jpg";
 import ppposter from "./ppposter.jpg";
 import maposter from "./maposter.jpg";
 import qposter from "./qposter.jpg";
 import thposter from "./thposter.jpg";
-import fbcover from "./Fb Cover Page 3.jpg";
+import gl1poster from "./gl1poster.jpg";
+import gl2poster from "./gl2poster.jpg";
+import inceposter from "./inceposter.jpg";
+import scheduled0 from "./scheduled0.jpg";
+
+
 import "./Posterupdates.css";
-import { Slide } from "react-slideshow-image";
 
 export default class Posterupdates extends Component {
   render() {
@@ -20,12 +24,11 @@ export default class Posterupdates extends Component {
       canSwipe: false,
       indicators: true,
       pauseOnHover: true,
-      indicators: (i) => <div className="indicator">{i + 1}</div>,
     };
     return (
       <div style={{ backgroundColor: "#97F9E3" }}>
         <br />
-        <h1 style={{ color: "#11785D", fontWeight: "700" }}>Anouncements</h1>
+        <h1 style={{ color: "#11785D", fontWeight: "700", fontFamily:'Montserrat' }}>Announcements</h1>
         <hr
           style={{
             width: "8%",
@@ -37,6 +40,131 @@ export default class Posterupdates extends Component {
         <br />
         <div>
           <Zoom {...fadeProperties1}>
+          <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={inceposter} class="card-img" alt="..."  />
+                </div>
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={scheduled0} class="card-img"  alt="..." />
+                </div>
+                <div class="col-md-4">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Hola Peeps!!!
+                      <br />
+                      <br />
+                      The stage is finally set, Prakriti 2021 co-sponsored by NABARD invites you all to attend the Inauguration Ceremony starting today at 6 PM.
+                      <br />
+                      <br />
+                      The joining link will be sent to all the registered participants via mail.
+                      <br />
+                      <br />
+                      Those who have not yet registered, register fast <a href="#Registration" onClick={() => {
+                            window.scroll({
+                              left: 0,
+                              top: 0,
+                              behavior: "smooth",
+                            });
+                          }} >Here</a>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={gl1poster} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Hola folks!
+                      <br />
+                      <br />
+                      Prakriti 2021 is proud to announce that “Mr. Vilas Shinde”
+                      – the Chairman of “Sahyadri Farms” would be delivering the
+                      second session of the Guest Lecture series of Prakriti
+                      2021. The session will revolve around the topic -
+                      "Integrated Farmer-owned Crop Specific Value Chain". Get
+                      ready for some interesting learnings and make sure to
+                      attend the session at the mentioned time!
+                      <br />
+                      <br />
+                      Time: 2:00 pm – 3:30 pm on 21st March.
+                      <br />
+                      <br />
+                      Note: The link for the guest lectures will be shared with
+                      the registered participants via Gmail.
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters">
+                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+                  <img src={gl2poster} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Hola folks!
+                      <br />
+                      <br />
+                      Prakriti 2021 is proud to announce that “Mr. Kaushik K” – the Co-Founder & CEO of “Kheyti” would be delivering the first session of the Guest Lecture series of Prakriti 2021. The session will revolve around the topic - "Becoming an Agri Tech entrepreneur in India". Get ready for some interesting learnings about becoming an agripreneur and make sure to attend the session at the mentioned time!
+                      <br />
+                      <br />
+                      Time: 2:00 pm – 3:30 pm on 20th March.
+                      <br />
+                      <br />
+                      Note: The link for the guest lectures will be shared with
+                      the registered participants via Gmail.
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
@@ -49,8 +177,7 @@ export default class Posterupdates extends Component {
                       style={{
                         padding: "3vw",
                         fontWeight: "500",
-                        fontSize: "18px",
-                        fontFamily: "Josefin Sans",
+                        fontSize: "18px",fontFamily:'Montserrat'
                       }}
                     >
                       {" "}
@@ -90,8 +217,7 @@ export default class Posterupdates extends Component {
                       style={{
                         padding: "3vw",
                         fontWeight: "500",
-                        fontSize: "18px",
-                        fontFamily: "Josefin Sans",
+                        fontSize: "18px",fontFamily:'Montserrat'
                       }}
                     >
                       {" "}
@@ -103,7 +229,7 @@ export default class Posterupdates extends Component {
                       <br />
                       Total Prize Money: 5000 INR
                       <br />
-                      Deadline for the submissions is 17 March
+                      Deadline for the submissions is 17 March, 11:59pm
                       <br />
                       <br />
                       To submit your entries
@@ -137,6 +263,7 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>
+           
             <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
@@ -174,7 +301,7 @@ export default class Posterupdates extends Component {
                         Click Here
                       </a>
                       <br />
-                      Deadline for the submissions is 17 March
+                      Deadline for the submissions is 19th March, 11:59pm
                       <br />
                       <br />
                       To submit your abstracts with other necessary details in
@@ -220,8 +347,7 @@ export default class Posterupdates extends Component {
                       style={{
                         padding: "3vw",
                         fontWeight: "500",
-                        fontSize: "18px",
-                        fontFamily: "Josefin Sans",
+                        fontSize: "18px",fontFamily:'Montserrat'
                       }}
                     >
                       {" "}
@@ -242,7 +368,7 @@ export default class Posterupdates extends Component {
                         Click Here
                       </a>
                       <br />
-                      Deadline for the submissions is 17 March
+                      Deadline for the submissions is 18th March, 11:59pm
                       <br />
                       <br />
                       To submit your abstracts with other necessary details in
@@ -289,8 +415,7 @@ export default class Posterupdates extends Component {
                       style={{
                         padding: "3vw",
                         fontWeight: "500",
-                        fontSize: "18px",
-                        fontFamily: "Josefin Sans",
+                        fontSize: "18px",fontFamily:'Montserrat'
                       }}
                     >
                       {" "}
@@ -309,7 +434,7 @@ export default class Posterupdates extends Component {
                         Click Here
                       </a>
                       <br />
-                      Deadline for the submissions is 17 March
+                      Deadline for the submissions is 19th March,11:59pm
                       <br />
                       <br />
                       To submit your abstracts with other necessary details in
@@ -378,7 +503,7 @@ export default class Posterupdates extends Component {
                         Click Here
                       </a>
                       <br />
-                      Deadline for the submissions is 17 March
+                      Deadline for the submissions is 18th March,11:59pm
                       <br />
                       <br />
                       To submit your abstracts with other necessary details in
@@ -465,12 +590,12 @@ export default class Posterupdates extends Component {
                       general awareness and technical knowledge in the field of
                       agriculture and food processing. <br />
                       <br />
-                      Date: General Quiz – 20/03/21, Agro Food Quiz – 21/03/21
+                      Date: General Quiz – 19/03/21, Agro Food Quiz – 20/03/21
                       <br />
-                      Deadline for the submissions is 17 March
                       <br />
-                      Time: 5pm – 7pm for General as well as Agro Food Quiz.
-                      <br />
+                      Time: 8:00pm – 9:00pm for General as well as Agro Food
+                      Quiz.
+                      <br /> <br />
                       Note: The details of the quiz platform will be shared with
                       the registered participants via Gmail.
                       <br />
@@ -491,7 +616,7 @@ export default class Posterupdates extends Component {
                       </a>{" "}
                       for more details.
                       <br />
-                      <br />
+                      
                       Visit FundaMakers{" "}
                       <a
                         href="https://fundamakers.com/"
@@ -525,7 +650,7 @@ export default class Posterupdates extends Component {
                         padding: "3vw",
                         fontWeight: "500",
                         fontSize: "18px",
-                        fontFamily: "Josefin Sans",
+                        fontFamily: "Montserrat",
                       }}
                     >
                       {" "}

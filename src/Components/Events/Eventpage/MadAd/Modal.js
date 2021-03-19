@@ -63,7 +63,7 @@ class Modal extends Component {
                   Click Here
                 </a>
               </h4>
-              <h4>Deadline for the submissions is 17 March.</h4>
+              <h4>Deadline for the submissions is 18 March, 11:59pm.</h4>
               <h4>
                 To submit your abstracts with other necessary details in the
                 google form{" "}
@@ -100,7 +100,7 @@ class Modal extends Component {
                   <li>
                     {" "}
                     4) Participants must submit the above mentioned files to
-                    this google form link before the deadline (17th
+                    this google form link before the deadline (18th
                     March,11:59pm).
                   </li>
 

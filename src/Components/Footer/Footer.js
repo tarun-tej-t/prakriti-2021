@@ -37,7 +37,8 @@ export default class Footer extends Component {
             <div className="row">
               <div className="col-lg-4 col-md-6 footer-info">
                 <img src={logoprakriti} alt="TheEvenet" style={{height:'60px'}} />
-                <p> Prakriti is an Agri and Food Innovation Fest organized by the students of
+                <p style={{ textAlign: "justify",
+                      textJustify: "inter-word"}}> Prakriti is an Agri and Food Innovation Fest organized by the students of
           
           the Department of Agricultural and Food Engineering, IIT Kharagpur,
          

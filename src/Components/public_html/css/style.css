@@ -584,9 +584,7 @@ div#preloader {
   position: relative;
 }
 
-.our-skill-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top / cover;
-}
+
 
 .test-overly {
   background: rgba(0, 0, 0, 0.80);
@@ -759,7 +757,7 @@ div#preloader {
 ----------------------------------------*/
 
 .wellcome-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg");
+
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1035,7 +1033,7 @@ div#preloader {
 /*--------------------------------*/
 
 .reviews-area {
-  background: url(../img/background/bg1.jpg);
+  
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
