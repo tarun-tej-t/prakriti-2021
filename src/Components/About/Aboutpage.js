@@ -76,7 +76,7 @@ export default class Aboutpage extends Component {
                     
                     <div class="sec-head">
       <ReactPlayer
-        url="https://scontent-lax3-1.xx.fbcdn.net/v/t66.36240-6/10000000_831718534224574_461495375786745634_n.mp4?_nc_cat=105&ccb=1-3&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_ohc=1tSJ61DkcK0AX_skRnT&_nc_ht=scontent-lax3-1.xx&oh=d9721346b26a7a9a9d900515fc09d25b&oe=607A8A98" width="560" height="314"  
+        url="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/prakrit-2021_c.mp4?raw=true" width="560" height="314"  
         controls
       />
     </div>
