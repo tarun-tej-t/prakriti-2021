@@ -29,7 +29,7 @@ class Product extends Component {
               Know more
             </button>&ensp;&ensp;&ensp;&ensp;
             <a
-              href="http://tiny.cc/SelfiewithNature"
+              href="https://forms.gle/sGwkJQFP8RzfJSq78"
               target="_blank"
             >
               <button style={{ color: "whitesmoke" }}>My Submission</button>

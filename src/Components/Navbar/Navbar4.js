@@ -1,6 +1,6 @@
 import React, { useState,Component } from "react";
 
-import logoprakriti from "../public_html/img/logo copy.png";
+import logoprakriti from "./prakriti 22.png";
 
 import { Link } from "react-router-dom";
 import bars from './list-solid.svg'
@@ -16,7 +16,7 @@ const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const lw='300px';
+  const lw='230px';
 
   return (
     <div
@@ -79,14 +79,14 @@ const Header = () => {
                 }} style={{fontSize:'20px',textDecoration:'none'}}>SPONSORS</a>
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
-            <span href="#" onClick={() => {
+            <span href="#Blog" onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 6100,
                     behavior: "smooth",
                   });
                 }} style={{fontSize:'20px',textDecoration:'none',color:'red'}}>
-                CONTACT US
+                CONTACT
              </span>
           </li>
 
@@ -156,7 +156,7 @@ const Header = () => {
                     top: 10000,
                     behavior: "smooth",
                   });
-                }}  class="navother" style={{cursor:'pointer'}}>CONTACT</p>
+                }}  class="navother" style={{cursor:'pointer'}}>Contact</p>
         </li>
  
         <li className="sign-in" onClick={closeMobileMenu}>

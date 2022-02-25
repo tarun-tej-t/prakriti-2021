@@ -56,7 +56,7 @@ class Modal extends Component {
                 Here comes the first Pre-Event of PRAKRITI 2021 Selfie With
                 Nature.
               </h5>
-              <h4>To submit your entries,  <a href="https://tinyurl.com/Prakriti21Submission" target="_blank" style={{color:'red'}}>Click here</a></h4>
+              <h4>To submit your entries,  <a href="https://forms.gle/sGwkJQFP8RzfJSq78" target="_blank" style={{color:'red'}}>Click here</a></h4>
               <span>
                 <h3>Rules</h3>
 
@@ -73,7 +73,7 @@ class Modal extends Component {
                     {" "}
                     2) Please do send the photograph with your details by
                     filling  <a
-              href="http://tiny.cc/SelfiewithNature"
+              href="https://forms.gle/sGwkJQFP8RzfJSq78"
               target="_blank"
             >this Google Form.</a>
                   </li>
@@ -92,7 +92,7 @@ class Modal extends Component {
                   <li>
                     {" "}
                     5) Your entries will be uploaded on an Album named "Selfie
-                    With Nature, Prakriti 2021" on the Facebook page of Prakriti
+                    With Nature, Prakriti 2022" on the Facebook page of Prakriti
                     by the team.
                   </li>
 
@@ -102,15 +102,21 @@ class Modal extends Component {
                     of shares.
                   </li>
                   <li>
-                    7) The number of shares which are done applying privacy over them or done in private groups will not be counted. 
+                    7) Only those likes and shares would be counted who have already followed the facebook page of  <a
+              href="https://www.facebook.com/prkrt.iitkgp"
+              target="_blank"
+            >PRAKRITI-IIT KHARAGPUR</a>
+                  </li>
+                  <li>
+                    8) The number of shares which are done applying privacy over them or done in private groups will not be counted. 
 
                   </li>
                   <li>
-                    8) Number of shares and likes of the post shared by our page will only be counted.
+                    9) Number of shares and likes of the post shared by our page will only be counted.
 
                   </li>
                   <li>
-                    9) Prizes will be given to those participants who will be registering through our CEP portal of  Prakriti 2021. 
+                    9) Prizes will be given to those participants who will be registering through our website of  Prakriti 2022 (Registrations will begin soon)  
                   </li>
 
                   <li>

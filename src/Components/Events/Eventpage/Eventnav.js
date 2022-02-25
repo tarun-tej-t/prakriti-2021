@@ -344,7 +344,7 @@ export default class Eventnav extends Component {
                         </div>
                       </Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link
                         className={this.props.ppactive}
                         to="/PosterPresentation"
@@ -382,7 +382,7 @@ export default class Eventnav extends Component {
                           </h5>
                         </div>
                       </Link>
-                    </li>
+                    </li> */}
                    
                  
                   </ul>

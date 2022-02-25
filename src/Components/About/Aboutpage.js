@@ -77,7 +77,7 @@ export default class Aboutpage extends Component {
                     <div class="sec-head">
       <ReactPlayer
         url="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/prakrit-2021_c.mp4?raw=true" width="560" height="314"  
-        controls
+        controls loop autoplay
       />
     </div>
                    
@@ -105,7 +105,7 @@ export default class Aboutpage extends Component {
               </div>
               {/*} End col*/}
             </div>
-            <h4 class="sec-head">Registration</h4>
+            {/* <h4 class="sec-head">Registration</h4>
                     <ul style={{listStyleType:'none', textAlign: "justify",
                       textJustify: "inter-word"}}>
                       <li>
@@ -130,7 +130,7 @@ export default class Aboutpage extends Component {
                           </strong>
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                     <br />
           </div>
         </div>{" "}

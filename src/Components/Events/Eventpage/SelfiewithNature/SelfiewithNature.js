@@ -7,6 +7,7 @@ import img3 from "../../../public_html/img/gl3.jpeg";
 import { Fade } from "react-slideshow-image";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
+import SWN from "./swn.jpg";
 import Enav from '../Eventnav'
 //You need this npm package to do createReactClass
 
@@ -72,26 +73,24 @@ export default class Events1 extends Component {
                 >
                   <Fade {...zoomOutProperties}>
                     <div className="each-fade">
-                      <div className="image-container">
-                        <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/selfie%20with%20nature1.jpg" />
+                      <div className="image-container" >
+                        <img src={SWN} style={{width:"100%",justifyContent:"center",alignItems:"center",alignSelf:"center"}} />
                       </div>
                     </div>
                     <div className="each-fade">
                       <div className="image-container">
-                      <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/selfie%20with%20nature1.jpg" />
-
+                      <img src={SWN} style={{width:"100%",justifyContent:"center",alignItems:"center",alignSelf:"center"}} />
                       </div>
                     </div>
                     <div className="each-fade">
-                      <div className="image-container">
-                      <img src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/selfie%20with%20nature1.jpg" />
-
+                      <div className="image-container" >
+                      <img src={SWN}  style={{width:"100%",justifyContent:"center",alignItems:"center",alignSelf:"center"}}/>
                       </div>
                     </div>
                   </Fade>
                   <p>
                   Break out your smartphone and head out to take quiet walk with mother nature and take your selfie with nature.
-<br/><br/>Here comes the first Pre-Event of PRAKRITI 2021 Selfie With Nature.
+<br/><br/>Here comes the first Pre-Event of PRAKRITI 2022 Selfie With Nature.
                      <div stlyle={{ float: "right", paddingLeft: "200vw" }}>
                       <p>
                         <Product data={this.state.post} />

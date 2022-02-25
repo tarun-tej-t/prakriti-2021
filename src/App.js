@@ -30,20 +30,21 @@ import "./Components/public_html/lib/font-awesome/css/font-awesome.min.css";
 import { Link } from "react-router-dom";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Footer from "./Components/Footer/Footer";
+import Blog from "./Components/blog/Blog"
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import ReactGa from "react-ga";
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize("UA-187856504-1");
+    ReactGa.initialize("UA-221296921-1");
     //to report page view
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
     <div className="App">
-      <Loader
+      <Loader 
         type="MutatingDots"
         color="#EE7026"
         height={100}
@@ -64,7 +65,9 @@ function App() {
         <Route exact path="/contact" component={Homepage} />
 
         <Route exact path="/Team" component={Team} />
+        
         <Route exact path="/Sponsors" component={Sponsors} />
+        <Route exact path="/Blog" component={Blog} />
         <Route exact path="/Registration" component={Registration} />
 
         {/* Events */}

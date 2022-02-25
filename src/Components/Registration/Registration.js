@@ -43,17 +43,18 @@ export default class Registration extends Component {
                       textJustify: "inter-word",fontFamily:'Montserrat'}}>
                     <h2 class="form-title">
                       <a
-                        href="https://www.meraevents.com/event/prakriti-iit-kharagpur"
+                        href="#"
                         rel="noreferrer"
-                        target="_blank"
+                        // target="_blank"
                         style={{fontSize:'0.8em',color:"red",fontWeight:'700',fontFamily:'Montserrat'}}
                         
                       >
-                        CLICK HERE TO REGISTER FOR PRAKRITI 2021
+                        Registrations will be opened soon!!
+                        {/* CLICK HERE TO REGISTER FOR PRAKRITI 2021 */}
                       </a>
                     </h2>
                   </form>
-                  <strong>Note</strong> : Participants are requested to :
+                  {/* <strong>Note</strong> : Participants are requested to :
                   <br />
                   <br />
                   <p style={{textAlign: "justify",
@@ -63,7 +64,7 @@ export default class Registration extends Component {
                   <br /><br />
                   2. Remember the registration ID.
                   <br /> It will be required for verification of the participant
-                  before appearing for any of the online events.</p>
+                  before appearing for any of the online events.</p> */}
                 </div>
               </div>
             </section>

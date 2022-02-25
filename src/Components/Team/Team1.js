@@ -1,5 +1,15 @@
 import React, { Component } from "react";
 import "./Team.css";
+import Sakshi from './sakshi.jpg'
+import Ankit from './ankit.jpg'
+import Tarun from './Tarun.jpeg'
+import Abhilash from './Abhilash.jpg'
+import Deepak from './Deepak.jpg'
+import Bhanvi from './Bhanvi.jpg'
+import Aravind from './Aravind.jpg'
+import Mahil from './Mahil.HEIC'
+import Sandeep from './Sandeep.jpg'
+
 
 export default class Team extends Component {
   render() {
@@ -307,140 +317,7 @@ export default class Team extends Component {
           />
 
           <div className="our_team">
-            <div className="team_member">
-              <div className="member_img">
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Narpat.jpeg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-                <div className="social_media">
-                  <div className="facebook item">
-                    <a
-                      href="https://www.facebook.com/ajoonp.kalwaniyan"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-facebook-official"
-                        style={{ fontSize: "29px" }}
-                      ></i>{" "}
-                    </a>
-                  </div>
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/narpat-ram-kalwaniya-54521316b"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-linkedin"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h3>Narpat Ram Kalwaniya</h3>
-              <h5>President</h5>
-              <h6>
-                <i
-                  class="fa fa-phone"
-                  aria-hidden="true"
-                  style={{ transform: "scaleX(1)" }}
-                ></i>
-                &nbsp;(+91) 9694533544
-              </h6>
-              <p />
-            </div>
-
-            <div className="team_member">
-              <div className="member_img">
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Amit.jpeg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-                <div className="social_media">
-                  <div className="facebook item">
-                    <a
-                      href="https://www.facebook.com/amitkumar.jha.92505956"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-facebook-official"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/amit-kumar-jha-80b308154"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-linkedin"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h3>Amit Kumar Jha</h3>
-              <h5>Vice-President</h5>
-              <h6>
-                <i
-                  class="fa fa-phone"
-                  aria-hidden="true"
-                  style={{ transform: "scaleX(1)" }}
-                ></i>
-                &nbsp;(+91) 9304037602
-              </h6>
-              <p />
-            </div>
-            <div className="team_member">
-              <div className="member_img">
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Subhash.jpeg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-                <div className="social_media">
-                  <div className="facebook item">
-                    <a
-                      href="https://www.facebook.com/profile.php?id=100008984739412"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-facebook-official"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/subhash-bayal-018b2a129"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-linkedin"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h3>Subhash Bayal</h3>
-              <h5>Co-Ordinator</h5>
-              <h6>
-                <i
-                  class="fa fa-phone"
-                  aria-hidden="true"
-                  style={{ transform: "scaleX(1)" }}
-                ></i>
-                &nbsp;(+91) 8597165831
-              </h6>
-              <p />
-            </div>
-            <div className="team_member">
+          <div className="team_member">
               <div className="member_img">
                 <img
                   src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Prachi.jpg"
@@ -473,7 +350,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Prachi Bajpai</h3>
-              <h5>General Sectatry</h5>
+              <h5>President</h5>
               <h6>
                 <i
                   class="fa fa-phone"
@@ -484,20 +361,18 @@ export default class Team extends Component {
               </h6>
               <p />
             </div>
-         
-            
 
             <div className="team_member">
               <div className="member_img">
                 <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/jana%20rima.jpg"
+                  src={Sakshi} 
                   alt="our_team"
                   style={{ borderRadius: "50%" }}
                 />
                 <div className="social_media">
                   <div className="facebook item">
                     <a
-                      href="https://www.facebook.com/rima.jana.7399"
+                      href="https://www.facebook.com/profile.php?id=100036648862932"
                       target="_blank"
                     >
                       <i
@@ -508,7 +383,7 @@ export default class Team extends Component {
                   </div>
                   <div className="facebook item">
                     <a
-                      href="https://www.linkedin.com/in/rima-jana-5921a7191"
+                      href="https://www.linkedin.com/in/sakshi-gupta-5ab85a1bb"
                       target="_blank"
                     >
                       <i
@@ -519,243 +394,18 @@ export default class Team extends Component {
                   </div>
                 </div>
               </div>
-              <h3>Jana Rima</h3>
-              <h5>Sponsorship Head</h5>
+              <h3>Sakshi Gupta</h3>
+              <h5>Vice-President</h5>
               <h6>
                 <i
                   class="fa fa-phone"
                   aria-hidden="true"
                   style={{ transform: "scaleX(1)" }}
                 ></i>
-                &nbsp;(+91) 8121247812
+                &nbsp;(+91) 7649880886
               </h6>
               <p />
             </div>
-            <div className="team_member">
-              <div className="member_img">
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/harsh.jpg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-                <div className="social_media">
-                  <div className="facebook item">
-                    <a
-                      href="https://www.facebook.com/harsh.thakur.5070276"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-facebook-official"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/harshvardhan-singh-thakur-750764191"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-linkedin"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h3>Harshvardhan singh thakur</h3>
-              <h5>Sponsorship Head</h5>
-              <h6>
-                <i
-                  class="fa fa-phone"
-                  aria-hidden="true"
-                  style={{ transform: "scaleX(1)" }}
-                ></i>
-                &nbsp;(+91) 7024494919
-              </h6>
-              <p />
-            </div>
-            <div className="team_member">
-              <div className="member_img">
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Aashish-min.jpg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-                <div className="social_media">
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/aashish-kumar-419515165"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-facebook-official"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/aashish-kumar-419515165"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-linkedin"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h3>Aashish Kumar</h3>
-              <h5>Treasurer</h5>
-              <h6>
-                <i
-                  class="fa fa-phone"
-                  aria-hidden="true"
-                  style={{ transform: "scaleX(1)" }}
-                ></i>
-                &nbsp;(+91) 8084662242
-              </h6>
-              <p />
-            </div>
-
-            <div className="team_member">
-              <div className="member_img">
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Ninad.jpeg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-                <div className="social_media">
-                  <div className="facebook item">
-                    <a
-                      href="https://www.facebook.com/ninad.shelke.5621"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-facebook-official"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/ninad-shelke-4163a8170"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-linkedin"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h3>Ninad Shelke</h3>
-              <h5>Events Head</h5>
-              <h6>
-                <i
-                  class="fa fa-phone"
-                  aria-hidden="true"
-                  style={{ transform: "scaleX(1)" }}
-                ></i>
-                &nbsp;(+91) 9130965960
-              </h6>
-              <p />
-            </div>
-          
-           
-            <div className="team_member">
-              <div className="member_img">
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/Rakshit.jpeg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-                <div className="social_media">
-                  <div className="facebook item">
-                    <a
-                      href="https://www.facebook.com/rakshit.rana.313"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-facebook-official"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/rakshit-rana-3aa151190"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-linkedin"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h3>Rakshit Rana</h3>
-              <h5>Publicity Head</h5>
-              <h6>
-                <i
-                  class="fa fa-phone"
-                  aria-hidden="true"
-                  style={{ transform: "scaleX(1)" }}
-                ></i>
-                &nbsp;(+91) 6280031474
-              </h6>
-              <p />
-            </div>
-        
-            <div className="team_member">
-              <div className="member_img">
-                <img
-                  src="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/prakriti2021/abhinav.jpg"
-                  alt="our_team"
-                  style={{ borderRadius: "50%" }}
-                />
-                <div className="social_media">
-                  <div className="facebook item">
-                    <a
-                      href="https://www.facebook.com/abhinav.jha.77"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-facebook-official"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                  <div className="facebook item">
-                    <a
-                      href="https://www.linkedin.com/in/abhinav-jha-431a901a0"
-                      target="_blank"
-                    >
-                      <i
-                        class="fa fa-linkedin"
-                        style={{ fontSize: "29px" }}
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h3>Abhinav Jha</h3>
-              <h5>Events Head</h5>
-              <h6>
-                <i
-                  class="fa fa-phone"
-                  aria-hidden="true"
-                  style={{ transform: "scaleX(1)" }}
-                ></i>
-                &nbsp;(+91) 8107843172
-              </h6>
-              <p />
-            </div>
-
             <div className="team_member">
               <div className="member_img">
                 <img
@@ -789,7 +439,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <h3>Devendra Kumar Maurya</h3>
-              <h5>Design Head</h5>
+              <h5>Co-ordinator</h5>
               <h6>
                 <i
                   class="fa fa-phone"
@@ -800,6 +450,368 @@ export default class Team extends Component {
               </h6>
               <p />
             </div>
+            <div className="team_member">
+              <div className="member_img">
+                <img
+                  src={Ankit}
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="https://www.facebook.com/ankit.rathore.5203"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-facebook-official"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                  <div className="facebook item">
+                    <a
+                      href="https://www.linkedin.com/in/ankit-rathore-35971a200"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-linkedin"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h3>Ankit Rathore</h3>
+              <h5>Post Graduate Co-ordinator</h5>
+              <h6>
+                <i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style={{ transform: "scaleX(1)" }}
+                ></i>
+                &nbsp;(+91) 7999501585
+              </h6>
+              <p />
+            </div>
+                 <div className="team_member">
+              <div className="member_img">
+                <img
+                  src={Aravind}
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100005228745445"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-facebook-official"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                  <div className="facebook item">
+                    <a
+                      href="https://www.linkedin.com/in/lakavath-aravind-kumar-361187190/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-linkedin"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h3>Lakavath Aravind kumar</h3>
+              <h5>General Secretary & Treasurer</h5>
+              <h6>
+                <i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style={{ transform: "scaleX(1)" }}
+                ></i>
+                &nbsp;(+91) 9542224840
+              </h6>
+              <p />
+            </div> 
+            
+         
+            
+
+            <div className="team_member">
+              <div className="member_img">
+                <img
+                  src={Tarun}
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="https://www.facebook.com/tarun.tej.96"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-facebook-official"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                  <div className="facebook item">
+                    <a
+                      href="https://www.linkedin.com/in/tarun-tej-thadana-software-engineer"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-linkedin"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h3>Tarun Tej Thadana</h3>
+              <h5>Technical Team Head</h5>
+              <h6>
+                <i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style={{ transform: "scaleX(1)" }}
+                ></i>
+                &nbsp;(+91) 7993884462
+              </h6>
+              <p />
+            </div>
+            <div className="team_member">
+              <div className="member_img">
+                <img
+                  src={Abhilash}
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="https://www.facebook.com/sankar.mukhopadhyay.5"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-facebook-official"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                  <div className="facebook item">
+                    <a
+                      href="https://www.linkedin.com/in/abhilash-mukherjee-3b6799191/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-linkedin"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h3>Abhilash Mukherjee</h3>
+              <h5>Events Head</h5>
+              <h6>
+                <i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style={{ transform: "scaleX(1)" }}
+                ></i>
+                &nbsp;(+91) 8240533450
+              </h6>
+              <p />
+            </div>
+           <div className="team_member">
+              <div className="member_img">
+                <img
+                  src={Bhanvi}
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="https://www.facebook.com/bhanvi.suryavanshi"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-facebook-official"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                   <div className="facebook item">
+                    <a
+                      href="https://www.linkedin.com/in/bhanvi-suryavanshi-0773131b9/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-linkedin"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div> 
+              </div>
+              </div>
+              <h3>Bhanvi Suryavanshi</h3>
+              <h5>Sponsorship Head</h5>
+              <h6>
+                <i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style={{ transform: "scaleX(1)" }}
+                ></i>
+                &nbsp;(+91) 7566455385
+              </h6>
+              <p />
+            </div>  
+
+            
+          
+           
+            <div className="team_member">
+              <div className="member_img">
+                <img
+                  src={Mahil}
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="https://www.facebook.com/mahil.shaik/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-facebook-official"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                  <div className="facebook item">
+                    <a
+                      href="https://www.linkedin.com/in/mahil-hussain-shaik-918831196/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-linkedin"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h3>Shaik Mahil Hussain</h3>
+              <h5>Sponsorship Head</h5>
+              <h6>
+                <i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style={{ transform: "scaleX(1)" }}
+                ></i>
+                &nbsp;(+91) 8309201614
+              </h6>
+              <p />
+            </div> 
+            
+            <div className="team_member">
+              <div className="member_img">
+                <img
+                  src={Sandeep}
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="https://www.facebook.com/thesandeepruhela/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-facebook-official"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                  <div className="facebook item">
+                    <a
+                      href="https://www.linkedin.com/in/sandeepruhela08/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-linkedin"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h3>Sandeep Ruhela</h3>
+              <h5>Design Head</h5>
+              <h6>
+                <i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style={{ transform: "scaleX(1)" }}
+                ></i>
+                &nbsp;(+91) 8058693570
+              </h6>
+              <p />
+            </div> 
+            <div className="team_member">
+              <div className="member_img">
+                <img
+                  src={Deepak}
+                  alt="our_team"
+                  style={{ borderRadius: "50%" }}
+                />
+                <div className="social_media">
+                  <div className="facebook item">
+                    <a
+                      href="https://www.facebook.com/deepakkumawat01092000"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-facebook-official"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                  <div className="facebook item">
+                    <a
+                      href="https://www.linkedin.com/in/deepak-kumar-69815a1bb"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-linkedin"
+                        style={{ fontSize: "29px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h3>Deepak Kumar </h3>
+              <h5>Public Relations and Marketing Head </h5>
+              <h6>
+                <i
+                  class="fa fa-phone"
+                  aria-hidden="true"
+                  style={{ transform: "scaleX(1)" }}
+                ></i>
+                &nbsp;(+91) 7375877142
+              </h6>
+              <p />
+            </div>
+            
           </div>
         </div>
       </div>
