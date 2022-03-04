@@ -30,7 +30,7 @@ export default class Footer extends Component {
         <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
          Template Main CSS File */}
         {/*<link href="assets/css/style.css" rel="stylesheet" />
-        <a href="#" className="back-to-top"><i className="fa fa-angle-up" /></a>*/}
+        <a href="/" className="back-to-top"><i className="fa fa-angle-up" /></a>*/}
           <footer id="footer">
         <div className="footer-top">
           <div className="container">
@@ -50,35 +50,35 @@ export default class Footer extends Component {
               <div className="col-lg-4 col-md-6 footer-links">
                 <h4 >Useful Links</h4>
                 <ul >
-                  <li><i className="fa fa-angle-right" /> <a href="#" onClick={() => {
+                  <li><i className="fa fa-angle-right" /> <a href="" onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 0,
                     behavior: "smooth",
                   });
                 }} >Home</a></li>
-                  <li><i className="fa fa-angle-right" /> <a href="#Events" onClick={() => {
+                  <li><i className="fa fa-angle-right" /> <a href="Events" onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 0,
                     behavior: "smooth",
                   });
                 }} >Events</a></li>
-                  <li><i className="fa fa-angle-right" /> <a href="#Team" onClick={() => {
+                  <li><i className="fa fa-angle-right" /> <a href="Team" onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 0,
                     behavior: "smooth",
                   });
                 }} >Team</a></li>
-                  <li><i className="fa fa-angle-right" /> <a href="#Sponsors" onClick={() => {
+                  <li><i className="fa fa-angle-right" /> <a href="Sponsors" onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 0,
                     behavior: "smooth",
                   });
                 }} >Sponsors</a></li>
-                  <li><i className="fa fa-angle-right" /> <a href="#Registration" onClick={() => {
+                  <li><i className="fa fa-angle-right" /> <a href="Registration" onClick={() => {
                   window.scroll({
                     left: 0,
                     top: 0,

@@ -1,0 +1,47 @@
+
+  
+#mainb1{
+  padding: 0px  40px 0 40px;
+}
+.centeredb1 {
+    color:white;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.63);
+    
+    width: 100vw;
+   height: 70vh;
+  
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .imageb1{
+width:60vw;
+  }
+  .imageb2{
+    width:30vw;
+      }
+
+
+  @media only screen and (max-width: 600px) {
+    
+  
+#mainb1{
+  padding: 0px ;
+}
+    .imageb1{
+      width:95vw;
+    }
+    .imageb2{
+      width:45vw;
+    }
+  }

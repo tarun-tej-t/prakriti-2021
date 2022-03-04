@@ -13,7 +13,7 @@ export default class Footer1 extends Component {
         <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         {/* Template Main CSS File */}
         <link href="assets/css/style.css" rel="stylesheet" />
-        <a href="#" className="back-to-top"><i className="fa fa-angle-up" /></a>
+        <a href="/" className="back-to-top"><i className="fa fa-angle-up" /></a>
           <footer id="footer">
         <div className="footer-top">
           <div className="container">

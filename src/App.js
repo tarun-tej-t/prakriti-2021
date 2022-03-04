@@ -18,6 +18,10 @@ import SelfiewithNature from "./Components/Events/Eventpage/SelfiewithNature/Sel
 import Quizella from "./Components/Events/Eventpage/Quizella/Quizella";
 // import PosterPresentation from "./Components/Events/Eventpage/PosterPresentation/PosterPresentation";
 
+//blogs
+import Blog from "./Components/blog/Blog"
+import Blog1 from "./Components/blog/Blogs/blog1/blog1"
+
 //css files
 
 import "./Components/public_html/css/style.css";
@@ -29,11 +33,16 @@ import "./Components/public_html/lib/font-awesome/css/font-awesome.min.css";
 
 import { Link } from "react-router-dom";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
+
+
 import Footer from "./Components/Footer/Footer";
-import Blog from "./Components/blog/Blog"
 import Loader from "react-loader-spinner";
+
+
+
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import ReactGa from "react-ga";
+import FoodQuestpdf from "./Components/Pdfs/foodquest/Foodquestpdf";
 
 function App() {
   useEffect(() => {
@@ -67,7 +76,7 @@ function App() {
         <Route exact path="/Team" component={Team} />
         
         <Route exact path="/Sponsors" component={Sponsors} />
-        <Route exact path="/Blog" component={Blog} />
+        
         <Route exact path="/Registration" component={Registration} />
 
         {/* Events */}
@@ -81,6 +90,12 @@ function App() {
         <Route exact path="/MadAd" component={MadAd} />
         <Route exact path="/SelfiewithNature" component={SelfiewithNature} />
         <Route exact path="/Quizella" component={Quizella} />
+{/* Pdfs */}
+<Route exact path="/foodquest-ps" component={FoodQuestpdf}/>
+
+{/* Blogs */}
+        <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/How Eggoz Is Building A Protein Positive India" component={Blog1} />
         {/* <Route
           exact
           path="/PosterPresentation"

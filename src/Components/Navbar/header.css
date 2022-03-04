@@ -1,10 +1,10 @@
 .header1 {
     display: flex;
-    background-color: #f6faf84f;
+    
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px;
-    height: 130px;
+    padding: 10px 40px;
+    
   }
   
   
@@ -133,7 +133,7 @@
     transition: all 0.3s ease;
   height: 25px;
   width: 100px;
-  border: 1px solid #fff;
+  border: 1px solid #2B6A5F;
   border-radius: 15px;
   margin: 0 0 0 5%;
   color: #fd5800;
@@ -159,7 +159,7 @@
   }
 
   .scroll1{
-    background-color: #ffffff3d;
+    background-color: #ffffff;
     height: 80px;
   } 
 

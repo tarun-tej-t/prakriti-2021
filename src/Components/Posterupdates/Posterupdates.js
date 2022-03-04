@@ -41,10 +41,10 @@ export default class Posterupdates extends Component {
         <br />
         <div>
           <Zoom {...fadeProperties1}>
-          <div class="card mb-3" style={{ maxWidth: "100vw" }}>
-              <div class="row no-gutters">
-                <div class="col-md-4" style={{ padding: "0.5vw" }}>
-                  <img src={swnposter} class="card-img" alt="..." />
+          <div class="card mb-3" >
+              <div class="row no-gutters" style={{margin: '0 auto',}}>
+                <div class="col-md-4" style={{ alignSelf:"center" }}>
+                  <img src={swnposter} class="card-img" alt="..."/>
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -53,13 +53,15 @@ export default class Posterupdates extends Component {
                       style={{
                         padding: "3vw",
                         fontWeight: "500",
-                        fontSize: "18px",fontFamily:'Montserrat'
+                        fontSize: "18px",fontFamily:'Montserrat',
+                        alignSelf:"center"
                       }}
                     >
                       {" "}
                       Break Up from the daily hustle and take a while to cherish the joys of life !! In a world of constant change and streaming technology, find solace in nature. Bring out your love for nature by capturing your 
                       <br />
-                      <br />
+                      <br />      
+                     
                       Total Prize Money: 5000 INR
                       <br />
                       Deadline for the submissions is 17 March, 11:59pm
@@ -78,7 +80,7 @@ export default class Posterupdates extends Component {
                       <br />
                       Visit{" "}
                       <a
-                        href="/#/SelfiewithNature"
+                        href="/SelfiewithNature"
                         onClick={() => {
                           window.scroll({
                             left: 0,
@@ -92,13 +94,18 @@ export default class Posterupdates extends Component {
                       </a>{" "}
                       for more details.
                     </p>
+                    <br />
+                      <br /><br />
+                      <br /><br />
+                      <br /><br />
+                      <br />
                   </div>
                 </div>
               </div>
             </div>
           <div class="card mb-3" style={{ maxWidth: "100vw" }}>
-              <div class="row no-gutters">
-                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+              <div class="row no-gutters" style={{margin: '0 auto',}}>
+                <div class="col-md-4" style={{ alignSelf:"center" }}>
                   <img src={W1} class="card-img" alt="..."  />
                 </div>
                 {/* <div class="col-md-4" style={{ padding: "0.5vw" }}>
@@ -139,8 +146,8 @@ export default class Posterupdates extends Component {
               </div>
             </div>
              <div class="card mb-3" style={{ maxWidth: "100vw" }}>
-              <div class="row no-gutters">
-                <div class="col-md-4" style={{ padding: "0.5vw" }}>
+              <div class="row no-gutters" style={{margin: '0 auto',}}>
+                <div class="col-md-4" style={{ alignSelf:"center" }}>
                   <img src={CA} class="card-img" alt="..." />
                 </div>
                 <div class="col-md-8">

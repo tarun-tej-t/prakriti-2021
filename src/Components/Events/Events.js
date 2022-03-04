@@ -20,7 +20,7 @@ export default function Events() {
 
           <div style={{width:'100%'}}>
             <Eventcard 
-            elink="#/quizella"
+            elink="/quizella"
             eicon={<i class="fa fa-check-square-o"></i>}
               etitle="QUIZELLA"
               edescription="Time to tickle your grey cells in order to know more about the world in and around you along with some of the most intuitive Agri-related questions.
