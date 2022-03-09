@@ -27,6 +27,12 @@
   overflow: auto;
 }
 
+.pdfcontainer{
+    height: 100%;
+    max-height: 90vh;
+    
+}
+
 @media screen and (max-width:900px) {
     .react-pdf__Page__canvas {
         margin: 0 auto;

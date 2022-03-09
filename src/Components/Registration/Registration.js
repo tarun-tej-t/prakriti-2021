@@ -11,8 +11,9 @@ export default class Registration extends Component {
         background: `url("https://cdn.wallpapersafari.com/72/67/JgXNDG.gif")  no-repeat fixed center top / cover`,
         backgroundSize:'cover',minWidth:'100vw',minHeight:'100vh'
       }}>
-       
-      <div style={{paddingTop:'30vh',paddingBottom:'20vh',backgroundColor:'rgb(175, 248, 242,0.75)',minWidth:'100vw',minHeight:'100vh'}}>
+            <embed src="https://www.meraevents.com/event/prakriti-2022-iit-kharagpur?ucode=organizer" style={{width:'100vw', minHeight: '350vh'}}></embed>
+ 
+      {/* <div style={{paddingTop:'30vh',paddingBottom:'20vh',backgroundColor:'rgb(175, 248, 242,0.75)',minWidth:'100vw',minHeight:'100vh'}}>
        
 
         <div class="main" >
@@ -32,16 +33,18 @@ export default class Registration extends Component {
                     <li>
                       <i class="icon-check-1" />
                       <h5>
-                        {" "}
+                        {" "}09
                         <strong>
                          
                         </strong>
                       </h5>
                     </li>
     </ul>*/}
-                  <form id="signup-form" name="signup-form" class="signup-form" style={{ textAlign: "justify",
+                   {/*  <form id="signup-form" name="signup-form" class="signup-form" style={{ textAlign: "justify",
                       textJustify: "inter-word",fontFamily:'Montserrat'}}>
                     <h2 class="form-title">
+                    <iframe src="https://www.meraevents.com/ticketWidget?eventId=248437&ucode=organizer&wcode=D11717-11785D-333333-11785D-&dateTime=1&location=1&directDetails=0&redirectUrl=https://prkrt.co.in/postregistration&theme=1&t=2&tid=354137" width="100%" height="600" frameborder="0px"></iframe>                    
+                    <embed src="https://www.meraevents.com/event/prakriti-2022-iit-kharagpur?ucode=organizer" style={{width:'100vw', height: '90vh'}}></embed>
                       <a
                         href="#"
                         rel="noreferrer"
@@ -50,8 +53,9 @@ export default class Registration extends Component {
                         
                       >
                         Registrations will be opened soon!!
+                        
                         {/* CLICK HERE TO REGISTER FOR PRAKRITI 2021 */}
-                      </a>
+                      {/*   </a>
                     </h2>
                   </form>
                   {/* <strong>Note</strong> : Participants are requested to :
@@ -65,12 +69,12 @@ export default class Registration extends Component {
                   2. Remember the registration ID.
                   <br /> It will be required for verification of the participant
                   before appearing for any of the online events.</p> */}
-                </div>
+                 {/*  </div>
               </div>
             </section>
           </div>
         </div>
-      </div>
+      </div> */}
       </div>
     );
   }

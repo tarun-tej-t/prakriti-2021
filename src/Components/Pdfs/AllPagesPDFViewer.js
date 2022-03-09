@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 export default function AllPages(props) {
   const [numPages, setNumPages] = useState(null);
