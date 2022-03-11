@@ -1,4 +1,4 @@
-import { Switch, Route, withRouter } from "react-router-dom";
+import { Switch, Route, withRouter,Redirect } from "react-router-dom";
 import React, { Component, useEffect } from "react";
 import Homepage from "./Homepage";
 import Sponsors from "./Components/Sponsors/Sponsors";
@@ -43,6 +43,8 @@ import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import ReactGa from "react-ga";
 import FoodQuestpdf from "./Components/Pdfs/foodquest/Foodquestpdf";
+import Comingsoon from "./Components/Comingsoon/Comingsoon";
+import SelfiewithNaturesubmissionform from "./Components/Submissionforms/SelfiewithNature";
 
 function App() {
   useEffect(() => {
@@ -80,7 +82,7 @@ function App() {
         <Route exact path="/Registration" component={Registration} />
 
         {/* Events */}
-        <Route path="/Events" component={KrishiManthan} />
+        <Route path="/Events" component={Comingsoon} />
         <Route exact path="/KrishiManthan" component={KrishiManthan} />
         <Route exact path="/DataAnalytics" component={DataAnalytics} />
         <Route exact path="/GuestLecture" component={GuestLecture} />
@@ -93,6 +95,9 @@ function App() {
 {/* Pdfs */}
 <Route exact path="/foodquest-ps" component={FoodQuestpdf}/>
 
+{/* Submissions */}
+<Route exact path="/selfie-with-nature-submission-form" component={SelfiewithNaturesubmissionform}/>
+
 {/* Blogs */}
         <Route exact path="/Blog" component={Blog} />
         <Route exact path="/How Eggoz Is Building A Protein Positive India" component={Blog1} />
@@ -101,6 +106,8 @@ function App() {
           path="/PosterPresentation"
           component={PosterPresentation}
         /> */}
+
+<Redirect from='/blogi/' to="/tutorials/" />
       </Switch>
       <ScrollUpButton
         StopPosition={0}

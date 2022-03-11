@@ -24,7 +24,7 @@ export default class Blog extends Component {
         style={{
           paddingTop: "20vh",
           backgroundColor: "rgb(176, 234, 205,0.5)",
-          minHeight: "100vh",
+          minHeight: "90vh",
         }}
       >
         {/* <h1
