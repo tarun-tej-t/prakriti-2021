@@ -5,12 +5,12 @@ import AllPagesPDFViewer from "../AllPagesPDFViewer";
 
 /* This is required only if the project file is located 
 inside the app. Otherwise you can use the external link of the pdf file*/
-import FoodquestPDF from "./foodquestps.pdf";
+import FoodquestPDF from "./Agrivationps.pdf";
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 import "../styles.css";
 
-export default function FoodQuestpdf() {
+export default function Agrivationpdf() {
   return (
     <div className="App"><br/><br/><br/><br/>
       {/* <h4>Single Page</h4>

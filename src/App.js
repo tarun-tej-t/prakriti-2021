@@ -42,7 +42,11 @@ import Loader from "react-loader-spinner";
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import ReactGa from "react-ga";
+
+//pdfs
 import FoodQuestpdf from "./Components/Pdfs/foodquest/Foodquestpdf";
+import Agrivationpdf from "./Components/Pdfs/agrivation/agrivation.js";
+
 import Comingsoon from "./Components/Comingsoon/Comingsoon";
 import SelfiewithNaturesubmissionform from "./Components/Submissionforms/SelfiewithNature";
 
@@ -94,6 +98,7 @@ function App() {
         <Route exact path="/Quizella" component={Quizella} />
 {/* Pdfs */}
 <Route exact path="/foodquest-ps" component={FoodQuestpdf}/>
+<Route exact path="/agrivation-ps" component={Agrivationpdf}/>
 
 {/* Submissions */}
 <Route exact path="/selfie-with-nature-submission-form" component={SelfiewithNaturesubmissionform}/>
