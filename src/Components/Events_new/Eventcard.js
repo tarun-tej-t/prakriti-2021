@@ -1,15 +1,25 @@
 import React, { Component } from 'react'
 import './Eventcard.css'
 
-export default function Eventcard(props) {
-
+export default class  Eventcard extends Component{
+    
+    constructor(props) {
+        super(props);
+    
+        this.bgimage = {
+          backgroundImage: `url(${this.props.poster})`,
+        };
+      }
+ 
+    render() {
     return (
-      <div>  
+      <div style={{padding:"0px 20px 20px 20px"}}>  
           
-    <div class={props.cname}>
+        
+    <div class={this.props.cname}>
       <div class="meta">
-        <div class="photo" style={{backgroundImage: 'url(https://static.meraevents.com/content/gallery/248437/swn1646826096.jpg)'}}></div>
-        <ul class="details">
+        <div class="photo" style={{...this.bgimage}}></div>
+        {/* <ul class="details">
             <li></li>
           <li class="author"><a href="#">John Doe</a></li>
           <li class="date">Aug. 24, 2015</li>
@@ -19,22 +29,26 @@ export default function Eventcard(props) {
              
             </ul>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div class="description">
-          <img src="https://github.com/tarun-tej-t/prakriti-2021/blob/master/src/Components/Events_new/eggozlogo.png" height="40px"/>
-        <h1>{props.name}</h1>
-        <h2>{props.tagline}</h2>
-        <p> {props.description}</p>
+          {(this.props.sponsor)? (
+              <img src={this.props.sponsor} style={{height:"80px"}}/>
+          ): null}
+          
+        <h1>{this.props.name}</h1>
+        <h2>{this.props.tagline}</h2>
+        <p> {this.props.description}</p>
         <p class="read-more">
-          <a href={props.ps}>Problem Statement</a> <a href={props.submit}>Submit</a>
+        {(this.props.ps)? (
+          <a href={this.props.ps} target="_blank">Problem Statement</a> ): null}
+           <a href={this.props.submit} target="_blank">Submit</a>
         </p>
-        <p class="read-more">
-         
-        </p>
+      
       </div>
     </div>
+       
     </div>
     )
   }
-
+}

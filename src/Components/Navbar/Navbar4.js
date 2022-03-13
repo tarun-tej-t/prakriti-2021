@@ -102,7 +102,7 @@ const Header = (props) => {
                     });
                   }} style={{fontSize:'20px',textDecoration:'none'}}>REGISTRATION</a>
             </li>
-            <li className=" option mobile-option" onClick={closeMobileMenu}>
+            {/* <li className=" option mobile-option" onClick={closeMobileMenu}>
               <a href="https://tinyurl.com/Prakriti21Submission" onClick={() => {
                     window.scroll({
                       left: 0,
@@ -110,7 +110,7 @@ const Header = (props) => {
                       behavior: "smooth",
                     });
                   }} style={{fontSize:'20px',textDecoration:'none'}} target="_blank">SUBMIT</a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <ul className="signin-up">
