@@ -1,10 +1,17 @@
 import { Switch, Route, withRouter,Redirect } from "react-router-dom";
 import React, { Component, useEffect } from "react";
+
+import Navbar from "./Components/Navbar/Navbar4";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import ReactGa from "react-ga";
+
+//navpages
 import Homepage from "./Homepage";
 import Sponsors from "./Components/Sponsors/Sponsors";
 import Team from "./Components/Team/Team1";
 import Registration from "./Components/Registration/Registration";
-import Navbar from "./Components/Navbar/Navbar4";
+import Events from "./Components/Events_new/Eventslist"
+import Comingsoon from "./Components/Comingsoon/Comingsoon";
 
 //Events
 import KrishiManthan from "./Components/Events/Eventpage/KrishiManthan//KrishiManthan";
@@ -23,32 +30,27 @@ import Blog from "./Components/blog/Blog"
 import Blog1 from "./Components/blog/Blogs/blog1/blog1"
 
 //css files
-
 import "./Components/public_html/css/style.css";
 import "./Components/public_html/css/styleold.css";
 import "./Components/public_html/css/responsive.css";
 import "./Components/public_html/lib/bootstrap/css/bootstrap.min.css";
-
 import "./Components/public_html/lib/font-awesome/css/font-awesome.min.css";
 
 import { Link } from "react-router-dom";
-import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
-
-import Footer from "./Components/Footer/Footer";
 import Loader from "react-loader-spinner";
 
-
-
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import ReactGa from "react-ga";
 
 //pdfs
 import FoodQuestpdf from "./Components/Pdfs/foodquest/Foodquestpdf";
 import Agrivationpdf from "./Components/Pdfs/agrivation/agrivation.js";
 
-import Comingsoon from "./Components/Comingsoon/Comingsoon";
+//forms
 import SelfiewithNaturesubmissionform from "./Components/Submissionforms/SelfiewithNature";
+
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
+import Footer from "./Components/Footer/Footer";
+import Souvenirpdf from "./Components/Pdfs/Souvenir/souvenir";
 
 function App() {
   useEffect(() => {
@@ -99,7 +101,7 @@ function App() {
 {/* Pdfs */}
 <Route exact path="/foodquest-ps" component={FoodQuestpdf}/>
 <Route exact path="/agrivation-ps" component={Agrivationpdf}/>
-
+<Route exact path="/souvenir" component={Souvenirpdf}/>
 {/* Submissions */}
 <Route exact path="/selfie-with-nature-submission-form" component={SelfiewithNaturesubmissionform}/>
 

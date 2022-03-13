@@ -13,6 +13,8 @@ import "../styles.css";
 export default function Agrivationpdf() {
   return (
     <div className="App"><br/><br/><br/><br/>
+              <p style={{textAlign:"center"}}><br/>To download the Agrivation problem statement <a href="https://drive.google.com/file/d/1ZUfskKQn4Mu96-mX93Ybwx2k2_pMPgV4/view?usp=sharing" target="_blank" style={{color:"red"}}>Click here</a></p>
+
       {/* <h4>Single Page</h4>
       <SinglePagePDFViewer pdf={FoodquestPDF} />
 

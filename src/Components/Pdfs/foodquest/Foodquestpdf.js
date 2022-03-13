@@ -13,6 +13,8 @@ import "../styles.css";
 export default function FoodQuestpdf() {
   return (
     <div className="App"><br/><br/><br/><br/>
+          <p style={{textAlign:"center"}}><br/>To download the FoodQuest problem statement <a href="https://drive.google.com/file/d/15C12aIgP-Ge410ff32HSSzATkeSc0-Ow/view?usp=sharing" target="_blank" style={{color:"red"}}>Click here</a></p>
+
       {/* <h4>Single Page</h4>
       <SinglePagePDFViewer pdf={FoodquestPDF} />
 
