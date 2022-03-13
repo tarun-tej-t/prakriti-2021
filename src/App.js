@@ -88,7 +88,7 @@ function App() {
         <Route exact path="/Registration" component={Registration} />
 
         {/* Events */}
-        <Route path="/Events" component={Comingsoon} />
+        <Route path="/Events" component={Events} />
         <Route exact path="/KrishiManthan" component={KrishiManthan} />
         <Route exact path="/DataAnalytics" component={DataAnalytics} />
         <Route exact path="/GuestLecture" component={GuestLecture} />

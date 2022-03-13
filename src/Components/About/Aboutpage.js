@@ -105,7 +105,7 @@ export default class Aboutpage extends Component {
               </div>
               {/*} End col*/}
             </div>
-            {/* <h4 class="sec-head">Registration</h4>
+            <h4 class="sec-head">Registration</h4>
                     <ul style={{listStyleType:'none', textAlign: "justify",
                       textJustify: "inter-word"}}>
                       <li>
@@ -116,7 +116,7 @@ export default class Aboutpage extends Component {
                       <li>
                         <i class="fa fa-check"></i>
                         <Link
-                          to="Registration"
+                          to="/Registration"
                           onClick={() => {
                             window.scroll({
                               left: 0,
@@ -130,7 +130,7 @@ export default class Aboutpage extends Component {
                           </strong>
                         </Link>
                       </li>
-                    </ul> */}
+                    </ul> 
                     <br />
           </div>
         </div>{" "}
