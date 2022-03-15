@@ -15,7 +15,6 @@ import gl2poster from "./gl2poster.jpg";
 import inceposter from "./inceposter.jpg";
 import scheduled0 from "./scheduled0.jpg";
 
-
 import "./Posterupdates.css";
 
 export default class Posterupdates extends Component {
@@ -29,7 +28,15 @@ export default class Posterupdates extends Component {
     return (
       <div style={{ backgroundColor: "#97F9E3" }}>
         <br />
-        <h1 style={{ color: "#11785D", fontWeight: "700", fontFamily:'Montserrat' }}>Announcements</h1>
+        <h1
+          style={{
+            color: "#11785D",
+            fontWeight: "700",
+            fontFamily: "Montserrat",
+          }}
+        >
+          Announcements
+        </h1>
         <hr
           style={{
             width: "8%",
@@ -41,10 +48,14 @@ export default class Posterupdates extends Component {
         <br />
         <div>
           <Zoom {...fadeProperties1}>
-          <div class="card mb-3" >
-              <div class="row no-gutters" style={{margin: '0 auto',}}>
-                <div class="col-md-4" style={{ alignSelf:"center" }}>
-                  <img src={swnposter} class="card-img" alt="..."/>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src="https://static.meraevents.com/content/gallery/248437/Food-Quest-png1647367279.png"
+                    class="card-img"
+                    alt="..."
+                  />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -53,15 +64,170 @@ export default class Posterupdates extends Component {
                       style={{
                         padding: "3vw",
                         fontWeight: "500",
-                        fontSize: "18px",fontFamily:'Montserrat',
-                        alignSelf:"center"
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
                       }}
                     >
                       {" "}
-                      Break Up from the daily hustle and take a while to cherish the joys of life !! In a world of constant change and streaming technology, find solace in nature. Bring out your love for nature by capturing your 
+                      Hola folks!
                       <br />
-                      <br />      
-                     
+                      The time has come to showcase your expertise as a scientist, innovator, and food enthusiast.
+                      <br />
+                      <br />
+                      Prakriti- IIT Kharagpur in association with Eggoz nutrition presents “FOOD QUEST”, one of India's biggest Food-Product Development Challenge. This competition challenges the young minds across India to do qualitative and quantitative research and invent an innovative egg-based product that would appeal to the Indian plates.
+                      <br />
+                      <br />
+                      Prize money worth INR 90,000 + Complimentary Goodies. <br/>Best Submissions May Even Secure Internships Or Placements At Eggoz.
+                      <br />
+                      <br />
+                      So, grab this opportunity and start your “egg-cellent” adventure as an innovator.
+                      <br />
+                      <br />
+                      To get the Problem Statement -{" "}
+                      <a
+                        href="https://www.prkrt.co.in/foodquest-ps
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      To submit your report-{" "}
+                      <a
+                        href="https://bit.ly/Food-Quest-Prakriti-2022
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      Last date for document submission: 31st March 2022
+                      <br />
+                      To be a part of more such amazing events don’t forget to
+                      register for PRAKRIT-2022{" "}
+                      <a
+                        href="https://www.prkrt.co.in/Registration
+"
+                        target="_blank"
+                      >
+                        Here
+                      </a>{" "}
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src="https://static.meraevents.com/content/gallery/248437/agrivation1647163978.jpg"
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Hola folks!
+                      <br />
+                      It’s time to awaken the hidden entrepreneur in you and
+                      create meaningful impact in our society as Prakriti- IIT
+                      Kharagpur in association with ABIF-IIT Kharagpur presents
+                      “Agrivation”.
+                      <br />
+                      <br />
+                      In this event, the participants are challenged to
+                      understand India’s problems with food security and come up
+                      with viable startup ideas that can ensure food-security
+                      for millions of Indians.
+                      <br />
+                      <br />
+                      Prize money worth INR 20,000 + Chance to receive funding
+                      from ABIF-IIT Kharagpur.
+                      <br />
+                      <br />
+                      So, grab this opportunity and start your journey as a
+                      “Food-Security-Entrepreneur”
+                      <br />
+                      <br />
+                      To get the Problem Statement -{" "}
+                      <a
+                        href="https://www.prkrt.co.in/agrivation-ps
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      To submit your business model doc-{" "}
+                      <a
+                        href="https://bit.ly/Agrivation-Submissions
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      Last date for document submission: 28th March 2022
+                      <br />
+                      To be a part of more such amazing events don’t forget to
+                      register for PRAKRIT-2022{" "}
+                      <a
+                        href="https://www.prkrt.co.in/Registration
+"
+                        target="_blank"
+                      >
+                        Here
+                      </a>{" "}
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img src={swnposter} class="card-img" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "18px",
+                        fontFamily: "Montserrat",
+                        alignSelf: "center",
+                      }}
+                    >
+                      {" "}
+                      Break Up from the daily hustle and take a while to cherish
+                      the joys of life !! In a world of constant change and
+                      streaming technology, find solace in nature. Bring out
+                      your love for nature by capturing your
+                      <br />
+                      <br />
                       Total Prize Money: 5000 INR
                       <br />
                       Deadline for the submissions is 17 March, 11:59pm
@@ -95,18 +261,21 @@ export default class Posterupdates extends Component {
                       for more details.
                     </p>
                     <br />
-                      <br /><br />
-                      <br /><br />
-                      <br /><br />
-                      <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                   </div>
                 </div>
               </div>
             </div>
-          <div class="card mb-3" style={{ maxWidth: "100vw" }}>
-              <div class="row no-gutters" style={{margin: '0 auto',}}>
-                <div class="col-md-4" style={{ alignSelf:"center" }}>
-                  <img src={W1} class="card-img" alt="..."  />
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img src={W1} class="card-img" alt="..." />
                 </div>
                 {/* <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={scheduled0} class="card-img"  alt="..." />
@@ -126,16 +295,24 @@ export default class Posterupdates extends Component {
                       Greetings from PRAKRITI-2022!!!
                       <br />
                       <br />
-                      We are elated to announce Mr. Uttam Kumar Founder of Eggoz Nutrition as our guest for the upcoming webinar on Saturday, 12th February, 5 PM.
-                      <br />He is a Nutrition Enthusiast, Technology Freak, Passionate Problem solver, and a Successful Entrepreneur.                      <br />
+                      We are elated to announce Mr. Uttam Kumar Founder of Eggoz
+                      Nutrition as our guest for the upcoming webinar on
+                      Saturday, 12th February, 5 PM.
                       <br />
-                      He Founded Eggoz in 2017, which has now become one of the most popular brands of packaged eggs across India.
-                      <br />In this webinar, he will be sharing his valuable insights on the food industry and entrepreneurship.                      <br />
+                      He is a Nutrition Enthusiast, Technology Freak, Passionate
+                      Problem solver, and a Successful Entrepreneur. <br />
                       <br />
-                    
-                      <br />The webinar will be held on MS Teams and you can join by clicking &nbsp;
+                      He Founded Eggoz in 2017, which has now become one of the
+                      most popular brands of packaged eggs across India.
+                      <br />
+                      In this webinar, he will be sharing his valuable insights
+                      on the food industry and entrepreneurship. <br />
+                      <br />
+                      <br />
+                      The webinar will be held on MS Teams and you can join by
+                      clicking &nbsp;
                       <a href="https://bit.ly/caprkrt22" target="_blank">
-                         here
+                        here
                       </a>
                       <br />
                       <br />
@@ -145,9 +322,9 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>
-             <div class="card mb-3" style={{ maxWidth: "100vw" }}>
-              <div class="row no-gutters" style={{margin: '0 auto',}}>
-                <div class="col-md-4" style={{ alignSelf:"center" }}>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
                   <img src={CA} class="card-img" alt="..." />
                 </div>
                 <div class="col-md-8">
@@ -162,28 +339,53 @@ export default class Posterupdates extends Component {
                       }}
                     >
                       {" "}
-                      IIT Kharagpur is coming up with PRAKRITI, one of the most anticipated agricultural and food innovation fest in India. And we are looking for Campus Ambassadors...
-<br/><br />
-Campus Ambassador is a student who is responsible for the participation of students from his/her particular college in PRAKRITI. 
+                      IIT Kharagpur is coming up with PRAKRITI, one of the most
+                      anticipated agricultural and food innovation fest in
+                      India. And we are looking for Campus Ambassadors...
+                      <br />
+                      <br />
+                      Campus Ambassador is a student who is responsible for the
+                      participation of students from his/her particular college
+                      in PRAKRITI.
                       <br />
                       <br />
                       Perks of being a Campus Ambassador:
                       <br />
-<ul style={{fontSize:"80%"}}>
-  <li> An opportunity to associate with IIT Kharagpur which has one of the greatest Alumni networks in the world.</li>
-  <li> Certification by IIT Kharagpur which can be immensely helpful to improve your CV.</li>
-  <li>'Best of the Best' Campus Ambassadors will be provided with Special Recognition by team-PRAKRITI.</li>
-  <li> An opportunity to develop great Social & Interpersonal skills.</li>
-  <li> A great Real-Life experience of managing people under your umbrella which cannot be learned through books and classrooms.</li>
-</ul>    
+                      <ul style={{ fontSize: "80%" }}>
+                        <li>
+                          {" "}
+                          An opportunity to associate with IIT Kharagpur which
+                          has one of the greatest Alumni networks in the world.
+                        </li>
+                        <li>
+                          {" "}
+                          Certification by IIT Kharagpur which can be immensely
+                          helpful to improve your CV.
+                        </li>
+                        <li>
+                          'Best of the Best' Campus Ambassadors will be provided
+                          with Special Recognition by team-PRAKRITI.
+                        </li>
+                        <li>
+                          {" "}
+                          An opportunity to develop great Social & Interpersonal
+                          skills.
+                        </li>
+                        <li>
+                          {" "}
+                          A great Real-Life experience of managing people under
+                          your umbrella which cannot be learned through books
+                          and classrooms.
+                        </li>
+                      </ul>
                       <br />
                       Registration Link -{" "}
                       <a href="https://bit.ly/caprkrt22" target="_blank">
                         Click Here
                       </a>
-                     
                       <br />
-                      We will contact you for Interview & further procedure once applied.
+                      We will contact you for Interview & further procedure once
+                      applied.
                       <br />
                       <br />
                       <br />
@@ -193,7 +395,7 @@ Campus Ambassador is a student who is responsible for the participation of stude
                 </div>
               </div>
             </div>
-           {/* <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            {/* <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={gl2poster} class="card-img" alt="..." />

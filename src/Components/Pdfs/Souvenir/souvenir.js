@@ -13,7 +13,7 @@ import "../styles.css";
 export default function Souvenirpdf() {
   return (
     <div className="App"><br/><br/><br/><br/>
-      <p style={{textAlign:"center"}}><br/>To download the Souvenir <a href="https://drive.google.com/file/d/1SIhCVqeHDLIyX3u-4N8VRDA8dZ5dPzRE/view" target="_blank" style={{color:"red"}}>Click here</a></p>
+      <p style={{textAlign:"center"}}><br/>To download the Souvenir <a href="https://drive.google.com/file/d/1h04bdJLSlAazSNF-xQ6vD0pXJJcSD_rq/view?usp=sharing" target="_blank" style={{color:"red"}}>Click here</a></p>
       
       <div className="all-page-container">
         <AllPagesPDFViewer pdf={FoodquestPDF} />

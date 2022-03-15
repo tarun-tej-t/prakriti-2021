@@ -6,6 +6,7 @@ import swots from './swots.png'
 import fundamakers from './fundamakers.png'
 import meraevents from './meraevents.png'
 import mantra from './24mantra.png'
+import eggoz from './eggozlogo.png'
 import "./Sponsors.css";
 
 export default class Sponsors extends Component {
@@ -17,7 +18,7 @@ export default class Sponsors extends Component {
         }}
       >
         <div style={{ paddingTop: "14vh" }}>
-        <div class="row">
+        {/* <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="section-headline text-center">
                 <h2 style={{ color: "#11785D" }}>Co-Sponsor</h2>
@@ -47,7 +48,7 @@ export default class Sponsors extends Component {
              
             </div>
           </div>
-          <br/><br/><br/>
+          <br/><br/><br/> */}
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="section-headline text-center">
@@ -56,7 +57,7 @@ export default class Sponsors extends Component {
             </div>
           </div>
          
-          <div
+          {/* <div
             style={{ width: "100%", display: "flex", justifyContent: "center" }}
           >
             <div class="row">
@@ -76,20 +77,25 @@ export default class Sponsors extends Component {
                 slink="https://myswots.com/"
               />
             </div>{" "}
-          </div>
+          </div> */}
           <div
             style={{ width: "100%", display: "flex", justifyContent: "center" }}
           >
             <div class="row">
+            <Sponsorcard
+                simage={ABIC}
+                stitle="ABIC-IIT KHARAGPUR"
+                slink="https://kgpchronicle.iitkgp.ac.in/agri-food-techathon-aft-2021/"
+              />
               <Sponsorcard
                 simage={meraevents}
                 stitle="MeraEvents"
                 slink="https://www.meraevents.com/"
               />
              <Sponsorcard
-                simage={mantra}
-                stitle="24 Mantra Organic"
-                slink="https://www.24mantra.com/"
+                simage={eggoz}
+                stitle="Eggoz"
+                slink="https://eggoz.in/"
               />
              
             </div>
@@ -265,7 +271,11 @@ export default class Sponsors extends Component {
                 stitle="Dominos"
                 slink="https://www.dominos.co.in/"
               />
-             
+             <Sponsorcard
+                simage={mantra}
+                stitle="24 Mantra Organic"
+                slink="https://www.24mantra.com/"
+              />
             </div>{" "}
           </div>
         </div>
