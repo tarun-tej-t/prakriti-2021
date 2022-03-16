@@ -44,13 +44,14 @@ import Loader from "react-loader-spinner";
 //pdfs
 import FoodQuestpdf from "./Components/Pdfs/foodquest/Foodquestpdf";
 import Agrivationpdf from "./Components/Pdfs/agrivation/agrivation.js";
+import Souvenirpdf from "./Components/Pdfs/Souvenir/souvenir";
+import KrishiManthanpdf from "./Components/Pdfs/Krishimanthan/krishimanthanpdf";
 
 //forms
 import SelfiewithNaturesubmissionform from "./Components/Submissionforms/SelfiewithNature";
 
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Footer from "./Components/Footer/Footer";
-import Souvenirpdf from "./Components/Pdfs/Souvenir/souvenir";
 
 function App() {
   useEffect(() => {
@@ -101,7 +102,11 @@ function App() {
 {/* Pdfs */}
 <Route exact path="/foodquest-ps" component={FoodQuestpdf}/>
 <Route exact path="/agrivation-ps" component={Agrivationpdf}/>
+<Route exact path="/krishi-manthan-ps" component={KrishiManthanpdf}/>
+
 <Route exact path="/souvenir" component={Souvenirpdf}/>
+
+
 {/* Submissions */}
 <Route exact path="/selfie-with-nature-submission-form" component={SelfiewithNaturesubmissionform}/>
 
