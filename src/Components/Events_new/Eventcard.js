@@ -58,8 +58,9 @@ export default class Eventcard extends Component {
           )}
           <div class="description">
             {this.props.sponsor ? (
-              <img src={this.props.sponsor} style={{ height: "80px" }} />
-            ) : null}
+            <>  <br/>
+              <img src={this.props.sponsor} style={{ width: "80px" }} />
+              <br/> </> ) : null}
             <h1>{this.props.name}</h1>
             <h2>{this.props.tagline}</h2>
            

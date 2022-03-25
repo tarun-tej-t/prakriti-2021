@@ -43,8 +43,19 @@ export default class Eventslist extends Component {
               ps="https://www.prkrt.co.in/foodquest-ps"
               submit="https://bit.ly/Food-Quest-Prakriti-2022"
             />{" "}
-            <Eventcard
+                 <Eventcard
               cname="blog-card-e alt"
+              sponsor="https://raw.githubusercontent.com/tarun-tej-t/prakriti-2021/master/src/Components/Sponsors/altair.png"
+              name="MACHINERY FREAKS"
+              prizemoney="25,000"
+            poster="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/ma.png"
+              tagline="Analyse the past and predict the future"
+              description="In this competition, you would be challenged to use Discrete Element Modelling (DEM) to effectively simulate the soil-tool interaction for tillage applications in ALTAIR EDEM with an appropriate physics model and study the drat forces with respect to tillage speed while taking soil cohesion and adhesion into account."
+             ps="https://www.prkrt.co.in/Machine-Freaks-PS"
+             deadline="31st March, 2022"
+            />
+            <Eventcard
+              cname="blog-card-e "
               sponsor="http://www.abiciitkgp.com/homeImage/ABIC-%20LOGO.png"
               name="Agrivation"
               poster="https://static.meraevents.com/content/gallery/248437/agrivation1647163978.jpg"
@@ -66,7 +77,7 @@ export default class Eventslist extends Component {
               submit="https://bit.ly/Agrivation-Submissions"
             />
                 <Eventcard
-              cname="blog-card-e"
+              cname="blog-card-e alt"
               name="Krishi Manthan"
               poster="https://static.meraevents.com/content/gallery/248437/k-m-p1647573341.jpg"
               tagline="A Case study competition"
@@ -84,7 +95,7 @@ export default class Eventslist extends Component {
             submit="https://forms.gle/sq1HTiZsPCie1VoRA"
             />
             <Eventcard
-            cname="blog-card-e alt"
+            cname="blog-card-e "
             name="POSTER PRESENTATION "
             poster="https://static.meraevents.com/content/gallery/248437/p-p-p1647616384.jpg"
             tagline="Communicate your research and understanding"
@@ -101,7 +112,7 @@ export default class Eventslist extends Component {
                    submit="https://docs.google.com/forms/d/e/1FAIpQLSeTKvQ5lZdBBJh58P8BDbVYF4ISUZHEcR-0cjDpf-IZmGcJcg/viewform"
                   />
             <Eventcard
-              cname="blog-card-e"
+              cname="blog-card-e alt"
               name="SELFIE WITH NATURE"
               poster="https://static.meraevents.com/content/gallery/248437/swn1646826096.jpg"
               tagline="A photography contest"
@@ -117,16 +128,7 @@ export default class Eventslist extends Component {
                
           
           
-                <Eventcard
-              cname="blog-card-e alt"
-              name="MACHINERY FREAKS"
-              prizemoney="25,000"
-            poster="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/ma.png"
-              tagline="Analyse the past and predict the future"
-              description="In this competition, you would be challenged to use Discrete Element Modelling (DEM) to effectively simulate the soil-tool interaction for tillage applications in ALTAIR EDEM with an appropriate physics model and study the drat forces with respect to tillage speed while taking soil cohesion and adhesion into account."
-             ps="https://www.prkrt.co.in/Machine-Freaks-PS"
-             deadline="31st March, 2022"
-            />
+           
                   <Eventcard
             cname="blog-card-e"
             poster="https://static.meraevents.com/content/gallery/248437/q-p1647771307.png"
@@ -166,7 +168,7 @@ export default class Eventslist extends Component {
           prizemoney="9,999"
                   />
                   <Eventcard
-              cname="blog-card-e"
+              cname="blog-card-e alt"
               name="GUEST LECTURES"
           
               tagline="Interaction session with industry experts"
