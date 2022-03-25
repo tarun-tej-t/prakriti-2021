@@ -25,13 +25,12 @@
 .blog-card-e a:hover {
   color: #5ad67d;
 }
-.blog-card:hover .photo {
-  transform: scale(1.3) rotate(3deg);
-}
+
 .blog-card-e .meta {
   position: relative;
   z-index: 0;
-  height: 200px;
+  
+  
 }
 .blog-card-e .photo {
   position: absolute;
@@ -39,8 +38,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-size: cover;
-  background-position: center;
+  background-size:cover;
+  background-position:center;
   transition: transform 0.2s;
 }
 .blog-card-e .details,
@@ -92,7 +91,7 @@
 }
 .blog-card-e .description {
   padding: 1rem;
-  background: #fff;
+  
   position: relative;
   z-index: 1;
 }
@@ -157,7 +156,7 @@
 @media (min-width: 640px) {
   .blog-card-e {
     flex-direction: row;
-    max-width: 700px;
+    max-width: 900px;
   }
   .blog-card-e .meta {
     flex-basis: 40%;
@@ -169,7 +168,7 @@
   .blog-card-e .description:before {
     transform: skewX(-3deg);
     content: "";
-    background: #fff;
+    
     width: 30px;
     position: absolute;
     left: -10px;
@@ -189,3 +188,76 @@
     padding-left: 25px;
   }
 }
+
+#foot, .button-os{
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgb(207, 207, 207);
+}
+
+#foot:hover{
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 8px #f9f8fc;
+  } 
+  .button-os:hover{
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px #f9f8fc;
+    } 
+
+ #foot{
+  position: relative;
+ 
+  top: 3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #d9d4e7;
+  width: 150px;
+  height: 30px;
+  background-color: #79f08d;
+  animation-duration: 5s;
+}
+
+.button-os{
+   position: absolute;
+   padding: 5px;
+    width: 150px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #f9f8fc;
+    border: 2.5px solid #0e172c;
+    transition: background-color 2.2s;
+    transition-duration: 1.5s;
+    
+  }
+  
+  .button-os:hover{
+    position: absolute;
+    top: 10px;
+    background-color: #f65307;
+  }
+  
+  .button-os a{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color:#0e172c;
+    transition: 1.5s;
+    letter-spacing: 5px;
+  }
+  
+  .button-os a:hover{
+    letter-spacing: 5px;
+  }

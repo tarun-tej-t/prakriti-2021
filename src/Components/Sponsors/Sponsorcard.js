@@ -11,12 +11,12 @@ export default class Sponsorcard extends Component {
       <div>
            
           <div style={{padding:'30px'}}>
-            <div class="hovereffect">
+            <div class="hovereffect" style={{ width: "320px", height: "200px" }}>
               <img
                 class="img-responsive"
-                alt="Maharani Rice"
+                alt="Eggoz"
                 src={this.props.simage}
-                style={{ width: "320px", height: "200px" }}
+                style={{ width: "320px", height: "200px",objectFit:"contain" }}
               />
               <div class="overlay">
                 <h2>{this.props.stitle}</h2>

@@ -14,7 +14,7 @@ import Events from "./Components/Events_new/Eventslist"
 import Comingsoon from "./Components/Comingsoon/Comingsoon";
 
 //Events
-import KrishiManthan from "./Components/Events/Eventpage/KrishiManthan//KrishiManthan";
+import KrishiManthan from "./Components/Events/Eventpage/KrishiManthan/KrishiManthan";
 import DataAnalytics from "./Components/Events/Eventpage/DataAnalytics/DataAnalytics";
 import GuestLecture from "./Components/Events/Eventpage/GuestLecture/GuestLecture";
 import Agrivation from "./Components/Events/Eventpage/Agrivation/Agrivation";
@@ -46,12 +46,14 @@ import FoodQuestpdf from "./Components/Pdfs/foodquest/Foodquestpdf";
 import Agrivationpdf from "./Components/Pdfs/agrivation/agrivation.js";
 import Souvenirpdf from "./Components/Pdfs/Souvenir/souvenir";
 import KrishiManthanpdf from "./Components/Pdfs/Krishimanthan/krishimanthanpdf";
+import PosterPresentationpdf from "./Components/Pdfs/poster-presentation/PosterPresentationpdf";
 
 //forms
 import SelfiewithNaturesubmissionform from "./Components/Submissionforms/SelfiewithNature";
 
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Footer from "./Components/Footer/Footer";
+import MachineFreakspdf from "./Components/Pdfs/MachineFreaks/MachineFreakspdf";
 
 function App() {
   useEffect(() => {
@@ -103,6 +105,8 @@ function App() {
 <Route exact path="/foodquest-ps" component={FoodQuestpdf}/>
 <Route exact path="/agrivation-ps" component={Agrivationpdf}/>
 <Route exact path="/krishi-manthan-ps" component={KrishiManthanpdf}/>
+<Route exact path="/poster-presentation-ps" component={PosterPresentationpdf}/>
+<Route exact path="/Machine-Freaks-PS" component={MachineFreakspdf}/>
 
 <Route exact path="/souvenir" component={Souvenirpdf}/>
 
