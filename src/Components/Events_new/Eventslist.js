@@ -46,19 +46,20 @@ export default class Eventslist extends Component {
                  <Eventcard
               cname="blog-card-e alt"
               sponsor="https://raw.githubusercontent.com/tarun-tej-t/prakriti-2021/master/src/Components/Sponsors/altair.png"
-              name="MACHINERY FREAKS"
+              name="MACHINE FREAKS"
               prizemoney="25,000"
             poster="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/ma.png"
               tagline="Analyse the past and predict the future"
               description="In this competition, you would be challenged to use Discrete Element Modelling (DEM) to effectively simulate the soil-tool interaction for tillage applications in ALTAIR EDEM with an appropriate physics model and study the drat forces with respect to tillage speed while taking soil cohesion and adhesion into account."
              ps="https://www.prkrt.co.in/Machine-Freaks-PS"
              deadline="31st March, 2022"
+            submit="https://forms.gle/QkXj9wtHndHH89c37"
             />
             <Eventcard
               cname="blog-card-e "
               sponsor="http://www.abiciitkgp.com/homeImage/ABIC-%20LOGO.png"
               name="Agrivation"
-              poster="https://static.meraevents.com/content/gallery/248437/agrivation1647163978.jpg"
+              poster="https://static.meraevents.com/content/gallery/248437/AGRIVATION1-EXTENDED1648300459.png"
               tagline="Come up with Viable Startup Ideas"
               prizemoney="20,000"
               description="Agrivation is an Agri-Innovation competition that
@@ -72,7 +73,7 @@ export default class Eventslist extends Component {
             the customer and think of products, services and
             ideas that can build new enterprises or develop
             existing enterprises in a unique way."
-            deadline="28th March 2022"
+            deadline="31st March 2022"
             ps="https://www.prkrt.co.in/agrivation-ps"
               submit="https://bit.ly/Agrivation-Submissions"
             />
@@ -131,7 +132,8 @@ export default class Eventslist extends Component {
            
                   <Eventcard
             cname="blog-card-e"
-            poster="https://static.meraevents.com/content/gallery/248437/q-p1647771307.png"
+            sponsor="https://i.pinimg.com/736x/39/f2/bf/39f2bf80479a0846fd7aaf1a8c0522ea.jpg"
+            poster="https://static.meraevents.com/content/gallery/248437/quizella1648300681.jpeg"
             name="QUIZELLA"
             tagline="Let's play a mind sport"
             description="It is said “Knowledge is Power” which proves itself
@@ -151,7 +153,7 @@ export default class Eventslist extends Component {
                   
                 <Eventcard
             cname="blog-card-e alt"
-            poster="https://static.meraevents.com/content/gallery/248437/TH_Poster1647771683.png"
+            poster="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/TREASUREHUNT-min.png"
             name="TREASURE HUNT"
             tagline="Be the first in finding something"
             description="The “New-Normal” has made us prone to
@@ -165,7 +167,7 @@ export default class Eventslist extends Component {
             with a lot of hidden dangers. The individuals who
             gather the highest amount of treasure at the end of
             an hour becomes the winner."
-          prizemoney="9,999"
+          prizemoney="5000"
                   />
                   <Eventcard
               cname="blog-card-e alt"

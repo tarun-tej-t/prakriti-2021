@@ -13,7 +13,7 @@ import "../styles.css";
 export default function MachineFreakspdf() {
   return (
     <div className="App"><br/><br/><br/><br/>
-          <p style={{textAlign:"center"}}><br/>To download the Machine Freaks problem statement <a href="https://drive.google.com/file/d/1ixTDRrOMIDq8ufpQq_tAQHgKf1Nr0EaM/view" target="_blank" style={{color:"red"}}>Click here</a></p>
+          <p style={{textAlign:"center"}}><br/>To download the Machine Freaks problem statement <a href="https://drive.google.com/file/d/1OdwehrhiKYCR_6LC_Zt8QxTmSKWtCBeH/view?usp=sharing" target="_blank" style={{color:"red"}}>Click here</a></p>
 
       {/* <h4>Single Page</h4>
       <SinglePagePDFViewer pdf={FoodquestPDF} />
