@@ -54,6 +54,7 @@ import SelfiewithNaturesubmissionform from "./Components/Submissionforms/Selfiew
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Footer from "./Components/Footer/Footer";
 import MachineFreakspdf from "./Components/Pdfs/MachineFreaks/MachineFreakspdf";
+import MachineFreaksHackathonpdf from "./Components/Pdfs/Hachkathon-Machine-Freaks/MachineFreaksHackathonpdf";
 
 function App() {
   useEffect(() => {
@@ -107,6 +108,7 @@ function App() {
 <Route exact path="/krishi-manthan-ps" component={KrishiManthanpdf}/>
 <Route exact path="/poster-presentation-ps" component={PosterPresentationpdf}/>
 <Route exact path="/Machine-Freaks-PS" component={MachineFreakspdf}/>
+<Route exact path="/Machine-Freaks-Hackathon" component={MachineFreaksHackathonpdf}/>
 
 <Route exact path="/souvenir" component={Souvenirpdf}/>
 
