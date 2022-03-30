@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import emposter from "./emposter.jpg";
+import emposter from "./Events-Banner.png";
 import ReactPlayer from "react-player"
 
 export default class Aboutpage extends Component {
@@ -76,7 +76,7 @@ export default class Aboutpage extends Component {
                     
                     <div class="sec-head">
       <ReactPlayer
-        url="https://github.com/tarun-tej-t/Prakriti2021_images/blob/main/prakriti2021/prakrit-2021_c.mp4?raw=true" width="560" height="314"  
+        url="https://github.com/mridulaburagohain/wendev/blob/main/Prakriti-Teaser-2022.mp4?raw=true" width="560" height="314"  
         controls loop autoplay
       />
     </div>
