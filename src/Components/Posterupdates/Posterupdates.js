@@ -3,6 +3,11 @@ import { Zoom } from "react-slideshow-image";
 import CA from "./ca.jfif";
 import W1 from "./w1.jfif";
 import swnposter from "./swn.jpg";
+import machineFreaks from "./mf.jpeg"
+import poster from "./poster.jpg"
+import quiz from "./quiz.jpeg"
+import krisi from "./krisi.jpeg"
+import agriDeadline from "./agriDeadline.jpeg"
 
 import kmposter from "./kmposter.jpg";
 import dael from "./daposter.jpg";
@@ -14,6 +19,7 @@ import gl1poster from "./gl1poster.jpg";
 import gl2poster from "./gl2poster.jpg";
 import inceposter from "./inceposter.jpg";
 import scheduled0 from "./scheduled0.jpg";
+
 
 import "./Posterupdates.css";
 
@@ -126,7 +132,7 @@ export default class Posterupdates extends Component {
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
                 <div class="col-md-4" style={{ alignSelf: "center" }}>
                   <img
-                    src="https://static.meraevents.com/content/gallery/248437/agrivation1647163978.jpg"
+                    src={agriDeadline}
                     class="card-img"
                     alt="..."
                   />
@@ -145,10 +151,10 @@ export default class Posterupdates extends Component {
                       {" "}
                       Hola folks!
                       <br />
-                      It’s time to awaken the hidden entrepreneur in you and
-                      create meaningful impact in our society as Prakriti- IIT
-                      Kharagpur in association with ABIF-IIT Kharagpur presents
-                      “Agrivation”.
+                      The deadline of Agrivation has been extended to 31st March.
+                      <br />
+                      <br />
+                      So, you have more time to awaken the hidden entrepreneur in you and create a meaningful impact in our society.
                       <br />
                       <br />
                       In this event, the participants are challenged to
@@ -395,6 +401,286 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={machineFreaks}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Ahoy fellas. PRAKRITI-2022 brings "Machine Freaks- Machinery Analytics Event" to you in collaboration with Altair Engineering Inc.
+                      <br />
+                      In this competition, you would be challenged to use Discrete Element Modelling (DEM) to effectively simulate the soil-tool interaction for tillage applications in ALTAIR EDEM with an appropriate physics model and study the drat forces with respect to tillage speed while taking soil cohesion and adhesion into account.
+                      <br />
+                      <br />
+                      Prize Money: INR 25,000
+                      <br />
+                      <br />
+                      Submission Deadline: 31st March, 2022
+                      <br />
+                      <br />
+                      Get started NOW by downloading the problem statement:{" "}
+                      <a
+                        href="https://bit.ly/Machine-Freaks-Problem-Statement
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                                         
+                      To register yourself for this event and other exciting events, visit:{" "}
+                      <a
+                        href="https://www.prkrt.co.in/Registration
+"
+                        target="_blank"
+                      >
+                        Here
+                      </a>{" "}
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={poster}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Hola folks!
+                      <br />
+                      The time has come to showcase your creative skills.
+                      <br />
+                      <br />
+                      Prakriti-IIT Kharagpur presents " Poster Making Competition". This competition challenges the young minds across India to communicate their research and understanding about different aspects of "FOOD SECURITY".
+                      <br />
+                      <br />
+                      Prize money: INR 5000
+                      <br />
+                      <br />
+                      Rules and Guidelines:{" "}
+                      <a
+                        href=" prkrt.co.in/Poster-Presentation-PS
+
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Submit your poster at:{" "}
+                      <a
+                        href="https://bit.ly/Poster-Submission-2022
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Last date for submission: 31st March
+                      <br />
+                      <br />
+                                         
+                      To participate in this event and more such amazing events register at {" "}
+                      <a
+                        href="https://www.prkrt.co.in/Registration
+"
+                        target="_blank"
+                      >
+                        Here
+                      </a>{" "}
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={quiz}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Hola folks!
+                      <br />
+                      Prakriti-IIT Kharagpur in association with AgriVision4U presents to you “ Quizella ” an online quiz event. So, gear up for the exciting questions and register at:{" "}
+                      <a
+                        href="  https://www.prkrt.co.in/Registration
+
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Prize Money : INR 10,000
+                      <br />
+                      <br />
+                      Best performers will get discount coupons on courses offered by AgriVision4U.
+                      <br />
+                      <br />
+                      (To know more, visit{" "})
+                      <a
+                        href=" https://www.agrivision4u.com/
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      All the necessary details will be shared with the registered participants via mail.
+                      <br />
+                      <br />
+                                         
+                      Visit our website for more details: {" "}
+                      <a
+                        href="https://www.prkrt.co.in/
+
+"
+                        target="_blank"
+                      >
+                        Here
+                      </a>{" "}
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={krisi}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Ahoy Fellas,
+                      <br />
+                      PRAKRITI-2022 is back with “ KRISHI-MANTHAN ”, an exciting case study competition to stimulate the hidden problem-solving skills in you. In this competition, you would be challenged to think strategically and give a detailed plan to bring a “Millet Revolution In India”.
+                      <br />
+                      <br />
+                      Want to know more? Grab the Problem statement and get started with your problem-solving journey.
+                      <br />
+                      <br />
+                      Best performers will get discount coupons on courses offered by AgriVision4U.
+                      <br />
+                      <br />
+                      Problem Statement: {" "}
+                      <a
+                        href=" prkrt.co.in/Krishi-Manthan-PS
+"
+                        target="_blank"
+                      >
+                        Click Here
+                      </a>
+                      <br />
+                      <br />
+                      Prize Money:  INR 20,000
+                      <br />
+                      <br />
+                                         
+                      Submit your Solutions:  {" "}
+                      <a
+                        href="bit.ly/manthan22-submissions
+"
+                        target="_blank"
+                      >
+                        Here
+                      </a>
+                      <br />
+                      <br />
+                      To participate in this event and more such amazing register at  {" "}
+                      <a
+                        href="prkrt.co.in/Registration
+"
+                        target="_blank"
+                      >
+                        Here
+                      </a>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             {/* <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
