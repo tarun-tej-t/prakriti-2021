@@ -399,6 +399,7 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
                 </div>
               </div>
             </div>
+            {/*
             <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
                 <div class="col-md-4" style={{ alignSelf: "center" }}>
@@ -472,6 +473,7 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
                 </div>
               </div>
             </div>
+                    */}
             <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
                 <div class="col-md-4" style={{ alignSelf: "center" }}>
