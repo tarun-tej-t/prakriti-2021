@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Eventcard from "./Eventcard";
+import Guestcard from "./GuestCard";
 import "./Eventcard.css";
 
 export default class Eventslist extends Component {
@@ -169,29 +170,29 @@ export default class Eventslist extends Component {
             an hour becomes the winner."
           prizemoney="5000"
                   />
-                  <Eventcard
-              cname="blog-card-e alt"
+
+<div class="row" style={{width:"100vw"}}>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2 style={{ color: "#11785D",textAlign:"center", }}>Guest Lectures</h2>
+              </div>
+            </div>
+          </div>
+
+                  <Guestcard
+              cname="blog-card-e"
               name="GUEST LECTURES"
-          
+            poster="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/g1.jpeg"
               tagline="Interaction session with industry experts"
-              description="Promotion of agricultural - entrepreneurship has always
-              been a leitmotif of Prakriti right from its inception.
-              While the main emphasis of the summit has always
-              been on how agripreneurs who have the potential of
-              combining entrepreneurial skill and modernization in
-              field of agriculture can play the role of catalysts in
-              transforming the traditional farmer into a modern
-              agripreneur, time has been devoted for developing
-              agripreneurs with distinct traits and skills to exploit
-              opportunities prolific in the field of agriculture . The
-              guests talk about the finer intricacies of their work and
-              inspire the students to take the unconventional path and
-              do something out of the box. Panel discussions like
-              agripreneurship summit in Prakriti have made a brand
-              for themselves and remain the topic of incessant
-              discussion and a discussion and anticipation all-round
-              the year."
-          
+              description="We are glad to announce Mr. Uttam kumar and Mr. Aditya singh, fonder & co-founder of Eggoz Nutrition as our guests for the upcoming panel discussion on 2nd April, 7 pm onwards.
+
+              They founded eggoz in 2017 with a vision to help farmers of rural India and improve their income. Eggoz is a brand of packaged eggs with a promise of freshness and quality. They are on a mission to revolutionize India’s protein consumption by bringing UV sanitized eggs fresh from the farm to plates of millions of consumers.
+              Their eggs are free from any chemicals, steroids, and hormones and reach consumers within 36 hours of laying. This ensures that their eggs are healthier for consumption and have a high bio-availability of protein.
+              
+             
+              In this panel discussion, they will be sharing their experience and learnings from their wonderful entrepreneurial journey."
+            time="7:00-8:00pm, 2nd April 2022"
+              joinlink="https://bit.ly/How-To-Start-An-Eggcellent-Startup"
             />
           </div>
         </div>

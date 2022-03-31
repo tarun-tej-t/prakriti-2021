@@ -105,7 +105,7 @@ export default class Eventcard extends Component {
                 PRIZE MONEY WORTH INR {this.props.prizemoney}
               </h5>
             ) : null}{" "}
-            <p> {this.props.description}</p>
+            <p style={{textAlign:"justify"}}> {this.props.description}</p>
             {this.props.name === "QUIZELLA" ? (
               <div
                 style={{
@@ -115,11 +115,13 @@ export default class Eventcard extends Component {
                 }}
               >
                 <p onClick={this.showGeneralQuizDetails}>
+                <br/>
                   <button id="foot">
                     <button class="button-os">GENERAL QUIZ</button>
                   </button>
                 </p>
                 <p onClick={this.showAgroQuizDetails}>
+                <br/>
                   <button id="foot">
                     <button class="button-os">AGRO QUIZ</button>
                   </button>
@@ -134,9 +136,12 @@ export default class Eventcard extends Component {
                 }}
               >
                 <p onClick={this.showtreasurehuntDetails}>
+                <br/>
                   <button id="foot">
                     <button class="button-os">Play!!</button>
+                    
                   </button>
+                  <br/>
                 </p>
               </div>
             ) : (
@@ -173,8 +178,10 @@ export default class Eventcard extends Component {
                     </a>
                   ) : null}
                 </p>
+                
               </div>
             )}
+            {this.props.name === "TREASURE HUNT" || this.props.name === "QUIZELLA" ? (<br/>):(null)}
           </div>
         </div>
       </div>
