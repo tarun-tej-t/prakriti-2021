@@ -8,6 +8,14 @@ import poster from "./poster.jpg"
 import quiz from "./quiz.jpeg"
 import krisi from "./krisi.jpeg"
 import agriDeadline from "./agriDeadline.jpeg"
+import media2 from "./mediaPartner2.jpeg"
+import media1 from "./mediaPartner.jpeg"
+import theme from "./theme.jpeg"
+import daysleft from "./daysleft.jpeg"
+import sponserEvent from "./eventsSponser.jpeg"
+import foodquest from "./foodquest.jpeg"
+import partner from "./partner.jpeg"
+import altairSpons from "./altairSpons.jpeg"
 
 import kmposter from "./kmposter.jpg";
 import dael from "./daposter.jpg";
@@ -54,11 +62,11 @@ export default class Posterupdates extends Component {
         <br />
         <div>
           <Zoom {...fadeProperties1}>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+          <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
                 <div class="col-md-4" style={{ alignSelf: "center" }}>
                   <img
-                    src="https://static.meraevents.com/content/gallery/248437/Food-Quest-png1647367279.png"
+                    src={daysleft}
                     class="card-img"
                     alt="..."
                   />
@@ -75,50 +83,102 @@ export default class Posterupdates extends Component {
                       }}
                     >
                       {" "}
-                      Hola folks!
+                      Hola peeps!!
                       <br />
-                      The time has come to showcase your expertise as a scientist, innovator, and food enthusiast.
-                      <br />
-                      <br />
-                      Prakriti- IIT Kharagpur in association with Eggoz nutrition presents “FOOD QUEST”, one of India's biggest Food-Product Development Challenge. This competition challenges the young minds across India to do qualitative and quantitative research and invent an innovative egg-based product that would appeal to the Indian plates.
+                      The wait is finally over, 2 more days to go for this exciting and exhilarating fest to begin.
                       <br />
                       <br />
-                      Prize money worth INR 90,000 + Complimentary Goodies. <br/>Best Submissions May Even Secure Internships Or Placements At Eggoz.
-                      <br />
-                      <br />
-                      So, grab this opportunity and start your “egg-cellent” adventure as an innovator.
-                      <br />
-                      <br />
-                      To get the Problem Statement -{" "}
+                      Prakriti 2022 is set to host many thrilling and fun events so stay tuned for this opportunity. 
+                      <br />      
+                      <br />                               
+                      For more information and registration -{" "}
                       <a
-                        href="https://www.prkrt.co.in/foodquest-ps
+                        href="prkrt.co.in/Registration
 "
                         target="_blank"
                       >
                         Click Here
+                      <br />
+                      <br />
                       </a>
-                      <br />
-                      <br />
-                      To submit your report-{" "}
+                      {" "}
                       <a
-                        href="https://bit.ly/Food-Quest-Prakriti-2022
+                        href=" https://www.facebook.com/hashtag/2daystogo
 "
                         target="_blank"
                       >
-                        Click Here
+                        #2daystogo
                       </a>
                       <br />
-                      Last date for document submission: 31st March 2022
-                      <br />
-                      To be a part of more such amazing events don’t forget to
-                      register for PRAKRIT-2022{" "}
+                      {" "}
                       <a
-                        href="https://www.prkrt.co.in/Registration
+                        href=" https://www.facebook.com/hashtag/prakriti_2022
 "
                         target="_blank"
                       >
-                        Here
-                      </a>{" "}
+                        #prakriti_2022
+                      </a>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>           
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={theme}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Ahoy fellas!
+                      <br />
+                      Gear up for the 13th edition of one of the largest Agri and Food innovation fest, PRAKRITI 2022 to be conducted on 1-3 April this year.
+                      <br />
+                      <br />
+                      Don't miss this opportunity to engage yourself in the profusion of exciting events.
+                      <br />
+                      <br />
+                      Come! Join us on this amazing and exciting journey with us.
+                      <br />
+                      <br />
+                      Count-down begins now.
+                      <br />
+                      <br />
+                      {" "}
+                      <a
+                        href="https://www.facebook.com/hashtag/prakriti2022
+"
+                        target="_blank"
+                      >
+                        #prakriti2022
+                      </a>
+                      <br />
+                      {" "}
+                      <a
+                        href="https://www.facebook.com/hashtag/foodforall
+"
+                        target="_blank"
+                      >
+                       #foodforall
+                      </a>
                       <br />
                       <br />
                       <br />
@@ -281,7 +341,7 @@ export default class Posterupdates extends Component {
             <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
                 <div class="col-md-4" style={{ alignSelf: "center" }}>
-                  <img src={W1} class="card-img" alt="..." />
+                  <img src={foodquest} class="card-img" alt="..." />
                 </div>
                 {/* <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={scheduled0} class="card-img"  alt="..." />
@@ -298,36 +358,48 @@ export default class Posterupdates extends Component {
                       }}
                     >
                       {" "}
-                      Greetings from PRAKRITI-2022!!!
+                      Hola folks!
+                      <br />
+                      The time has come to showcase your expertise as a scientist, innovator, and food enthusiast.
                       <br />
                       <br />
-                      We are elated to announce Mr. Uttam Kumar Founder of Eggoz
-                      Nutrition as our guest for the upcoming webinar on
-                      Saturday, 12th February, 5 PM.
+                      Prakriti- IIT Kharagpur in association with Eggoz nutrition presents “FOOD QUEST”, one of India's biggest Food-Product Development Challenge. This competition challenges the young minds across India to do qualitative and quantitative research and invent an innovative egg-based product that would appeal to the Indian plates.
+                       <br />
                       <br />
-                      He is a Nutrition Enthusiast, Technology Freak, Passionate
-                      Problem solver, and a Successful Entrepreneur. <br />
-                      <br />
-                      He Founded Eggoz in 2017, which has now become one of the
-                      most popular brands of packaged eggs across India.
-                      <br />
-                      In this webinar, he will be sharing his valuable insights
-                      on the food industry and entrepreneurship. <br />
+                      Prize money worth INR 90,000 + Complimentary Goodies. 
+Best Submissions May Even Secure Internships Or Placements At Eggoz.
                       <br />
                       <br />
-                      The webinar will be held on MS Teams and you can join by
-                      clicking &nbsp;
-                      <a href="https://bit.ly/caprkrt22" target="_blank">
-                        here
+                      So, grab this opportunity and start your “egg-cellent” adventure as an innovator.
+                       <br />
+                      <br />
+                      Get the Problem Statement at: {" "}
+                      <a href="https://www.prkrt.co.in/foodquest-ps
+" target="_blank">
+                        Click Here
                       </a>
                       <br />
+                      Submit your report at: {" "}
+                      <a href=" https://bit.ly/Food-Quest-Prakriti-2022
+" target="_blank">
+                        Click Here
+                      </a>
                       <br />
+                      Last date for report submission: 28th March 2022
+                      <br />
+                       To be a part of more such amazing events don’t forget to register for PRAKRIT-2022 at: {" "}
+                      <a href="https://www.prkrt.co.in/Registration
+
+" target="_blank">
+                         Here
+                      </a>
                       <br />
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+            {/*
             <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
                 <div class="col-md-4" style={{ alignSelf: "center" }}>
@@ -401,6 +473,7 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>
+                    */}
             <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
                 <div class="col-md-4" style={{ alignSelf: "center" }}>
@@ -680,7 +753,283 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>
-            
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={media1}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Prakriti-2022 proudly announces {" "}
+                      <a
+                        href=" https://www.facebook.com/foodkida/
+"
+                        target="_blank"
+                      >
+                        Foodkida 
+                      </a>
+                      {" "} and Krishishastra as Social media partners.
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={media2}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Prakriti-2022 proudly announces {" "}
+                      <a
+                        href=" https://www.facebook.com/foodkida/
+"
+                        target="_blank"
+                      >
+                        AgriVision4U
+                      </a>
+                      {" "} as Social media partner.
+AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and effective learning programs for students competing for GATE(XE/XL/GE), CFTRI, ICAR-JRF & CFSO/TO.
+                      <br />
+                      <br />
+                      To know more about them, visit: {""}
+                      <a href="https://www.agrivision4u.com/
+"                     target="blank" 
+                      >
+                      Click Here
+                      </a>
+                      <br />
+                      <br />
+                      {""}
+                      <a href="https://www.facebook.com/hashtag/agrivision4u
+"                     target="blank" 
+                      >
+                        #agrivision4u
+                      </a>
+                      <br />
+                     {""}
+                      <a href="https://www.facebook.com/hashtag/prakriti2022
+"                     target="blank" 
+                      >
+                        #prakriti2022
+                      </a>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={sponserEvent}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Prakriti2022 proudly presents {" "}
+                      <a
+                        href=" https://www.facebook.com/EggozNutrition/
+"
+                        target="_blank"
+                      >
+                        Eggoz
+                      </a>
+                      {" "}as its Events partner.
+                      <br />
+                      <br />
+                      Eggoz is a brand of packaged eggs with a promise of freshness and quality. They are on a mission to revolutionize India’s protein consumption by bringing UV sanitized eggs fresh from the farm to plates of millions of consumers.
+                      <br />
+                      <br />
+                      Visit Eggoz here: {""}
+                      <a href="https://eggoz.in/
+"                     target="blank" 
+                      >
+                      Click Here
+                      </a>
+                      <br />
+                      <br />
+                      {""}
+                      <a href="https://www.facebook.com/hashtag/eggoz
+"                     target="blank" 
+                      >
+                        #eggoz
+                      </a>
+                      <br />
+                     {""}
+                      <a href="https://www.facebook.com/hashtag/prakriti2022
+"                     target="blank" 
+                      >
+                        #prakriti2022
+                      </a>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={partner}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Prakriti-2022 proudly announces Agri-Business Incubation Centre, IIT Kharagpur as its Events Partner.
+                      <br />
+                      <br />
+                      The ABIC is mandated to incubate innovative ideas in the agriculture and food technology domain for creating Agri-preneures. It develops, demonstrates, and transfers low-cost technologies for the sustainable development of agricultural and rural communities.
+                      <br />
+                      <br />
+                       {""}
+                      <a href="https://www.facebook.com/hashtag/abiciitkharagpur
+"                     target="blank" 
+                      >
+                      #abiciitkharagpur
+                      </a>
+                      <br />
+                      {""}
+                      <a href="https://www.facebook.com/hashtag/abifiitkharagpur
+"                     target="blank" 
+                      >
+                        #abifiitkharagpur
+                      </a>
+                      <br />
+                     {""}
+                      <a href="https://www.facebook.com/hashtag/prakriti2022
+"                     target="blank" 
+                      >
+                        #prakriti2022
+                      </a>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto" }}>
+                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                  <img
+                    src={altairSpons}
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p
+                      class="card-text"
+                      style={{
+                        padding: "3vw",
+                        fontWeight: "500",
+                        fontSize: "17px",
+                        fontFamily: "Montserrat",
+                      }}
+                    >
+                      {" "}
+                      Prakriti2022 proudly presents {" "}
+                      <a href="https://www.facebook.com/altairengineering/"
+                      target="blank">
+                       Altair
+                      </a>
+                      {" "}as its Events partner.
+                      <br />
+                      <br />
+                      Altair (Nasdaq: ALTR) is a global technology company, which provides software and cloud solutions in the areas of simulation, high-performance computing (HPC), and artificial intelligence (AI). Altair enables organizations in nearly every industry to compete more effectively in a connected world while creating a more sustainable future.
+                      <br />
+                      <br />
+                       {""}
+                      <a href="https://www.facebook.com/hashtag/altair
+"                     target="blank" 
+                      >
+                      #Altair
+                      </a>
+                      <br />
+                      {""}
+                      <a href="https://www.facebook.com/hashtag/prakriti2022
+"                     target="blank" 
+                      >
+                        #prakriti2022
+                      </a>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             {/* <div class="card mb-3" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
