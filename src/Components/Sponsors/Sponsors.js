@@ -126,7 +126,11 @@ export default class Sponsors extends Component {
                 stitle="Krushishastra"
                 slink="https://www.krushishastra.org/"
               />
-            
+             <Sponsorcard
+                simage="https://i.pinimg.com/736x/39/f2/bf/39f2bf80479a0846fd7aaf1a8c0522ea.jpg"
+                stitle="Agrivision4U"
+                slink="https://www.agrivision4u.com/"
+              />
              
             </div>
           </div>

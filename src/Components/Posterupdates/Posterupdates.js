@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Zoom } from "react-slideshow-image";
+import { Zoom} from "react-slideshow-image";
+import 'react-slideshow-image/dist/styles.css'
 import CA from "./ca.jfif";
 import W1 from "./w1.jfif";
 import swnposter from "./swn.jpg";
@@ -35,12 +36,22 @@ export default class Posterupdates extends Component {
   render() {
     const fadeProperties1 = {
       duration: 3000,
-      canSwipe: false,
+      canSwipe: true,
       indicators: true,
       pauseOnHover: true,
+      arrows: true
+    };
+    const zoomOutProperties = {
+      duration: 3000,
+      transitionDuration: 500,
+      infinite: true,
+      indicators: true,
+      pauseOnHover: true,
+      Navigationsize: 500,
+      arrows: true
     };
     return (
-      <div style={{ backgroundColor: "#97F9E3" }}>
+      <div style={{  }}>
         <br />
         <h1
           style={{
@@ -61,10 +72,10 @@ export default class Posterupdates extends Component {
         />
         <br />
         <div>
-          <Zoom {...fadeProperties1}>
-          <div class="card mb-3" style={{ maxWidth: "100vw" }}>
-              <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+          <Zoom {...zoomOutProperties}>
+          <div class=" mb-3 container-a" style={{ maxWidth: "100vw" }}>
+              <div class="row no-gutters" style={{ margin: "0 auto"}}>
+                <div class="col-md-4" >
                   <img
                     src={daysleft}
                     class="card-img"
@@ -127,9 +138,9 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>           
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={theme}
                     class="card-img"
@@ -188,17 +199,17 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={agriDeadline}
                     class="card-img"
                     alt="..."
                   />
                 </div>
-                <div class="col-md-8">
-                  <div class="card-body">
+                <div class="col-md-8" >
+                  <div class="card-body" >
                     <p
                       class="card-text"
                       style={{
@@ -270,9 +281,9 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>
-            <div class="card mb-3">
+            <div class="mb-3 container-a">
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img src={swnposter} class="card-img" alt="..." />
                 </div>
                 <div class="col-md-8">
@@ -338,15 +349,15 @@ export default class Posterupdates extends Component {
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img src={foodquest} class="card-img" alt="..." />
                 </div>
                 {/* <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={scheduled0} class="card-img"  alt="..." />
                 </div> */}
-                <div class="col-md-6">
+                <div class="col-md-8">
                   <div class="card-body">
                     <p
                       class="card-text"
@@ -400,9 +411,9 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
               </div>
             </div>
             {/*
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img src={CA} class="card-img" alt="..." />
                 </div>
                 <div class="col-md-8">
@@ -474,9 +485,9 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
               </div>
             </div>
                     */}
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={machineFreaks}
                     class="card-img"
@@ -534,9 +545,9 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={poster}
                     class="card-img"
@@ -608,9 +619,9 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={quiz}
                     class="card-img"
@@ -680,9 +691,9 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={krisi}
                     class="card-img"
@@ -753,9 +764,9 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={media1}
                     class="card-img"
@@ -792,9 +803,9 @@ Best Submissions May Even Secure Internships Or Placements At Eggoz.
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={media2}
                     class="card-img"
@@ -855,9 +866,9 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={sponserEvent}
                     class="card-img"
@@ -920,9 +931,9 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={partner}
                     class="card-img"
@@ -976,9 +987,9 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
-                <div class="col-md-4" style={{ alignSelf: "center" }}>
+                <div class="col-md-4" >
                   <img
                     src={altairSpons}
                     class="card-img"
@@ -1030,7 +1041,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            {/* <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            {/* <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={gl2poster} class="card-img" alt="..." />
@@ -1067,7 +1078,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={CA} class="card-img" alt="..." />
@@ -1107,7 +1118,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={swnposter} class="card-img" alt="..." />
@@ -1166,7 +1177,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
               </div>
             </div>
            
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={kmposter} class="card-img" alt="..." />
@@ -1237,7 +1248,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={dael} class="card-img" alt="..." />
@@ -1305,7 +1316,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={ppposter} class="card-img" alt="..." />
@@ -1370,7 +1381,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={maposter} class="card-img" alt="..." />
@@ -1459,7 +1470,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={qposter} class="card-img" alt="..." />
@@ -1539,7 +1550,7 @@ AgriVision4U is an agriculture and allied Ed-Tech platform offering precise and 
                 </div>
               </div>
             </div>
-            <div class="card mb-3" style={{ maxWidth: "100vw" }}>
+            <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters">
                 <div class="col-md-4" style={{ padding: "0.5vw" }}>
                   <img src={thposter} class="card-img" alt="..." />
