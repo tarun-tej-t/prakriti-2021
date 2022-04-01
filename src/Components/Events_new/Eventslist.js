@@ -151,6 +151,9 @@ export default class Eventslist extends Component {
             ones to video, this event will surely keep all your
             participants in full charge of your senses."
           prizemoney="10,000"
+          joinlink1="https://www.agrivision4u.com/register/6245f2e39d45fbd23fb6c905"
+          joinlink2="https://www.agrivision4u.com/quiz/6245f2e39d45fbd23fb6c905
+          "
                   />
                   
                 <Eventcard

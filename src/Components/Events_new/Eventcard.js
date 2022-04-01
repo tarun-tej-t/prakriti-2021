@@ -11,9 +11,7 @@ export default class Eventcard extends Component {
     };
   }
   showGeneralQuizDetails() {
-    alert(
-      "Quizella: General Quiz\n\nDate: 1st April 2022\nTime: 7 to 8pm\n\nQuiz Links would be emailed to the registered participants before the event starts"
-    );
+    
   }
   showAgroQuizDetails() {
     alert(
@@ -114,17 +112,26 @@ export default class Eventcard extends Component {
                   justifyContent: "space-between",
                 }}
               >
-                <p onClick={this.showGeneralQuizDetails}>
-                <br/>
-                  <button id="foot">
-                    <button class="button-os">GENERAL QUIZ</button>
-                  </button>
+               
+               <p >
+                    <br />
+                  <a href={this.props.joinlink1} target="_blank">
+                      <button id="foot">
+                        <button class="button-os">Registration</button>
+                      </button>
+                  </a>
+                  &ensp;
                 </p>
-                <p onClick={this.showAgroQuizDetails}>
-                <br/>
-                  <button id="foot">
-                    <button class="button-os">AGRO QUIZ</button>
-                  </button>
+                  
+                
+                  <p >
+                    <br/>
+                  <a href={this.props.joinlink2} target="_blank">
+                      <button id="foot">
+                        <button class="button-os">Play!!</button>
+                      </button>
+                  </a>
+                  &ensp;
                 </p>
               </div>
             ) : this.props.name === "TREASURE HUNT" ? (
