@@ -179,6 +179,21 @@ export default class Eventslist extends Component {
             </div>
           </div>
 
+
+          <Guestcard
+              cname="blog-card-e"
+              name="GUEST LECTURES"
+            poster="https://github.com/mridulaburagohain/wendev/blob/main/guestLecture.jpeg?raw=true"
+              tagline="Interaction session"
+              description="We are glad to announce Dr. Abhilash Kumar Chandel as a guest speaker for the webinar to be held on 1st April 2022, 8PM onwards.
+
+              Dr. Chandel is an Assistant Professor and Extension Specialist of Precision Agriculture Technologies and Data Management with the department of Biological Systems Engineering at Virginia Tech, US. He is also an affiliate faculty of Center for Advanced Innovation in Agriculture at Virginia Tech. His primary research is development and deployment of high throughput and cutting-edge technologies for agricultural production management against the challenges of rising population, climate change crisis, crop infestation, and demand for chemical free food.
+
+              In this interactive webinar, Mr. Abhilash would explain the existing challenges in crop production due to climate change and also describe the various climate-smart tools being developed to tackle the losses incurred due to climate change."
+            time="8:00pm onwards, 1st April 2022"
+              joinlink="https://bit.ly/Building-Climat-Smart-Tools-For-Agriculture"
+            />
+
                   <Guestcard
               cname="blog-card-e"
               name="GUEST LECTURES"
@@ -194,6 +209,8 @@ export default class Eventslist extends Component {
             time="7:00-8:00pm, 2nd April 2022"
               joinlink="https://bit.ly/How-To-Start-An-Eggcellent-Startup"
             />
+
+             
           </div>
         </div>
       </div>
