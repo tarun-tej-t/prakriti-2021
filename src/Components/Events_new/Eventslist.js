@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Eventcard from "./Eventcard";
 import Guestcard from "./GuestCard";
+import Testcard from "./testcard";
 import "./Eventcard.css";
 
 export default class Eventslist extends Component {
@@ -195,7 +196,7 @@ export default class Eventslist extends Component {
             />
 
                   <Guestcard
-              cname="blog-card-e"
+              cname="blog-card-e alt"
               name="GUEST LECTURES"
             poster="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/g1.jpeg"
               tagline="Interaction session with industry experts"
@@ -209,8 +210,27 @@ export default class Eventslist extends Component {
             time="7:00-8:00pm, 2nd April 2022"
               joinlink="https://bit.ly/How-To-Start-An-Eggcellent-Startup"
             />
-
-             
+{/* <Testcard
+            cname="blog-card-e"
+            sponsor="https://i.pinimg.com/736x/39/f2/bf/39f2bf80479a0846fd7aaf1a8c0522ea.jpg"
+            poster="https://static.meraevents.com/content/gallery/248437/quizella1648300681.jpeg"
+            name="QUIZELLA"
+            tagline="Let's play a mind sport"
+            description="It is said “Knowledge is Power” which proves itself
+            time and again. To test the knowledge of the
+            students in general awareness of the world around
+            us and technical questions from the field of
+            agriculture, we bring to you the Agro-Tech quiz
+            named, named “Quizella”. It would provide a
+            platform to the best minds of India in the field of
+            Agricultural and Food Engineering to test their
+            excellence amongst others and find out their
+            stand. Having a vast range of questions from direct
+            ones to video, this event will surely keep all your
+            participants in full charge of your senses."
+          prizemoney="10,000"
+                  />
+              */}
           </div>
         </div>
       </div>
