@@ -136,7 +136,7 @@ export default class Eventslist extends Component {
             cname="blog-card-e"
             sponsor="https://i.pinimg.com/736x/39/f2/bf/39f2bf80479a0846fd7aaf1a8c0522ea.jpg"
             poster="https://static.meraevents.com/content/gallery/248437/quizella1648300681.jpeg"
-            name="QUIZELLA"
+            name="QUIZELLA: Agro Quiz"
             tagline="Let's play a mind sport"
             description="It is said “Knowledge is Power” which proves itself
             time and again. To test the knowledge of the
@@ -150,10 +150,9 @@ export default class Eventslist extends Component {
             stand. Having a vast range of questions from direct
             ones to video, this event will surely keep all your
             participants in full charge of your senses."
-          prizemoney="10,000"
-          joinlink1="https://www.agrivision4u.com/register/6245f2e39d45fbd23fb6c905"
-          joinlink2="https://www.agrivision4u.com/quiz/6245f2e39d45fbd23fb6c905
-          "
+          prizemoney="5,000"
+          joinlink1="https://www.agrivision4u.com/register/624739bb27f98409b96f9e02"
+          joinlink2="https://www.agrivision4u.com/quiz/624739bb27f98409b96f9e02"
                   />
                   
                 <Eventcard

@@ -24,7 +24,7 @@ class Modal extends Component {
                 fontSize:'3rem'
               }}
             >
-              Quizella{" "}
+              Quizella: Agro Quiz{" "}
               <span
                 onClick={this.props.onHide}
                 style={{
