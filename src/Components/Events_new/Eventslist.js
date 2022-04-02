@@ -157,7 +157,7 @@ export default class Eventslist extends Component {
                   
                 <Eventcard
             cname="blog-card-e alt"
-            poster="https://raw.githubusercontent.com/tarun-tej-t/Prakriti2021_images/main/TREASUREHUNT-min.png"
+            poster="https://raw.githubusercontent.com/hariomvc/prakriti-images/main/Posters/Treasure-Hunt.png"
             name="TREASURE HUNT"
             tagline="Be the first in finding something"
             description="The “New-Normal” has made us prone to
