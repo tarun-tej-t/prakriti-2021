@@ -68,7 +68,7 @@ export default class Eventcard extends Component {
               <>
                 {" "}
                 <br />
-                {this.props.name === "QUIZELLA" ? (
+                {this.props.name === "QUIZELLA: Agro Quiz" ? (
                   <>
                     {" "}
                    
@@ -104,7 +104,7 @@ export default class Eventcard extends Component {
               </h5>
             ) : null}{" "}
             <p style={{textAlign:"justify"}}> {this.props.description}</p>
-            {this.props.name === "QUIZELLA" ? (
+            {this.props.name === "QUIZELLA: Agro Quiz" ? (
               <div
                 style={{
                   display: "flex",
@@ -188,7 +188,7 @@ export default class Eventcard extends Component {
                 
               </div>
             )}
-            {this.props.name === "TREASURE HUNT" || this.props.name === "QUIZELLA" ? (<br/>):(null)}
+            {this.props.name === "TREASURE HUNT" || this.props.name === "QUIZELLA: Agro Quiz" ? (<br/>):(null)}
           </div>
         </div>
       </div>
