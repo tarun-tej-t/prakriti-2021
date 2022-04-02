@@ -135,7 +135,7 @@ export default class Eventslist extends Component {
                   <Eventcard
             cname="blog-card-e"
             sponsor="https://i.pinimg.com/736x/39/f2/bf/39f2bf80479a0846fd7aaf1a8c0522ea.jpg"
-            poster="https://static.meraevents.com/content/gallery/248437/quizella1648300681.jpeg"
+            poster="https://raw.githubusercontent.com/hariomvc/prakriti-images/main/Posters/Quizella-Agro-Quiz.jpeg"
             name="QUIZELLA: Agro Quiz"
             tagline="Let's play a mind sport"
             description="It is said “Knowledge is Power” which proves itself
