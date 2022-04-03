@@ -17,6 +17,7 @@ import sponserEvent from "./eventsSponser.jpeg"
 import foodquest from "./foodquest.jpeg"
 import partner from "./partner.jpeg"
 import altairSpons from "./altairSpons.jpeg"
+import shedule3ap from "./shedule.jpeg"
 
 import kmposter from "./kmposter.jpg";
 import dael from "./daposter.jpg";
@@ -73,11 +74,12 @@ export default class Posterupdates extends Component {
         <br />
         <div>
           <Zoom {...zoomOutProperties}>
-          <div class=" mb-3 container-a" style={{ maxWidth: "100vw" }}>
+            
+          <div class=" mb-3 container-a" style={{ maxWidth: "100vw" ,paddingLeft:"20px"}}>
               <div class="row no-gutters" style={{ margin: "0 auto"}}>
                 <div class="col-md-4" >
                   <img
-                    src={daysleft}
+                    src={shedule3ap}
                     class="card-img"
                     alt="..."
                   />
@@ -94,41 +96,17 @@ export default class Posterupdates extends Component {
                       }}
                     >
                       {" "}
-                      Hola peeps!!
-                      <br />
-                      The wait is finally over, 2 more days to go for this exciting and exhilarating fest to begin.
+                      Hello folks, here are the series of online events. 
                       <br />
                       <br />
-                      Prakriti 2022 is set to host many thrilling and fun events so stay tuned for this opportunity. 
-                      <br />      
+                      DAY 2 SCHEDULE.
+                      <br />
+                      <br />
+                      Prakriti2022     
                       <br />                               
-                      For more information and registration -{" "}
-                      <a
-                        href="prkrt.co.in/Registration
-"
-                        target="_blank"
-                      >
-                        Click Here
+                      
                       <br />
-                      <br />
-                      </a>
-                      {" "}
-                      <a
-                        href=" https://www.facebook.com/hashtag/2daystogo
-"
-                        target="_blank"
-                      >
-                        #2daystogo
-                      </a>
-                      <br />
-                      {" "}
-                      <a
-                        href=" https://www.facebook.com/hashtag/prakriti_2022
-"
-                        target="_blank"
-                      >
-                        #prakriti_2022
-                      </a>
+                     
                       <br />
                       <br />
                       <br />
@@ -137,7 +115,8 @@ export default class Posterupdates extends Component {
                   </div>
                 </div>
               </div>
-            </div>           
+            </div>  
+                            
             <div class="mb-3 container-a" style={{ maxWidth: "100vw" }}>
               <div class="row no-gutters" style={{ margin: "0 auto" }}>
                 <div class="col-md-4" >
