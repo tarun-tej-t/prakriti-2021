@@ -172,6 +172,7 @@ export default class Eventslist extends Component {
             gather the highest amount of treasure at the end of
             an hour becomes the winner."
           prizemoney="5000"
+          joinlink2="https://forms.gle/GvMKLhzJUrahvec79"
                   />
 
 <div class="row" style={{width:"100vw"}}>
