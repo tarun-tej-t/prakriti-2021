@@ -212,6 +212,28 @@ export default class Eventslist extends Component {
             time="7:00-8:00pm, 2nd April 2022"
               joinlink="https://bit.ly/How-To-Start-An-Eggcellent-Startup"
             />
+            
+            <Guestcard
+              cname="blog-card-e alt"
+              name="GUEST LECTURES"
+            poster="https://github.com/mridulaburagohain/wendev/blob/main/3rd%20ap%20panel.jpeg?raw=true"
+              tagline="Panel Discussion"
+              description="
+              
+              We are glad to announce 
+              
+               Mr. Umesh Kumar (Senior Vice President, Crofarm)
+               Mr. Kishore Indukuri (CEO, Sids Farm Pvt Ltd)
+               Mr. Sachin Shende (CEO, FarmSetu).
+               Mr. Amith Agarwal( Co-founder and CEO, Agribazaar) 
+              as panelists for the panel discussion to be held on 3rd April 2022, from 12PM onwards.
+              In this interactive panel discussion, panelists would discuss :
+              Challenges in existing supply chains for edibles,
+              Efforts are being made to reduce the wastage in new supply chain models,
+               Landscape of technological advancements in modern supply chains, Opportunities lying for Indian entrepreneurs, and much more"
+            time="12:00-1:00pm, 3rd April 2022"
+              joinlink="https://bit.ly/Exploring-the-Depths-of-the-Food-Supply-Chain"
+            />
 {/* <Testcard
             cname="blog-card-e"
             sponsor="https://i.pinimg.com/736x/39/f2/bf/39f2bf80479a0846fd7aaf1a8c0522ea.jpg"
