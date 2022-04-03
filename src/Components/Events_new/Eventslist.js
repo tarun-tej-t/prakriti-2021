@@ -223,17 +223,25 @@ export default class Eventslist extends Component {
               
               We are glad to announce 
               
-               Mr. Umesh Kumar (Senior Vice President, Crofarm)
-               Mr. Kishore Indukuri (CEO, Sids Farm Pvt Ltd)
-               Mr. Sachin Shende (CEO, FarmSetu).
-               Mr. Amith Agarwal( Co-founder and CEO, Agribazaar) 
-              as panelists for the panel discussion to be held on 3rd April 2022, from 12PM onwards.
-              In this interactive panel discussion, panelists would discuss :
-              Challenges in existing supply chains for edibles,
-              Efforts are being made to reduce the wastage in new supply chain models,
-               Landscape of technological advancements in modern supply chains, Opportunities lying for Indian entrepreneurs, and much more"
+               Mr. Umesh Kumar (Senior Vice President, Crofarm), Mr. Kishore Indukuri (CEO, Sids Farm Pvt Ltd), Mr. Sachin Shende (CEO, FarmSetu) and Mr. Amith Agarwal( Co-founder and CEO, Agribazaar) 
+              as panelists for the panel discussion to be held on 3rd April 2022, from 12PM onwards. In this interactive panel discussion, panelists would discuss :
+              Challenges in existing supply chains for edibles, Efforts are being made to reduce the wastage in new supply chain models, Landscape of technological advancements in modern supply chains, Opportunities lying for Indian entrepreneurs, and much more"
             time="12:00-1:00pm, 3rd April 2022"
               joinlink="https://bit.ly/Exploring-the-Depths-of-the-Food-Supply-Chain"
+            />
+            <Guestcard
+              cname="blog-card-e alt"
+              name="GUEST LECTURES"
+            poster="https://github.com/mridulaburagohain/wendev/blob/main/2%3B30%20panel.jpeg?raw=true"
+              tagline="Panel Discussion"
+              description="We are glad to announce Mr. Ananda Verma (CEO at Fasal), Mr. Venky Ramachandran (Writer, researcher, and consultant at agribusiness matters),
+             Mr. Nikhil Tripathi (Co-Foundern at Bijak) and Mr. Mayank Gupta (Co-Founder, LandCraft Agro) as our guests for the upcoming panel discussion on 3rd April, 2:30  pm onwards.
+             Fasal is one of the best precision agriculture companies in the country, which helps farmers to make farming predictable, profitable, and sustainable for a better future.
+             Agribusiness Matters is a weekly newsletter covering Agriculture and Agribusiness in the nick of transformation. Bijak aims to bridge the information asymmetry and lack of accountability in agricultural commodities trading. LandCraft Agro is revolutionizing the future of farming with its hi-tech farming methods which grow high-quality organic produce in an extremely resource-efficient manner.
+             In this panel discussion, they will be sharing their experience and overviews of how they managed to solve the Complex problems of Food Security.
+             "
+            time="2:30-3:30 pm, 3rd April 2022"
+              joinlink="https://bit.ly/solving-complex-problems-of-food-security"
             />
 {/* <Testcard
             cname="blog-card-e"
