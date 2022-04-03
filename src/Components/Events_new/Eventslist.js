@@ -215,7 +215,7 @@ export default class Eventslist extends Component {
             />
             
             <Guestcard
-              cname="blog-card-e alt"
+              cname="blog-card-e"
               name="GUEST LECTURES"
             poster="https://github.com/mridulaburagohain/wendev/blob/main/3rd%20ap%20panel.jpeg?raw=true"
               tagline="Panel Discussion"
