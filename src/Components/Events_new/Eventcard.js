@@ -142,12 +142,14 @@ export default class Eventcard extends Component {
                   justifyContent: "space-around",
                 }}
               >
-                <p onClick={this.showtreasurehuntDetails}>
+                <p>
                 <br/>
+                <a href={this.props.joinlink2} target="_blank">
                   <button id="foot">
                     <button class="button-os">Play!!</button>
                     
                   </button>
+                  </a>
                   <br/>
                 </p>
               </div>
