@@ -1,0 +1,124 @@
+.Result__PageTitle{
+    font-family: 'Yatra One', cursive;
+    margin-top: 3em;
+}
+
+.ResultCard__Cell{
+    align-self: center;
+    justify-self: center;
+    border-radius: 1.5em;
+    position: relative;
+    display: inline-block;
+    height: 80vh;
+    width: 80vw;
+    margin: 5vh 10vw;
+}
+
+.ResultCard__Image{
+    height: 80vh;
+    border-radius: 1.5em 0 0 1.5em;
+    float: left;
+    
+}
+
+.ResultCard__Winner--block{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.ResultCard__Winner--position{
+    font-size: 1.4em;
+}
+
+.ResultCard__Winner--medal{
+    height: 0.8em;
+    display: inline-block;
+}
+
+.ResultCard__Detials{
+    padding: 0.6em;
+    padding-top: 0;
+    width: max-width;
+    justify-items: center;
+    align-items: center;
+}
+
+.ResultCard__Winner--main{
+    font-size: 1.2em;
+}
+
+.ResultCard__Winner--sub{
+    font-size: 0.8em;
+}
+
+.ResultCard__Winner--section{
+    margin: 2em;
+}
+
+.ResultCard__EventName{
+    /*border-bottom: 0.2em #F6EAD7 dashed;
+    display: inline-block;*/
+    font-size: 2em;
+    text-align: center;
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .ResultCard__Cell{
+        align-self: center;
+        justify-self: center;
+        border-radius: 2em;
+        position: relative;
+        display: inline-block;
+        height: max-content;
+        width: 80vw;
+        margin: 1em 10vw;
+    }
+
+    .ResultCard__Image{
+        width: 80vw;
+        height: 80vw;
+        border-radius: 2em 2em 0 0;
+        float: center;
+        
+    }
+
+    .ResultCard__Winner--position{
+        font-size: 1em;
+    }
+    
+    .ResultCard__Winner--medal{
+        height: 0.8em;
+        display: inline-block;
+    }
+    
+    .ResultCard__Detials{
+        padding: 0.5em;
+        padding-top: 0;
+        width: max-width;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .ResultCard__Winner--main{
+        font-size: 0.9em;
+    }
+    
+    .ResultCard__Winner--sub{
+        font-size: 0.6em;
+    }
+    
+    .ResultCard__Winner--section{
+        margin: 1em;
+    }
+    
+    .ResultCard__EventName{
+        /*border-bottom: 0.2em #F6EAD7 dashed;
+        display: inline-block;*/
+        font-size: 1.5em;
+        text-align: center;
+        margin: 1em auto;
+    }
+    
+  }

@@ -1,0 +1,29 @@
+.ResultCard__Event--Agrivation{
+    background-color: #D3D3D3;
+    color: #1f1f1f;
+}
+
+.ResultCard__Event--KrishiManthan{
+    background-color: #325A1C;
+    color: #FBEFDC;
+}
+
+.ResultCard__Event--PosterPresentation{
+    background-color: #BBBBBB;
+    color: #1f1f1f;
+}
+
+.ResultCard__Event--Quizella{
+    background-color: #C2920A;
+    color: #FBEFDC;
+}
+
+.ResultCard__Event--SelfieWithNature{
+    background-color: #AAD0F6;
+    color: #1f1f1f;
+}
+
+.ResultCard__Event--TreasureHunt{
+    background-color: #4B2D0D;
+    color: #FBEFDC;
+}

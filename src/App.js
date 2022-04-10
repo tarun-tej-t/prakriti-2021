@@ -56,6 +56,9 @@ import Footer from "./Components/Footer/Footer";
 import MachineFreakspdf from "./Components/Pdfs/MachineFreaks/MachineFreakspdf";
 import MachineFreaksHackathonpdf from "./Components/Pdfs/Hachkathon-Machine-Freaks/MachineFreaksHackathonpdf";
 
+//Result
+import Results from "./Components/Results/Results";
+
 function App() {
   useEffect(() => {
     ReactGa.initialize("UA-221296921-1");
@@ -124,6 +127,9 @@ function App() {
           path="/PosterPresentation"
           component={PosterPresentation}
         /> */}
+
+        {/* Results */}
+        <Route exact path="/Results" component={Results} />
 
 <Redirect from='/blogi/' to="/tutorials/" />
       </Switch>
