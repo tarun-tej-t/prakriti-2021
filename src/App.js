@@ -11,7 +11,7 @@ import Sponsors from "./Components/Sponsors/Sponsors";
 import Team from "./Components/Team/Team1";
 import Registration from "./Components/Registration/Registration";
 import Events from "./Components/Events_new/Eventslist"
-import Comingsoon from "./Components/Comingsoon/Comingsoon";
+//import Comingsoon from "./Components/Comingsoon/Comingsoon";
 
 //Events
 import KrishiManthan from "./Components/Events/Eventpage/KrishiManthan/KrishiManthan";
@@ -36,7 +36,7 @@ import "./Components/public_html/css/responsive.css";
 import "./Components/public_html/lib/bootstrap/css/bootstrap.min.css";
 import "./Components/public_html/lib/font-awesome/css/font-awesome.min.css";
 
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 import Loader from "react-loader-spinner";
 
@@ -55,6 +55,8 @@ import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Footer from "./Components/Footer/Footer";
 import MachineFreakspdf from "./Components/Pdfs/MachineFreaks/MachineFreakspdf";
 import MachineFreaksHackathonpdf from "./Components/Pdfs/Hachkathon-Machine-Freaks/MachineFreaksHackathonpdf";
+import Dashboard from "./Components/Popup/Dashboard";
+
 
 function App() {
   useEffect(() => {
@@ -63,6 +65,9 @@ function App() {
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
 
+
+  console.log(window.location.pathname);
+const road=window.location.pathname;
   return (
     <div className="App">
       <Loader 
@@ -78,10 +83,16 @@ function App() {
           transform: "translate(-50%,-50%)",
         }}
       />
-      <Navbar />
+      
+      
 
+      {(road==="/")  ?(<Dashboard />
+       ):null}
+       <Navbar />
       <Switch>
+      
         <Route exact path="/" component={Homepage} />
+        
         <Route exact path="/home" component={Homepage} />
         <Route exact path="/contact" component={Homepage} />
 

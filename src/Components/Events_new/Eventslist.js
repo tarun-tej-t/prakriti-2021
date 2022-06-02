@@ -26,8 +26,8 @@ export default class Eventslist extends Component {
             <Eventcard
               cname="blog-card-e"
               sponsor="https://raw.githubusercontent.com/tarun-tej-t/prakriti-2021/master/src/Components/Events_new/eggozlogo.png"
-              poster="https://static.meraevents.com/content/gallery/248437/Food-Quest-png1647367279.png"
-              name="Food Quest"
+              poster="https://github.com/mridulaburagohain/wendev/blob/388481b035faca4a464dacd5a069d43283d617e8/egg.png?raw=True"
+              name="Crack The Egg Challenge"
               tagline="Think out of the box and design an innovative food product"
               prizemoney="90,000"
               description="The ever-changing work culture has affected the
@@ -41,9 +41,9 @@ export default class Eventslist extends Component {
             with a packaged food idea to meet those
             requirements. The final food should be tasty,
             healthy, and appealing to the consumers."
-              deadline="31st March 2022"
-              ps="https://www.prkrt.co.in/foodquest-ps"
-              submit="https://bit.ly/Food-Quest-Prakriti-2022"
+              deadline="30th June 2022"
+              ps="https://bit.ly/PScracktheeggchallenge"
+              submit="https://bit.ly/CracktheeggSubmission"
             />{" "}
                  <Eventcard
               cname="blog-card-e alt"
