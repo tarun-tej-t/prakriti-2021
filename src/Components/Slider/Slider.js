@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import "../public_html/css/nivo-slider-theme.css";
 import "react-animated-slider/build/horizontal.css";
 import { Link as Lin } from "react-scroll";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import "./slider-animations.css";
 import "./styles.css";
 
