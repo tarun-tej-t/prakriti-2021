@@ -12,12 +12,13 @@ const Modal=({handleClose,show})=>{
      <Eventcard
               cname="blog-card-e"
               sponsor="https://raw.githubusercontent.com/tarun-tej-t/prakriti-2021/master/src/Components/Events_new/eggozlogo.png"
-              poster="https://github.com/mridulaburagohain/wendev/blob/main/egg.png?raw=True"
+              poster="https://github.com/mridulaburagohain/wendev/blob/main/Crack-The-Egg-Challenge-Poster.png?raw=True"
               name="Crack The Egg Challenge"
               tagline="Think out of the box and design an innovative food product"
               prizemoney="90,000"
-              description="The ever-changing work culture has affected the lifestyle of Indians. Sometimes, the breakfast and lunch meals get missed due to workload and lead to eating outside where major consumption is of fast food. To promote healthy eating, team-PRAKRITI has come up with Crack the Egg Challenge in which participants are given a particular nutrition requirement, and they have to come up with a packaged food idea to meet those requirements. The final food should be tasty, healthy, and appealing to the consumers."
-              deadline="30th June 2022"
+              description="PRAKRITI-2022 brings to you Crack The Egg Challenge, one of the biggest food-product development events of the year in collaboration with AFST Haldia Chapter. In this event, Eggoz Nutrition shares the major challenges and constraints of the Indian egg industry. Participants are required to address them and come up with an innovative, end-to-end egg-based product that meets the specifications mentioned in the problem statement.
+"
+              deadline="15th July 2022"
               ps="https://bit.ly/PScracktheeggchallenge"
               submit="https://bit.ly/CracktheeggSubmission"
 

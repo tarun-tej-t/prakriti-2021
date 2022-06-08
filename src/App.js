@@ -48,6 +48,7 @@ import Souvenirpdf from "./Components/Pdfs/Souvenir/souvenir";
 import KrishiManthanpdf from "./Components/Pdfs/Krishimanthan/krishimanthanpdf";
 import PosterPresentationpdf from "./Components/Pdfs/poster-presentation/PosterPresentationpdf";
 
+
 //forms
 import SelfiewithNaturesubmissionform from "./Components/Submissionforms/SelfiewithNature";
 
@@ -56,6 +57,7 @@ import Footer from "./Components/Footer/Footer";
 import MachineFreakspdf from "./Components/Pdfs/MachineFreaks/MachineFreakspdf";
 import MachineFreaksHackathonpdf from "./Components/Pdfs/Hachkathon-Machine-Freaks/MachineFreaksHackathonpdf";
 import Dashboard from "./Components/Popup/Dashboard";
+import CrackTheEggpdf from "./Components/Pdfs/crackTheEgg/CrackTheEgg";
 
 
 function App() {
@@ -114,7 +116,8 @@ const road=window.location.pathname;
         <Route exact path="/SelfiewithNature" component={SelfiewithNature} />
         <Route exact path="/Quizella" component={Quizella} />
 {/* Pdfs */}
-<Route exact path="/foodquest-ps" component={FoodQuestpdf}/>
+<Route  exact path="/crack-the-egg-ps" component={CrackTheEggpdf}/>
+{/*<Route exact path="/foodquest-ps" component={FoodQuestpdf}/>*/}
 <Route exact path="/agrivation-ps" component={Agrivationpdf}/>
 <Route exact path="/krishi-manthan-ps" component={KrishiManthanpdf}/>
 <Route exact path="/poster-presentation-ps" component={PosterPresentationpdf}/>
