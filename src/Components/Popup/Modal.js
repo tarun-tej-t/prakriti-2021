@@ -19,7 +19,7 @@ const Modal=({handleClose,show})=>{
               description="PRAKRITI-2022 brings to you Crack The Egg Challenge, one of the biggest food-product development events of the year in collaboration with AFST Haldia Chapter. In this event, Eggoz Nutrition shares the major challenges and constraints of the Indian egg industry. Participants are required to address them and come up with an innovative, end-to-end egg-based product that meets the specifications mentioned in the problem statement.
 "
               deadline="15th July 2022"
-              ps="https://bit.ly/PScracktheeggchallenge"
+              ps="https://www.prkrt.co.in/crack-the-egg-ps"
               submit="https://bit.ly/CracktheeggSubmission"
 
             />

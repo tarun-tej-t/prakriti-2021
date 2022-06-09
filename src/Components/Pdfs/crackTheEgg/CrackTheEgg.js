@@ -13,7 +13,7 @@ import "../styles.css";
 export default function CrackTheEggpdf() {
   return (
     <div className="App"><br/><br/><br/><br/>
-          <p style={{textAlign:"center"}}><br/>To download the Crack The Egg Challenge problem statement <a href="https://drive.google.com/file/d/1VCC6y9ubG3RQqotHPfDk80kfs9kVP4iC/view?usp=sharing" target="_blank" style={{color:"red"}}>Click here</a></p>
+          <p style={{textAlign:"center"}}><br/>To download the Crack The Egg Challenge problem statement <a href="https://drive.google.com/file/d/1yWnNw6O_Fqqum8Uq6L-3McyXAqerMGFv/view?usp=sharing" target="_blank" style={{color:"red"}}>Click here</a></p>
 
       {/* <h4>Single Page</h4>
       <SinglePagePDFViewer pdf={CrackTheEgg} />
