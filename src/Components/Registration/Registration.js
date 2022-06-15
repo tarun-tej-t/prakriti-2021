@@ -11,7 +11,7 @@ export default class Registration extends Component {
         background: `url("https://cdn.wallpapersafari.com/72/67/JgXNDG.gif")  no-repeat fixed center top / cover`,
         backgroundSize:'cover',minWidth:'100vw',minHeight:'100vh'
       }}>
-            <embed src="https://www.meraevents.com/event/prakriti-2022-iit-kharagpur?ucode=organizer" style={{width:'100vw', minHeight: '350vh'}}></embed>
+            <embed src="https://bit.ly/RegestrationCracktheeggchallenge" style={{width:'100vw', minHeight: '350vh'}}></embed>
  
       {/* <div style={{paddingTop:'30vh',paddingBottom:'20vh',backgroundColor:'rgb(175, 248, 242,0.75)',minWidth:'100vw',minHeight:'100vh'}}>
        
