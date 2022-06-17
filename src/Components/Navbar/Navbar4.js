@@ -21,7 +21,7 @@ const Header = (props) => {
   const closeMobileMenu = () => setClick(false);
   const lw='230px';
 
-
+const linka="https://bit.ly/RegestrationCracktheeggchallenge"
   return (
     <div>
       <div
@@ -94,7 +94,7 @@ const Header = (props) => {
                </a>
             </li>
             <li className=" option mobile-option" onClick={closeMobileMenu}>
-              <a href="Registration" onClick={() => {
+                   <a href={linka} onClick={() => {
                     window.scroll({
                       left: 0,
                       top: 0,
@@ -163,7 +163,7 @@ const Header = (props) => {
                   }}  class="navother">TEAM</a>
           </li>
           <li className="sign-in" onClick={closeMobileMenu}>
-            <a href="Registration"  onClick={() => {
+            <a href={linka}  onClick={() => {
                     window.scroll({
                       left: 0,
                       top: 0,
